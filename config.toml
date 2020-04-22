@@ -76,7 +76,7 @@ pygmentscodefencesguesssyntax = true
     name = "RSS"
     icon = "fas fa-rss"
     weight = 5
-    url = "https://utkarsh2102.com/index.xml"
+    url = "/index.xml"
     rel = "alternate"
     type = "application/rss+xml"
 

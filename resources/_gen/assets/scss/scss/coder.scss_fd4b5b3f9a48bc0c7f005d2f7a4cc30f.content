@@ -145,7 +145,12 @@ img {
 
 figure {
   text-align: center; }
-
+  figure img {
+    width: 150px; }
+  @media only screen and (min-width: 768px) {
+    figure img {
+      float: right;
+      margin: 0 0 2rem 2rem; } }
 .wrapper {
   display: flex;
   flex-direction: column;

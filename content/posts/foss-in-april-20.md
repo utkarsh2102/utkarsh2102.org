@@ -154,12 +154,16 @@ This includes two sub-categories and they are as follows.
 This month I could get the following things done:
 
 - Most importantly, I finally migrated to a new website. Huge UI imporvement! \o/  
-  From Jekyll to Hugo, it was not easy. But it was worth it! Many thanks to [Luiz](https://luizdepra.dev/) for writing [hugo-coder](https://github.com/luizdepra/hugo-coder/), [Clement](https://clementpannetier.dev/), and [Samyak](https://samyak-jn.tk/).  
-  If you find any flaws, issues and pull requests are welcomed at [utkarsh2102/utkarsh2102.com](https://github.com/utkarsh2102/utkarsh2102.com) 🔥  
+  From Jekyll to Hugo, it was not easy. But it was worth it! Many thanks to [Luiz](https://luizdepra.dev/) for writing [hugo-coder](https://github.com/luizdepra/hugo-coder/), [Clement](https://clementpannetier.dev/), and [Samyak](https://samyak-jn.tk/)! 🔥  
+  If you find any flaws, issues and pull requests are welcomed at [utkarsh2102/utkarsh2102.com](https://github.com/utkarsh2102/utkarsh2102.com)  
 - Wrote [battery-alert](https://github.com/utkarsh2102/utsh/blob/master/battery-alert.sh), a mini-project of my own to show battery alerts at <10% and >90%.  
   Written in shell, it brings me all the satisfaction as it has saved my life on many occasions.  
   And guess what? It has more users than just myself! 😉  
-  Reviews and patches are welcomed! \o/  
+  Reviews and patches are welcomed \o/  
+- Mentored in [HackOn Hackathon](https://twitter.com/HackOnHackathon/status/1249582939261693953). Thanks to [Manvi](https://twitter.com/manvisinghwal) for reaching out! 🤗  
+  It was fun to see people developing some really nice projects.
+- Thanks to [Ray](https://twitter.com/rspaik) and [John](https://twitter.com/john_cogs), I became a [GitLab Hero](https://about.gitlab.com/community/heroes/members/)! 🥳  
+  (I am yet to figure out my role and responibility though)  
 - Atteneded [Intro Sec Con](https://twitter.com/introseccon) and had the most fun!  
   Heard Ian's keynote and attended other talks and learned how to use WireShark! 🦈  
 

@@ -82,5 +82,79 @@ This month, I opened some issues and proposed a few pull requests. They are:
 
 ---
 
+## Debian LTS
+{{< figure src="/images/debian-lts-small.png" >}}
+
+Debian Long Term Support (LTS) is a project to extend the lifetime of all Debian stable releases
+to (at least) 5 years. Debian LTS is not handled by the Debian security team, but by a separate group
+of volunteers and companies interested in making it a success.  
+
+This was my eighth month as a Debian LTS paid contributor. I was assigned 17.25 hours and worked on
+the following things:  
+
+#### CVE Fixes and Announcements:
+
+- Issued [DLA 2191-1](https://lists.debian.org/debian-lts-announce/2020/04/msg00029.html), fixing [CVE-2020-10683](https://security-tracker.debian.org/tracker/CVE-2020-10683), for [dom4j](https://tracker.debian.org/dom4j).  
+  For Debian 8 "Jessie", this problem has been fixed in version 1.6.1+dfsg.3-2+deb8u2.  
+
+- Issued [DLA 2192-1](https://lists.debian.org/debian-lts-announce/2020/04/msg00030.html), fixing [CVE-2020-10663](https://security-tracker.debian.org/tracker/CVE-2020-10663), for [ruby2.1](https://tracker.debian.org/ruby2.1).  
+  For Debian 8 "Jessie", this problem has been fixed in version 2.1.5-2+deb8u10.  
+
+- Issued [DLA 2208-1](https://lists.debian.org/debian-lts-announce/2020/05/msg00011.html), fixing [CVE-2020-11026](https://security-tracker.debian.org/tracker/CVE-2020-11026), [CVE-2020-11027](https://security-tracker.debian.org/tracker/CVE-2020-11027), [CVE-2020-11028](https://security-tracker.debian.org/tracker/CVE-2020-11028), and [CVE-2020-11029](https://security-tracker.debian.org/tracker/CVE-2020-11026), for [wordpress](https://tracker.debian.org/wordpress).  
+  For Debian 8 "Jessie", these problems have been fixed in version 4.1.30+dfsg-0+deb8u1.  
+
+- Issued [DLA 2210-1](https://lists.debian.org/debian-lts-announce/2020/05/msg00013.html), fixing [CVE-2020-3810](https://security-tracker.debian.org/tracker/CVE-2020-3810), for [apt](https://tracker.debian.org/apt).  
+  This update was prepared by the maintainer, Julian. I just took care of the paperwork.  
+  For Debian 8 "Jessie", this problem has been fixed in version 1.0.9.8.6.
+
+#### Other LTS Work:
+
+- Triaged [tika](https://tracker.debian.org/pkg/tika),
+[freerdp](https://tracker.debian.org/pkg/freerdp), and
+[apache2](https://tracker.debian.org/pkg/apache2).
+- Mark CVE-2020-12105/openconnect as ~~no-dsa~~ not-affected for Jessie.
+- Mark CVE-2020-9489/tika as ~~no-dsa~~ ignored for Jessie.
+- Mark CVE-2020-11025/wordpres as not-affected for Jessie.
+- Add fix for Add fix for CVE-2019-18823/condor.
+- Requested CVE for [bug#60251](https://bz.apache.org/bugzilla/show_bug.cgi?id=60251) against [apache2](https://tracker.debian.org/pkg/apache2).
+- Raised [issue #947](https://github.com/sympa-community/sympa/issues/947) against sympa reporting an incomplete patch for CVE-2020-10936.
+- Created the LTS Survey on the self-hosted LimeSurvey instance.
+- Attended the second LTS meeting. Logs [here](http://meetbot.debian.net/debian-lts/2020/debian-lts.2020-05-28-14.58.html).
+- General discussion on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2020/05/threads.html).
+
+---
+
+## Other(s)
+{{< figure src="/images/vendetta.jpg" >}}
+
+Sometimes it gets hard to categorize work/things into a particular category.  
+That's why I am writing all of those things inside this category.  
+This includes two sub-categories and they are as follows.
+
+#### Personal:
+
+This month I could get the following things done:
+
+- Wrote and published my first Ruby gem/library/tool on [RubyGems](https://rubygems.org/gems/batalert)! 💯  
+  It's open-sourced and the repository is [here](https://github.com/utkarsh2102/batalert).  
+  Bug reports and pull requests are welcomed! 😉
+- Wrote a small Ruby script (available [here](https://github.com/utkarsh2102/utsh/blob/master/gem-install.rb)) to install Ruby gems from Gemfile(.lock).  
+  Needed this when I hit a bug while using [ruby-standalone](https://salsa.debian.org/ruby-team/ruby-standalone), which Antonio fixed pretty quickly! 🚀
+- Had a coffee chat with John Coghlan! 🤗  
+  Tweet [here](https://twitter.com/utkarsh2102/status/1266342128130461696).
+
+#### Open Source:
+
+Again, this contains all the things that I couldn't categorize earlier.  
+Opened several issues and did a PR review:
+
+- [Issue #15434](https://github.com/ariya/phantomjs/issues/15434) against `phantomjs`, asking to look into CVE-2019-17221. Still no action :/
+- [Issue #947](https://github.com/sympa-community/sympa/issues/947) against `sympa`, reporting an incomplete patch for CVE-2020-10936.
+- [Issue #2102](https://github.com/polybar/polybar/issues/2102) against `polybar`, mentioning that the build is not reproducible.
+- [Issue #5521](https://github.com/libgit2/libgit2/issues/5521) against `libgit2`, mentioning that the build is not reproducible.
+- Reviewed [PR #5523](https://github.com/libgit2/libgit2/pull/5523) for `polybar`, which was a fix for the above issue.
+
+---
+
 Until next time.  
 `:wq` for today.

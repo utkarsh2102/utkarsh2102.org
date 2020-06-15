@@ -47,7 +47,7 @@ I mostly worked (as a trainee) on:
 - CVE-2019-16680, affecting `file-roller`.  
 
 And finally this happened:  
-{{< figure src="/images/deblts-commit.png" caption="the magical commit!" >}}
+![the magical commit](/images/deblts-commit.png#center)
 
 &nbsp;
 &nbsp;

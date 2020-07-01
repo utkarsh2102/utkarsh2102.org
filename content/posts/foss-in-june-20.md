@@ -93,6 +93,93 @@ Whilst the daily updates are available at the above site^, I’ll breakdown the 
 
 ---
 
+## Continuation of GSoC for other Ruby related stuff!
+{{< figure src="/images/ruby-logo-small.png" >}}
+
+Whilst I have already mentioned it multiple times but it's still not enough to stress how amazing [Antonio Terceiro](https://github.com/terceiro) and [David Rodríguez](https://github.com/deivid-rodriguez/) are! 💖  
+They're more than just mentors to me!
+
+Well, only they know how much I trouble them with different things, which are not only related to my GSoC project but also extends to the projects they maintain! :P  
+David maintains [rubygems and bundler](https://github.com/rubygems/rubygems/) and Antonio maintains [debci](https://salsa.debian.org/ci-team/debci).
+
+So on days when I decide to hack on `rubygems` or `debci`, only I know how kind and nice David and Anotonio are to me!  
+They very patiently walk me through with whatever I am stuck on, no matter what and no matter when.
+
+Thus, with them around, I contributed to these two projects and more, with regards to working on `rubocop-packaging`.  
+Following are a few things that I raised:
+
+- [PR #3731](https://github.com/rubygems/rubygems/pull/3731) for [rubygems/bundler](https://github.com/rubygems/rubygems) to ship default `.rubocop.yml` file.
+- [PR #2140](https://github.com/pry/pry/pull/2140) for [pry](https://github.com/pry/pry) to fix `bundler_spec` test.
+- [PR #3740](https://github.com/rubygems/rubygems/pull/3740) for [rubygems/bundler](https://github.com/rubygems/rubygems) to fix all RuboCop offenses.
+- [MR #114](https://salsa.debian.org/ci-team/debci/-/merge_requests/114) for [debci](https://salsa.debian.org/ci-team/debci) to show package details on the retry page.
+- [Issue #356](https://github.com/ruby/rake/issues/356) against [rake](https://github.com/ruby/rake) to request to support all `gitignore` rule patterns in `rake/file_list`.
+- [PR #9](https://github.com/robotdana/fast_ignore/pull/9) for [fast_ignore](https://github.com/robotdana/fast_ignore) to use `fast_ignore` instead of `git ls-files`.
+- [PR #3748](https://github.com/rubygems/rubygems/pull/3748) for [rubygems/bundler](https://github.com/rubygems/rubygems) to add actions to automatically bump man page month.
+- [PR #8160](https://github.com/rubocop-hq/rubocop/pull/8160) for [rubocop](https://github.com/rubocop-hq/rubocop) to add `rubocop-packaging` as a known extension.
+- [PR #3754](https://github.com/rubygems/rubygems/pull/3754) for [rubygems/bundler](https://github.com/rubygems/rubygems) to constrain the shipped RuboCop's version.
+- [Issue #8](https://github.com/robotdana/fast_ignore/issues/8) against [fast_ignore](https://github.com/robotdana/fast_ignore) to clarify the strange behavior of `include_files`.
+- [PR #3765](https://github.com/rubygems/rubygems/pull/3765) for [rubygems/bundler](https://github.com/rubygems/rubygems) to fix remaining RuboCop issues and add tests.
+
+
+---
+
+## Debian LTS
+{{< figure src="/images/debian-lts-small.png" >}}
+
+Debian Long Term Support (LTS) is a project to extend the lifetime of all Debian stable releases
+to (at least) 5 years. Debian LTS is not handled by the Debian security team, but by a separate group
+of volunteers and companies interested in making it a success.  
+
+This was my ninth month as a Debian LTS paid contributor. I was assigned 30.00 hours and worked on
+the following things:  
+
+#### CVE Fixes and Announcements:
+
+- Issued [DLA 2215-1](https://lists.debian.org/debian-lts-announce/2020/05/msg00018.html), fixing [CVE-2020-3327](https://security-tracker.debian.org/tracker/CVE-2020-3327) and [CVE-2020-3341](https://security-tracker.debian.org/tracker/CVE-2020-3341), for [clamav](https://tracker.debian.org/clamav).  
+  For Debian 8 "Jessie", these problems have been fixed in version 0.101.5+dfsg-0+deb8u2.
+
+- Issued [DLA 2216-1](https://lists.debian.org/debian-lts-announce/2020/05/msg00019.html), fixing [CVE-2020-8161](https://security-tracker.debian.org/tracker/CVE-2020-8161), for [ruby-rack](https://tracker.debian.org/ruby-rack).  
+  For Debian 8 "Jessie", this problem has been fixed in version 1.5.2-3+deb8u3.
+
+- Issued [DLA 2234-1](https://lists.debian.org/debian-lts-announce/2020/06/msg00002.html), fixing [CVE-2005-1513](https://security-tracker.debian.org/tracker/CVE-2005-1513), [CVE-2005-1514](https://security-tracker.debian.org/tracker/CVE-2005-1514), [CVE-2005-1515](https://security-tracker.debian.org/tracker/CVE-2005-1515), [CVE-2020-3811](https://security-tracker.debian.org/tracker/CVE-2020-3811), and [CVE-2020-3812](https://security-tracker.debian.org/tracker/CVE-2020-3812), for [netqmail](https://tracker.debian.org/netqmail).  
+  For Debian 8 "Jessie", these problems have been fixed in version 1.06-6.2~deb8u1.
+
+- Uploaded a fix for [CVE-2020-8162](https://security-tracker.debian.org/tracker/CVE-2020-8162), [CVE-2020-8164](https://security-tracker.debian.org/tracker/CVE-2020-8164), [CVE-2020-8165](https://security-tracker.debian.org/tracker/CVE-2020-8165), [CVE-2020-8166](https://security-tracker.debian.org/tracker/CVE-2020-8166), and [CVE-2020-8167](https://security-tracker.debian.org/tracker/CVE-2020-8167), for [rails](https://tracker.debian.org/rails).
+  This upload was for Sid and Bullseye and these CVE(s) were fixed in the version 2:5.2.4.3+dfsg-1.
+
+- Uploaded a fix for [CVE-2020-11082](https://security-tracker.debian.org/tracker/CVE-2020-11082), for [ruby-kaminari](https://tracker.debian.org/ruby-kaminari).
+  This upload was for Sid and Bullseye and this CVE was fixed in the version 1.0.1-6.
+
+- Uploaded a fix for [CVE-2020-10663](https://security-tracker.debian.org/tracker/CVE-2020-10663), for [ruby-json](https://tracker.debian.org/ruby-json), [ruby2.1](https://tracker.debian.org/ruby2.1), and [ruby2.5](https://tracker.debian.org/ruby2.5).
+  These uploads were for Stretch and Buster and were fixed in the version 2.3.3-1+deb9u8, 2.1.0+dfsg-2+deb10u1, 2.3.3-1+deb9u8, and 2.5.5-3+deb10u2.
+
+- Issued [DLA 2237-1](https://lists.debian.org/debian-lts-announce/2020/06/msg00005.html), fixing [CVE-2019-8842](https://security-tracker.debian.org/tracker/CVE-2019-8842) and [CVE-2020-3898](https://security-tracker.debian.org/tracker/CVE-2020-3898), for [cups](https://tracker.debian.org/cups).  
+  For Debian 8 "Jessie", these problems have been fixed in version 1.7.5-11+deb8u8.
+
+- Issued [DLA 2246-1](https://lists.debian.org/debian-lts-announce/2020/06/msg00018.html), fixing [CVE-2020-13696](https://security-tracker.debian.org/tracker/CVE-2020-13696), for [xawtv](https://tracker.debian.org/xawtv).  
+  For Debian 8 "Jessie", this problem has been fixed in version 3.103-3+deb8u1.
+
+- Issued [DLA 2248-1](https://lists.debian.org/debian-lts-announce/2020/06/msg00019.html), fixing [CVE-2020-0543](https://security-tracker.debian.org/tracker/CVE-2020-0543), [CVE-2020-0548](https://security-tracker.debian.org/tracker/CVE-2020-0548), and [CVE-2020-0549](https://security-tracker.debian.org/tracker/CVE-2020-0549), for [intel-microcode](https://tracker.debian.org/intel-microcode).  
+  For Debian 8 "Jessie", these problems have been fixed in version 3.20200609.2~deb8u1.
+
+- Issued [DLA 2249-1](https://lists.debian.org/debian-lts-announce/2020/06/msg00020.html), fixing [CVE-2020-0182](https://security-tracker.debian.org/tracker/CVE-2020-0182) and [CVE-2020-0198](https://security-tracker.debian.org/tracker/CVE-2020-0198), for [libexif](https://tracker.debian.org/libexif).  
+  For Debian 8 "Jessie", these problems have been fixed in version 0.6.21-2+deb8u4.
+
+#### Other LTS Work:
+
+- Triaged [sympa](https://tracker.debian.org/pkg/sympa),
+[apache2](https://tracker.debian.org/pkg/apache2),
+[qemu](https://tracker.debian.org/pkg/qemu), and
+[coturn](https://tracker.debian.org/pkg/coturn).
+- Add fix for CVE-2020-0198/libexif.
+- Requested CVE for [bug#60251](https://bz.apache.org/bugzilla/show_bug.cgi?id=60251) against [apache2](https://tracker.debian.org/pkg/apache2) and prodded further.
+- Raised [issue #947](https://github.com/sympa-community/sympa/issues/947) against sympa reporting an incomplete patch for CVE-2020-10936. More discussions internally.
+- Created the LTS Survey on the self-hosted LimeSurvey instance.
+- Attended the third LTS meeting. Logs [here](http://meetbot.debian.net/debian-lts/2020/debian-lts.2020-06-25-15.22.html).
+- General discussion on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2020/05/threads.html).
+
+---
+
 Thank you for sticking along for so long :)  
 
 Until next time.  

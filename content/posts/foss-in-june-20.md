@@ -180,6 +180,45 @@ the following things:
 
 ---
 
+## Other(s)
+{{< figure src="/images/computing.jpg" >}}
+
+Sometimes it gets hard to categorize work/things into a particular category.  
+That's why I am writing all of those things inside this category.  
+This includes two sub-categories and they are as follows.
+
+#### Personal:
+
+This month I did the following things:
+
+- Wrote and published v0.1.0 of `rubocop-packaging` on [RubyGems](https://rubygems.org/gems/rubocop-packaging)! 💯  
+  It's open-sourced and the repository is [here](https://github.com/utkarsh2102/rubocop-packaging).  
+  Bug reports and pull requests are welcomed! 😉
+- Integrated a tiny (yet a powerful) hack to align images in markdown for my blog.  
+  Commit [here](https://github.com/utkarsh2102/hugo-coder/commit/646aed40da8d508dbeaa8d8698b65212574a136a). 🚀
+- Released v0.4.0 of `batalert` on [RubyGems](https://rubygems.org/gems/batalert)! 🤗  
+
+#### Open Source:
+
+Again, this contains all the things that I couldn't categorize earlier.  
+Opened several issues and PRs:
+
+- [Issue #9](https://github.com/FabioRosado/100daysof/issues/9) against [100daysof](https://github.com/FabioRosado/100daysof), reporting some broken CSS.
+- [PR #10](https://github.com/FabioRosado/100daysof/pull/10) for [100daysof](https://github.com/FabioRosado/100daysof), fixing the above issue^.
+- [Issue #133](https://github.com/florimondmanca/djangorestframework-api-key/issues/133) against [djangorestframework-api-key](https://github.com/florimondmanca/djangorestframework-api-key), asking to fix copyright years.
+- [PR #5](https://github.com/pboling/rspec-stubbed_env/pull/5) for [rspec-stubbed_env](https://github.com/pboling/rspec-stubbed_env), dropping `git ls-files` in gemspec.
+- [PR #70](https://github.com/pboling/rspec-pending_for/pull/70) for [rspec-pending_for](https://github.com/pboling/rspec-pending_for), dropping `git ls-files` in gemspec.
+- [Issue #74](https://github.com/podigee/device_detector/issues/74), [issue #143](https://github.com/ankane/ahoy_email/issues/143), [issue #164](https://github.com/ai/autoprefixer-rails/issues/164), and [issue #767](https://github.com/ddollar/foreman/issues/767) against multiple projects, asking them to use RuboCop.
+- [PR #212](https://github.com/activeadmin/arbre/pull/212) for [arbre](https://github.com/activeadmin/arbre), dropping `git ls-files` in gemspec.
+- [Issue #1749](https://github.com/zyedidia/micro/issues/1749) and [issue #1750](https://github.com/zyedidia/micro/issues/1750) against [micro](https://github.com/zyedidia/micro), asking for help as the Debian package fails to build in `buster-backports`.
+- [PR #1751](https://github.com/zyedidia/micro/pull/1751) for [micro](https://github.com/zyedidia/micro/pull/1751), fixing the above issue^.
+- [Issue #348](https://github.com/luizdepra/hugo-coder/issues/348) against [hugo-coder](https://github.com/luizdepra/hugo-coder), clarifying the weird timing issue in the blog posts.
+- [Issue #356](https://github.com/luizdepra/hugo-coder/issues/356) against [hugo-coder](https://github.com/luizdepra/hugo-coder), reporting the weird display of images and missing twitter cards.
+- [MR #12](https://gitlab.com/lienvdsteen/linter/-/merge_requests/12) for [linter](https://gitlab.com/lienvdsteen/linter), dropping `git ls-files` in gemspec.
+- [MR #13](https://gitlab.com/lienvdsteen/linter/-/merge_requests/13) for [linter](https://gitlab.com/lienvdsteen/linter), doing so minor refactoring.
+
+---
+
 Thank you for sticking along for so long :)  
 
 Until next time.  

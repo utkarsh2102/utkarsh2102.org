@@ -85,7 +85,7 @@ Whilst the daily updates are available at the above site^, I’ll breakdown the 
 - Introduced [rubocop-packaging](https://github.com/utkarsh2102/rubocop-packaging) to the outer world and requested other upstream projects to use it! It is being used by 6 other projects already 😭💖
 - Had our [fourth weekly meeting](https://gsocwithutkarsh2102.tk/log/2020/06/25/day25.html) where we pair-programmed (and I sucked :P) and figured out a way to make the second cop work.
 - Found a bug, reported at [issue #5](https://github.com/utkarsh2102/rubocop-packaging/issues/5) and raised [PR #6](https://github.com/utkarsh2102/rubocop-packaging/pull/6) to fix it.
-- And finally, people loved the library/tool (and it's outcome):
+- And finally, people loved the library/tool (and it's outcome):  
 ![](/images/bbatsov-comment.png#center)  
 ![](/images/lienvdsteen-comment.png#center)  
 ![](/images/pboling-comment.png#center)  

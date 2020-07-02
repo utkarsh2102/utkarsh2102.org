@@ -32,7 +32,7 @@ Here's my (ninth) monthly update about the activities I've done in the F/L/OSS w
 This was my 16th month of contributing to [Debian](https://www.debian.org/).
 I became a [DM](https://wiki.debian.org/DebianMaintainer) in late March last year and a [DD](https://wiki.debian.org/DebianDeveloper) last Christmas! \o/  
 
-This month was a little intense. I did a a lot of different kinds of things in Debian this month. Whilst most of my time went on doing security stuff, I also sponosred a bunch of packages.
+This month was a little intense. I did a lot of different kinds of things in Debian this month. Whilst most of my time went on doing security stuff, I also sponsored a bunch of packages.
 
 Here are the following things I did this month:
 
@@ -145,10 +145,10 @@ the following things:
   For Debian 8 "Jessie", these problems have been fixed in version 1.06-6.2~deb8u1.
 
 - Uploaded a fix for [CVE-2020-8162](https://security-tracker.debian.org/tracker/CVE-2020-8162), [CVE-2020-8164](https://security-tracker.debian.org/tracker/CVE-2020-8164), [CVE-2020-8165](https://security-tracker.debian.org/tracker/CVE-2020-8165), [CVE-2020-8166](https://security-tracker.debian.org/tracker/CVE-2020-8166), and [CVE-2020-8167](https://security-tracker.debian.org/tracker/CVE-2020-8167), for [rails](https://tracker.debian.org/rails).
-  This upload was for Sid and Bullseye and these CVE(s) were fixed in the version 2:5.2.4.3+dfsg-1.
+  This upload was for Sid and Bullseye and these CVE(s) were fixed in version 2:5.2.4.3+dfsg-1.
 
 - Uploaded a fix for [CVE-2020-11082](https://security-tracker.debian.org/tracker/CVE-2020-11082), for [ruby-kaminari](https://tracker.debian.org/ruby-kaminari).
-  This upload was for Sid and Bullseye and this CVE was fixed in the version 1.0.1-6.
+  This upload was for Sid and Bullseye and this CVE was fixed in version 1.0.1-6.
 
 - Uploaded a fix for [CVE-2020-10663](https://security-tracker.debian.org/tracker/CVE-2020-10663), for [ruby-json](https://tracker.debian.org/ruby-json), [ruby2.1](https://tracker.debian.org/ruby2.1), and [ruby2.5](https://tracker.debian.org/ruby2.5).
   These uploads were for Stretch and Buster and were fixed in the version 2.3.3-1+deb9u8, 2.1.0+dfsg-2+deb10u1, 2.3.3-1+deb9u8, and 2.5.5-3+deb10u2.
@@ -173,7 +173,7 @@ the following things:
 [coturn](https://tracker.debian.org/pkg/coturn).
 - Add fix for CVE-2020-0198/libexif.
 - Requested CVE for [bug#60251](https://bz.apache.org/bugzilla/show_bug.cgi?id=60251) against [apache2](https://tracker.debian.org/pkg/apache2) and prodded further.
-- Raised [issue #947](https://github.com/sympa-community/sympa/issues/947) against sympa reporting an incomplete patch for CVE-2020-10936. More discussions internally.
+- Raised [issue #947](https://github.com/sympa-community/sympa/issues/947) against `sympa` reporting an incomplete patch for CVE-2020-10936. More discussions internally.
 - Created the LTS Survey on the self-hosted LimeSurvey instance.
 - Attended the third LTS meeting. Logs [here](http://meetbot.debian.net/debian-lts/2020/debian-lts.2020-06-25-15.22.html).
 - General discussion on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2020/05/threads.html).

@@ -101,6 +101,19 @@ parts here:
 - And here I am on the 15th day :)
 
 
+Well, the best part yet?  
+`rubocop-packaging` is being used by [batalert](https://rubygems.org/gems/batalert), [arbre](https://rubygems.org/gems/arbre),
+[rspec-stubbed_env](https://rubygems.org/gems/rspec-stubbed_env), [rspec-pending_for](https://rubygems.org/gems/rspec-pending_for),
+[ISO8601](https://rubygems.org/gems/ISO8601), [get_root](https://rubygems.org/gems/get_root) (😛),
+[gir_ffi](https://rubygems.org/gems/gir_ffi), [linter](https://rubygems.org/gems/linter), and
+[cucumber-rails](https://rubygems.org/gems/cucumber-rails).
+
+Whilst it has been a lot of fun so far, my plate has started to almost...overflow. It seems that I've
+got a lot of things to work on (and already things that are due!).  
+From my major project, college *stuff to my GSoC project, Debian (E)LTS, and a lot *more.
+
+Thanks to Antonio for helping me out with *other things (which maps back to his sayings in Paris \o/).
+
 ---
 
 Until next time.  

@@ -1,5 +1,5 @@
 +++
-date = "2020-08-01 01:30:00 +0530"
+date = "2020-08-01 14:30:00 +0530"
 title = "FOSS Activites in July 2020"
 slug = "foss-in-july-20"
 images = [
@@ -74,13 +74,13 @@ Also, I log daily updates at [gsocwithutkarsh2102.tk](https://gsocwithutkarsh210
 
 Whilst the daily updates are available at the above site^, I’ll breakdown the important parts of the later half of the second month here:
 
-- [Marc Andre](https://github.com/marcandre), very kindly, helped in [fixing the specs](https://github.com/marcandre/rubocop-packaging/commit/90d23d16dff4fd00652d3e5c7f32c88d9c987225) that were failing earlier this month. Well, the problem were the specs, but I am still confused how. Anyway..
+- [Marc Andre](https://github.com/marcandre), very kindly, helped in [fixing the specs](https://github.com/marcandre/rubocop-packaging/commit/90d23d16dff4fd00652d3e5c7f32c88d9c987225) that were failing earlier this month. Well, the problem was with the specs, but I am still confused how so. Anyway..
 - Finished documentation of the second cop and marked the PR as ready to be reviewed.
 - David reviewed and suggested some really good changes and I fixed/tweaked that PR as per his suggestion to finally finish the last bits of the second cop, `RelativeRequireToLib`.
 - Merged the PR upon two approvals and released it as v0.2.0! 💖
 - We had our next weekly meeting where we discussed the next steps and the things that are supposed to be done for the next set of cops.
 - Introduced [rubocop-packaging](https://github.com/utkarsh2102/rubocop-packaging) to the outer world and requested other upstream projects to use it! It is being used by [13 other projects](https://github.com/utkarsh2102/rubocop-packaging/network/dependents?package_id=UGFja2FnZS0xMjY1ODQyMzQ1) already! 😭💖
-- Started to work on [packaging-style-guide](https://github.com/utkarsh2102/packaging-style-guide) but nothing really is pushed to the public repository.
+- Started to work on [packaging-style-guide](https://github.com/utkarsh2102/packaging-style-guide) but I didn't push anything to the public repository yet.
 - Worked on refactoring the `cops_documentation` Rake task which was broken by the new auto-corrector API. Opened [PR #7](https://github.com/utkarsh2102/rubocop-packaging/pull/7) for it. It'll be merged after the next RuboCop release as it uses `CopsDocumentationGenerator` class from the master branch.
 - Whilst working on [autoprefixer-rails](https://github.com/ai/autoprefixer-rails), I found something unusual. The second cop shouldn't really report offenses if the `require_relative` calls are from `lib` to `lib` itself. This is a false-positive. Opened [issue #8](https://github.com/utkarsh2102/rubocop-packaging/issues/8) for the same.
 

@@ -111,6 +111,68 @@ Following are the PRs that I raised:
 
 ---
 
+## Debian (E)LTS
+{{< figure src="/images/debian-lts-small.png" >}}
+
+Debian Long Term Support (LTS) is a project to extend the lifetime of all Debian stable releases to (at least) 5 years. Debian LTS is not handled by the Debian security team, but by a separate group of volunteers and companies interested in making it a success.  
+
+And Debian Extended LTS (ELTS) is its sister project, extending support to the Jessie release (+2 years after LTS support).
+
+This was my tenth month as a Debian LTS and my first as a Debian ELTS paid contributor.  
+I was assigned 25.25 hours for LTS and 13.25 hours for ELTS and worked on
+the following things:  
+
+#### LTS CVE Fixes and Announcements:
+
+- Issued [DLA 2269-1](https://lists.debian.org/debian-lts-announce/2020/07/msg00000.html), fixing [CVE-2020-4046](https://security-tracker.debian.org/tracker/CVE-2020-4046), [CVE-2020-4047](https://security-tracker.debian.org/tracker/CVE-2020-4047), [CVE-2020-4048](https://security-tracker.debian.org/tracker/CVE-2020-4048), [CVE-2020-4049](https://security-tracker.debian.org/tracker/CVE-2020-4049), and [CVE-2020-4050](https://security-tracker.debian.org/tracker/CVE-2020-4050), for [wordpress](https://tracker.debian.org/pkg/wordpress).  
+  For Debian 8 Jessie, these problems have been fixed in version 4.1.31+dfsg-0+deb8u1.
+- Issued [DLA 2270-1](https://lists.debian.org/debian-lts-announce/2020/07/msg00001.html), fixing [CVE-2020-14060](https://security-tracker.debian.org/tracker/CVE-2020-14060), [CVE-2020-14061](https://security-tracker.debian.org/tracker/CVE-2020-14061), [CVE-2020-14062](https://security-tracker.debian.org/tracker/CVE-2020-14062), and [CVE-2020-14195](https://security-tracker.debian.org/tracker/CVE-2020-14195), for [jackson-databind](https://tracker.debian.org/pkg/jackson-databind).  
+  For Debian 8 Jessie, these problems have been fixed in version 2.4.2-2+deb8u15.
+- Issued [DLA 2271-1](https://lists.debian.org/debian-lts-announce/2020/07/msg00002.html), fixing [CVE-2020-4067](https://security-tracker.debian.org/tracker/CVE-2020-4067), for [coturn](https://tracker.debian.org/pkg/coturn).  
+  For Debian 8 Jessie, this problem has been fixed in version 4.2.1.2-1+deb8u2.
+- Issued [DLA 2275-1](https://lists.debian.org/debian-lts-announce/2020/07/msg00006.html), fixing [CVE-2020-8161](https://security-tracker.debian.org/tracker/CVE-2020-8161) and [CVE-2020-8184](https://security-tracker.debian.org/tracker/CVE-2020-8184), for [ruby-rack](https://tracker.debian.org/pkg/ruby-rack).  
+  For Debian 9 Stretch, these problems have been fixed in version 1.6.4-4+deb9u2.
+- Issued [DLA 2276-1](https://lists.debian.org/debian-lts-announce/2020/07/msg00007.html), fixing [CVE-2020-12108](https://security-tracker.debian.org/tracker/CVE-2020-12108) and [CVE-2020-15011](https://security-tracker.debian.org/tracker/CVE-2020-15011), for [mailman](https://tracker.debian.org/pkg/mailman).  
+  For Debian 9 Stretch, these problems have been fixed in version 1:2.1.23-1+deb9u6.
+- Issued [DLA 2277-1](https://lists.debian.org/debian-lts-announce/2020/07/msg00008.html), fixing [CVE-2019-12973](https://security-tracker.debian.org/tracker/CVE-2019-12973), [CVE-2020-6851](https://security-tracker.debian.org/tracker/CVE-2020-6851), [CVE-2020-8112](https://security-tracker.debian.org/tracker/CVE-2020-8112), and [CVE-2020-15389](https://security-tracker.debian.org/tracker/CVE-2020-15389), for [openjpeg2](https://tracker.debian.org/pkg/openjpeg2).  
+  For Debian 9 Stretch, these problems have been fixed in version 2.1.2-1.1+deb9u5.
+- Issued [DLA 2288-1](https://lists.debian.org/debian-lts-announce/2020/07/msg00020.html), fixing [CVE-2017-9503](https://security-tracker.debian.org/tracker/CVE-2017-9503), [CVE-2019-12068](https://security-tracker.debian.org/tracker/CVE-2019-12068), [CVE-2019-20382](https://security-tracker.debian.org/tracker/CVE-2019-20382), [CVE-2020-1983](https://security-tracker.debian.org/tracker/CVE-2020-1983), [CVE-2020-8608](https://security-tracker.debian.org/tracker/CVE-2020-8608), [CVE-2020-10756](https://security-tracker.debian.org/tracker/CVE-2020-10756), [CVE-2020-13361](https://security-tracker.debian.org/tracker/CVE-2020-13361), [CVE-2020-13362](https://security-tracker.debian.org/tracker/CVE-2020-13362), [CVE-2020-13659](https://security-tracker.debian.org/tracker/CVE-2020-13659), [CVE-2020-13754](https://security-tracker.debian.org/tracker/CVE-2020-13754), [CVE-2020-13765](https://security-tracker.debian.org/tracker/CVE-2020-13765), and [CVE-2020-15863](https://security-tracker.debian.org/tracker/CVE-2020-15863), for [qemu](https://tracker.debian.org/pkg/qemu). This was mostly worked upon by the maintainer, Michael.  
+  For Debian 9 Stretch, these problems have been fixed in version 1:2.8+dfsg-6+deb9u10.
+
+#### ELTS CVE Fixes and Announcements:
+
+- Issued [ELA 240-1](https://deb.freexian.com/extended-lts/updates/ela-240-1-wpa), fixing [CVE-2020-12695](https://security-tracker.debian.org/tracker/CVE-2020-12695), for [wpa](https://tracker.debian.org/pkg/wpa).  
+  For Debian 8 Jessie, these problems have been fixed in version 2.3-1+deb8u11.
+- Issued [ELA 241-1](https://deb.freexian.com/extended-lts/updates/ela-241-1-openjpeg2), fixing [CVE-2020-15389](https://security-tracker.debian.org/tracker/CVE-2020-15389), for [openjpeg2](https://tracker.debian.org/pkg/openjpeg2).  
+  For Debian 8 Jessie, these problems have been fixed in version 2.1.0-2+deb8u11.
+- Issued [ELA 249-1](https://deb.freexian.com/extended-lts/updates/ela-249-1-qemu), fixing [CVE-2020-13659](https://security-tracker.debian.org/tracker/CVE-2020-13659) and [CVE-2020-15863](https://security-tracker.debian.org/tracker/CVE-2020-15863), for [qemu](https://tracker.debian.org/pkg/qemu).  
+  For Debian 8 Jessie, these problems have been fixed in version 1:2.1+dfsg-12+deb8u16.
+
+#### Other (E)LTS Work:
+
+- Did my LTS frontdesk duty from 29th June to 5th July.
+- Triaged [qemu](https://tracker.debian.org/pkg/qemu),
+[firefox-esr](https://tracker.debian.org/pkg/firefox-esr),
+[wordpress](https://tracker.debian.org/pkg/wordpress),
+[libmediainfo](https://tracker.debian.org/pkg/libmediainfo),
+[squirrelmail](https://tracker.debian.org/pkg/squirrelmail),
+[xen](https://tracker.debian.org/pkg/xen),
+[openjpeg2](https://tracker.debian.org/pkg/openjpeg2),
+[samba](https://tracker.debian.org/pkg/samba), and
+[ldb](https://tracker.debian.org/pkg/ldb).
+- Mark CVE-2020-15395/libmediainfo as no-dsa for Jessie.
+- Mark CVE-2020-13754/qemu as no-dsa/intrusive for Stretch and Jessie.
+- Mark CVE-2020-12829/qemu as no-dsa for Jessie.
+- Mark CVE-2020-10756/qemu as not-affected for Jessie.
+- Mark CVE-2020-13253/qemu as postponed for Jessie.
+- Drop squirrelmail and xen for Stretch LTS.
+- Add notes for tomcat8, shiro, and cacti to take care of the Stretch issues.
+- Emailed team@security.d.o and debian-lts@l.d.o regarding possible clashes.
+- Maintenance of LTS Survey on the self-hosted LimeSurvey instance. Received 1765 (just wow!) responses.
+- Attended the fourth LTS meeting. MOM [here](http://meetbot.debian.net/debian-lts/2020/debian-lts.2020-07-30-14.59.html).
+- General discussion on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2020/07/threads.html).
+
+---
 
 Thank you for sticking along for so long :)  
 

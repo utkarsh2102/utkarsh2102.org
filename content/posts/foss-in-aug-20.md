@@ -98,5 +98,44 @@ Following are the PRs that I raised:
 
 ---
 
+## Debian (E)LTS
+{{< figure src="/images/debian-lts-small.png" >}}
+
+[Debian Long Term Support (LTS)](https://www.freexian.com/en/services/debian-lts.html) is a project to extend the lifetime of all Debian stable releases to (at least) 5 years. Debian LTS is not handled by the Debian security team, but by a separate group of volunteers and companies interested in making it a success.  
+
+And [Debian Extended LTS (ELTS)](https://deb.freexian.com/extended-lts) is its sister project, extending support to the Jessie release (+2 years after LTS support).
+
+This was my eleventh month as a Debian LTS and my second as a Debian ELTS paid contributor.  
+I was assigned 21.75 hours for LTS and 14.25 hours for ELTS and worked on
+the following things:
+
+#### LTS CVE Fixes and Announcements:
+
+- Issued [DLA 2304-1](https://lists.debian.org/debian-lts-announce/2020/08/msg00000.html), fixing [CVE-2015-9542](https://security-tracker.debian.org/tracker/CVE-2015-9542), for [libpam-radius-auth](https://tracker.debian.org/pkg/libpam-radius-auth).  
+  For Debian 9 Stretch, these problems have been fixed in version 1.3.16-5+deb9u1.
+- Issued [DLA 2305-1](https://lists.debian.org/debian-lts-announce/2020/08/msg00001.html), fixing [CVE-2018-10756](https://security-tracker.debian.org/tracker/CVE-2018-10756), for [transmission](https://tracker.debian.org/pkg/transmission).  
+  For Debian 9 Stretch, these problems have been fixed in version 2.92-2+deb9u2.
+- Issued [DLA 2307-1](https://lists.debian.org/debian-lts-announce/2020/08/msg00002.html), fixing [CVE-2018-1000544](https://security-tracker.debian.org/tracker/CVE-2018-1000544), for [ruby-zip](https://tracker.debian.org/pkg/ruby-zip).  
+  For Debian 9 Stretch, these problems have been fixed in version 1.2.0-1.1+deb9u1.
+- Issued [DLA 2308-1](https://lists.debian.org/debian-lts-announce/2020/08/msg00003.html), fixing [CVE-2019-17113](https://security-tracker.debian.org/tracker/CVE-2019-17113), for [libopenmpt](https://tracker.debian.org/pkg/libopenmpt).  
+  For Debian 9 Stretch, these problems have been fixed in version 0.2.7386~beta20.3-3+deb9u4.
+- Issued [DLA 2317-1](https://lists.debian.org/debian-lts-announce/2020/08/msg00012.html), fixing [CVE-2020-10177](https://security-tracker.debian.org/tracker/CVE-2020-10177), for [pillow](https://tracker.debian.org/pkg/pillow).  
+  For Debian 9 Stretch, these problems have been fixed in version 4.0.0-4+deb9u2.
+- Issued [DLA 2318-1](https://lists.debian.org/debian-lts-announce/2020/08/msg00013.html), fixing [CVE-2019-10064](https://security-tracker.debian.org/tracker/CVE-2019-10064) and [CVE-2020-12695](https://security-tracker.debian.org/tracker/CVE-2020-12695), for [wpa](https://tracker.debian.org/pkg/wpa).  
+  For Debian 9 Stretch, these problems have been fixed in version 2:2.4-1+deb9u7.
+- Started working on [uwsgi](https://tracker.debian.org/pkg/uwsgi) update for [CVE-2020-11984](https://security-tracker.debian.org/tracker/CVE-2020-11984). It seems that src:apache2 wasn't affected by that, but src:uwsgi was.
+
+#### ELTS CVE Fixes and Announcements:
+
+- Issued [ELA 255-1](https://deb.freexian.com/extended-lts/updates/ela-255-1-libx11), fixing [CVE-2020-14344](https://security-tracker.debian.org/tracker/CVE-2020-14344), for [libx11](https://tracker.debian.org/pkg/libx11).  
+  For Debian 8 Jessie, these problems have been fixed in version 2:1.6.2-3+deb8u3.
+- Issued [ELA 259-1](https://deb.freexian.com/extended-lts/updates/ela-259-1-pillow), fixing [CVE-2020-10177](https://security-tracker.debian.org/tracker/CVE-2020-10177), for [pillow](https://tracker.debian.org/pkg/pillow).  
+  For Debian 8 Jessie, these problems have been fixed in version 2.6.1-2+deb8u5.
+- Issued [ELA 269-1](https://deb.freexian.com/extended-lts/updates/ela-269-1-apache2), fixing [CVE-2020-11985](https://security-tracker.debian.org/tracker/CVE-2020-11985), for [apache2](https://tracker.debian.org/pkg/apache2).  
+  For Debian 8 Jessie, these problems have been fixed in version 2.4.10-10+deb8u17.
+- Started working on [clamAV](https://tracker.debian.org/pkg/clamav) update, it's a major bump from v0.101.5 to v0.102.4. There were lots of movings parts. Contacted upstream maintainers to help reduce the risk of regression. Came up with a patch to loosen the libcurl version requirement. Hopefully, the update could be rolled out soon!
+
+---
+
 Until next time.  
 `:wq` for today.

@@ -135,6 +135,25 @@ the following things:
   For Debian 8 Jessie, these problems have been fixed in version 2.4.10-10+deb8u17.
 - Started working on [clamAV](https://tracker.debian.org/pkg/clamav) update, it's a major bump from v0.101.5 to v0.102.4. There were lots of movings parts. Contacted upstream maintainers to help reduce the risk of regression. Came up with a patch to loosen the libcurl version requirement. Hopefully, the update could be rolled out soon!
 
+#### Other (E)LTS Work:
+
+- I spent an aditional 11.15 hours working on compiling the responses of the LTS survey and preparing a gist of it for its presentation during the Debian LTS BoF at DebConf20.
+- Triaged [qemu](https://tracker.debian.org/pkg/qemu),
+[pillow](https://tracker.debian.org/pkg/pillow),
+[gupnp](https://tracker.debian.org/pkg/gupnp),
+[clamav](https://tracker.debian.org/pkg/clamav),
+[apache2](https://tracker.debian.org/pkg/apache2), and
+[uwsgi](https://tracker.debian.org/pkg/uwsgi).
+- Marked CVE-2020-11538/pillow as not-affected for Stretch.
+- Marked CVE-2020-11984/apache2 as not-affected for Stretch.
+- Marked CVE-2020-10378/pillow as not-affected for Jessie.
+- Marked CVE-2020-11538/pillow as not-affected for Jessie.
+- Marked CVE-2020-3481/clamav as not-affected for Jessie.
+- Marked CVE-2020-11984/apache2 as not-affected for Jessie.
+- Marked CVE-2020-{9490,11993}/apache2 as not-affected for Jessie.
+- Hosted Debian LTS BoF at DebConf20. Recording [here](https://caesar.ftp.acc.umu.se/pub/debian-meetings/2020/DebConf20/72-debian-lts-bof.webm).
+- General discussion on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2020/08/threads.html).
+
 ---
 
 Until next time.  

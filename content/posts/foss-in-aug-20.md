@@ -1,5 +1,5 @@
 +++
-date = "2020-09-02 23:30:00 +0530"
+date = "2020-09-01 21:30:00 +0530"
 title = "FOSS Activites in August 2020"
 slug = "foss-in-aug-20"
 images = [
@@ -137,7 +137,7 @@ the following things:
 
 #### Other (E)LTS Work:
 
-- I spent an aditional 11.15 hours working on compiling the responses of the LTS survey and preparing a gist of it for its presentation during the Debian LTS BoF at DebConf20.
+- I spent an additional 11.15 hours working on compiling the responses of the LTS survey and preparing a gist of it for its presentation during the Debian LTS BoF at DebConf20.
 - Triaged [qemu](https://tracker.debian.org/pkg/qemu),
 [pillow](https://tracker.debian.org/pkg/pillow),
 [gupnp](https://tracker.debian.org/pkg/gupnp),

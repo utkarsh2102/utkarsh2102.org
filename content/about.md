@@ -24,7 +24,12 @@ is a linter and an auto-corrector, written in Ruby, helping downstream Ruby
 teams (Debian, Ubuntu, Fedora, openSUSE, et al).
 
 And finally, I work on **Debian LTS**, a project by Freexian, extending the
-lifetime of all Debian stable releases to (at least) 5 years.
+lifetime of all Debian stable releases to (at least) 5 years, where I patch
+and backport security fixes for packages in the APT archive for oldstable
+and oldoldstable releases.
+
+Besides, I am a philatelist, a semi-occassional drummer, an avid reader,
+and have perhaps mastered the art of sticker fights!
 
 Please feel free to hit me up if you want to get in contact or want to know
 more about me. I go by the handle **utkarsh2102** across the web! \o/

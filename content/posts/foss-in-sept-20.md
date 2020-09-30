@@ -1,5 +1,5 @@
 +++
-date = "2020-10-01 05:30:00 +0530"
+date = "2020-10-01 03:00:00 +0530"
 title = "FOSS Activites in September 2020"
 slug = "foss-in-sept-20"
 images = [
@@ -27,9 +27,8 @@ Here's my (twelfth) monthly update about the activities I've done in the F/L/OSS
 This was my 21st month of contributing to [Debian](https://www.debian.org/).
 I became a [DM](https://wiki.debian.org/DebianMaintainer) in late March last year and a [DD](https://wiki.debian.org/DebianDeveloper) last Christmas! \o/
 
-I've been busy with my undergraduation stuff but I still squeezed out some time for regular Debian work.
-
-Anyway, here are the following things I did in Debian this month:
+I've been busy with my undergraduation stuff but I still squeezed out some time for the regular Debian work.
+Here are the following things I did in Debian this month:
 
 #### Uploads and bug fixes:
 
@@ -50,6 +49,36 @@ Anyway, here are the following things I did in Debian this month:
 - FTP Trainee reviewing.
 - Moderation of -project mailing list.
 - Sponsored `trace-cmd` for Sudip, `ruby-asset-sync` for Nilesh, and `mariadb-mysql-kbs` for William.
+
+---
+
+## RuboCop::Packaging - Helping the Debian Ruby team! \o/
+![](/images/debian_ruby.png#center)
+
+This [Google Summer of Code](https://summerofcode.withgoogle.com/), I worked on writing a linter that could flag offenses for lines of code
+that are very troublesome for Debian maintainers while trying to package and maintain Ruby libraries and applications!
+
+Whilst the GSoC period is over, I've been working on improving that tool and have exteneded that linter to now "auto-correct" these offenses
+by itself! \o/  
+You can now just use the `-A` flag and you're done! Boom! The game changer!
+
+Here's a quick demo for this feature:
+
+![](/images/packaging_autocorrector.gif#gif)
+
+A few quick updates on [RuboCop::Packaging](https://github.com/utkarsh2102/rubocop-packaging):
+- Has 4 cops, solving 4 different issues.
+- 3 of them support auto-correction. Just use the `-A` flag.
+- 5 releases so far, latest being v0.5.0.
+- GitHub Repository: https://github.com/utkarsh2102/rubocop-packaging/
+- Release notes: https://github.com/utkarsh2102/rubocop-packaging/releases/
+- Documentation: https://docs.rubocop.org/rubocop-packaging/
+- Style guide: https://packaging.rubystyle.guide/
+- Being used by over [55 projects](https://github.com/utkarsh2102/rubocop-packaging/network/dependents)! \o/
+
+I've also spent a considerable amount of time in raising awareness about this and in more general sense, about downstream maintenance.  
+As a result, I raised a bunch of PRs which got really good response. I got [all of the 20 PRs merged upstream](https://github.com/utkarsh2102?tab=overview&from=2020-09-01&to=2020-09-30),
+fixing these issues.
 
 ---
 

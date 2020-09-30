@@ -58,9 +58,9 @@ Here are the following things I did in Debian this month:
 This [Google Summer of Code](https://summerofcode.withgoogle.com/), I worked on writing a linter that could flag offenses for lines of code
 that are very troublesome for Debian maintainers while trying to package and maintain Ruby libraries and applications!
 
-Whilst the GSoC period is over, I've been working on improving that tool and have exteneded that linter to now "auto-correct" these offenses
+Whilst the GSoC period is over, I've been working on improving that tool and have extended that linter to now "auto-correct" these offenses
 by itself! \o/  
-You can now just use the `-A` flag and you're done! Boom! The game changer!
+You can now just use the `-A` flag and you're done! Boom! The ultimate game-changer!
 
 Here's a quick demo for this feature:
 
@@ -104,7 +104,7 @@ I was assigned 19.75 hours for LTS and 15.00 hours for ELTS and worked on the fo
 #### ELTS CVE Fixes and Announcements:
 
 - Issued [ELA 274-1](https://deb.freexian.com/extended-lts/updates/ela-274-1-uwsgi), fixing [CVE-2020-11984](https://security-tracker.debian.org/tracker/CVE-2020-11984), for [uwsgi](https://tracker.debian.org/pkg/uwsgi).  
-  For Debian 8 Jessie, these problems have been fixed in version Apache HTTP Server versions before 2.4.32 uses src:uwsgi where a flaw.
+  For Debian 8 Jessie, these problems have been fixed in version 2.0.7-1+deb8u3.
 - Issued [ELA 275-1](https://deb.freexian.com/extended-lts/updates/ela-275-1-libx11), fixing [CVE-2020-14363](https://security-tracker.debian.org/tracker/CVE-2020-14363), for [libx11](https://tracker.debian.org/pkg/libx11).  
   For Debian 8 Jessie, these problems have been fixed in version 2:1.6.2-3+deb8u4.
 - Issued [ELA 278-1](https://deb.freexian.com/extended-lts/updates/ela-278-1-ruby-rack), fixing [CVE-2020-8184](https://security-tracker.debian.org/tracker/CVE-2020-8184), for [ruby-rack](https://tracker.debian.org/pkg/ruby-rack).  

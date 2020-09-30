@@ -152,6 +152,12 @@ img[src$='#right'] {
   float: right;
   margin: 0.7rem; }
 
+img[src$='#gif'] {
+  display: block;
+  margin: 0.7rem auto;
+  width: 80%;
+  height: 80%; }
+
 figure {
   text-align: center; }
   figure img {

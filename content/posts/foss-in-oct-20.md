@@ -1,5 +1,5 @@
 +++
-date = "2020-11-01 11:30:00 +0530"
+date = "2020-11-01 11:00:00 +0530"
 title = "FOSS Activites in October 2020"
 slug = "foss-in-oct-20"
 images = [
@@ -27,7 +27,7 @@ Here's my (thirteenth) monthly update about the activities I've done in the F/L/
 This was my 22nd month of contributing to [Debian](https://www.debian.org/).
 I became a [DM](https://wiki.debian.org/DebianMaintainer) in late March last year and a [DD](https://wiki.debian.org/DebianDeveloper) last Christmas! \o/
 
-Whilst busy with my undergrad, I could still make some time out for contributing to Debian (I always do!).
+Whilst busy with my undergrad, I could still take some time out for contributing to Debian (I always do!).
 Here are the following things I did in Debian this month:
 
 #### Uploads and bug fixes:
@@ -89,7 +89,7 @@ I was assigned 20.75 hours for LTS and 30.00 hours for ELTS and worked on the fo
 - Marked CVE-2020-25659/python-cryptography as no-dsa for Stretch and Jessie.
 - Auto EOL'ed jruby, libjs-handlebars, linux, pluxml, mupdf, and djangorestframework for Jessie.
 - [E/LTS] Worked on putting survey online, deployed [LTS Team Pages](https://lts-team.pages.debian.net/) \o/
-- [ELTS] Fix suite-name in ela-needed file and fix other tags and ordering of triages to fix erros in the security tracker.
+- [ELTS] Fix suite-name in ela-needed file and fix other tags and ordering of triages to fix errors in the security tracker.
 - [LTS] Sent out invitations for the meeting.
 - Attended the sixth private LTS meeting.
 - General discussion on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2020/10/threads.html).

@@ -34,14 +34,21 @@ Here are the following things I did in Debian this month:
 
 #### Uploads and bug fixes:
 
+- [slingshot-clojure](https://tracker.debian.org/pkg/slingshot-clojure) (0.12.2-3) - Fix for [bug #891311](https://bugs.debian.org/891311).
+- [clj-stacktrace-clojure](https://tracker.debian.org/pkg/clj-stacktrace-clojure) (0.2.7-1) - New upstream version, v0.2.7, fixing [bug #852249](https://bugs.debian.org/852249).
+- [golang-github-xo-terminfo](https://tracker.debian.org/pkg/golang-github-xo-terminfo) (0.0~git20200218.454e5b6-2) - New package + source-only upload.
+- [golang-github-zyedidia-tcell](https://tracker.debian.org/pkg/golang-github-zyedidia-tcell) (2.0.6-1) - New upstream version, v2.0.6.
+- [golang-github-zyedidia-clipboard](https://tracker.debian.org/pkg/golang-github-zyedidia-clipboard) (1.0.3-1) - New upstream version, 1.0.3.
+- [micro](https://tracker.debian.org/pkg/micro) (2.0.8-1) - New upstream version, v2.0.8. Finally! \o/
+- [ruby-zeitwerk](https://tracker.debian.org/pkg/ruby-zeitwerk) (2.4.2-1) - New upstream version, v2.4.2.
 
 #### Other $things:
 
-- Attended the Debian Ruby team meeting. Logs [here](http://meetbot.debian.net/debian-ruby/2020/debian-ruby.2020-10-02-16.37.html).
+- Attended the Debian Ruby team meeting.
 - Mentoring for newcomers.
 - FTP Trainee reviewing.
 - Moderation of -project mailing list.
-- Sponsored `phpmyadmin`, `php-bacon-baconqrcode`, `twig`, `php-dasprid-enum`, `sql-parser`, and `mariadb-mysql-kbs` for William.
+- Sponsored `phpmyadmin` for William and `libexif` for Hugh.
 
 ---
 

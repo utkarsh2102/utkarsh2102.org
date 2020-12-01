@@ -27,7 +27,7 @@ Here's my (fourteenth) monthly update about the activities I've done in the F/L/
 This was my 23rd month of contributing to [Debian](https://www.debian.org/).
 I became a [DM](https://wiki.debian.org/DebianMaintainer) in late March last year and a [DD](https://wiki.debian.org/DebianDeveloper) last Christmas! \o/
 
-Apart from doing a bunch of activitites like attending KubeCon + RubyConf (blog to follow!), et al and simultaneously giving
+Apart from doing a bunch of activities like attending KubeCon + RubyConf (blog to follow!), et al and simultaneously giving
 my undergrad exams, I did (relatively) more work than I had really anticipated!
 
 Here are the following things I did in Debian this month:
@@ -103,7 +103,7 @@ I was assigned 22.75 hours for LTS and 45.00 hours for ELTS and worked on the fo
 - Triaged [openldap](https://tracker.debian.org/pkg/openldap),
 [python-cryptography](https://tracker.debian.org/pkg/python-cryptography),
 [motion](https://tracker.debian.org/pkg/motion),
-[nvidia-cude-toolkit](https://tracker.debian.org/pkg/nvidia-cude-toolkit),
+[nvidia-cuda-toolkit](https://tracker.debian.org/pkg/nvidia-cuda-toolkit),
 [samba](https://tracker.debian.org/pkg/samba),
 [lxml](https://tracker.debian.org/pkg/lxml),
 [highlight.js](https://tracker.debian.org/pkg/highlight.js),
@@ -116,7 +116,7 @@ I was assigned 22.75 hours for LTS and 45.00 hours for ELTS and worked on the fo
 - Marked CVE-2020-25659/python-cryptography as no-dsa for Stretch and Jessie.
 - Marked CVE-2020-25713/raptor2 as postponed for Stretch and Jessie.
 - Marked CVE-2020-27778/poppler as postponed for Stretch and Jessie.
-- Marked CVE-2020-5991/nvidia-cude-toolkit as ignored for Stretch.
+- Marked CVE-2020-5991/nvidia-cuda-toolkit as ignored for Stretch.
 - Marked CVE-2020-26566/motion as not-affected for Stretch.
 - Marked CVE-2020-26237/highlight.js as postponed for Jessie.
 - Auto EOL'ed libpam-tacplus, motion, blueman, openrc, webcit, wordpress, linux, nvidia-cuda-toolkit, spip, and wireshark for Jessie.

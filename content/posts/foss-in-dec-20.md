@@ -159,6 +159,8 @@ Well, I did report some bugs and issues and also sent some patches:
 - [PR #37](https://github.com/utkarsh2102/rubocop-packaging/pull/37) for rubocop-packaging, enabling tests against ruby3.0! \o/
 - [PR #489](https://github.com/cucumber/cucumber-rails/pull/489) for cucumber-rails, bumping `RuboCop::Packaging` to v0.5.
 - [Issue #362](https://github.com/Nheko-Reborn/nheko/issues/362) for nheko, reporting a crash when opening the application.
+- [PR #1282](https://github.com/paper-trail-gem/paper_trail/pull/1282) for paper_trail, adding `RuboCop::Packaging` amongst other used extensions.
+- [Bug #978640](https://bugs.debian.org/978640) for nheko Debian package, reporting a crash, as a result of libfmt7 regression.
 
 ---
 

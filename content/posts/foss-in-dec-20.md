@@ -143,5 +143,24 @@ I was assigned 26.00 hours for LTS and 38.25 hours for ELTS and worked on the fo
 
 ---
 
+## Other $things! \o/
+
+#### Bugs and Patches
+
+Well, I did report some bugs and issues and also sent some patches:
+
+- [Issue #44](https://github.com/jamesgeorge007/github-activity-readme/issues/44) for github-activity-readme, asking for a feature request to set custom committer's email address.
+- [Issue #711](https://github.com/libgit2/git2go/issues/711) for git2go, reporting build failure for the library.
+- [PR #89](https://github.com/toshimaru/rubocop-rails_config/pull/89) for rubocop-rails_config, bumping `RuboCop::Packaging` to v0.5.
+- [Issue #36](https://github.com/utkarsh2102/rubocop-packaging/issues/36) for rubocop-packaging, asking to try out mutant :)
+- [PR #212](https://github.com/cucumber/cucumber-ruby-core/pull/212) for cucumber-ruby-core, bumping `RuboCop::Packaging` to v0.5.
+- [PR #213](https://github.com/cucumber/cucumber-ruby-core/pull/213) for cucumber-ruby-core, enabling `RuboCop::Packaging`.
+- [Issue #19](https://github.com/amedrz/behance/issues/19) for behance, asking to relax constraints on `faraday` and `faraday_middleware`.
+- [PR #37](https://github.com/utkarsh2102/rubocop-packaging/pull/37) for rubocop-packaging, enabling tests against ruby3.0! \o/
+- [PR #489](https://github.com/cucumber/cucumber-rails/pull/489) for cucumber-rails, bumping `RuboCop::Packaging` to v0.5.
+- [Issue #362](https://github.com/Nheko-Reborn/nheko/issues/362) for nheko, reporting a crash when opening the application.
+
+---
+
 Until next time.  
 `:wq` for today.

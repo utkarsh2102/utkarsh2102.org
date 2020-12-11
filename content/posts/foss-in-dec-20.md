@@ -173,6 +173,7 @@ Besides squashing bugs and submitting patches, I did some other things as well!
 - Also did some cloud debugging, not so fun if you ask me, but cool enough to make me want to do it again! ^_^
 - Worked along with pollo, zigo, ehashman, rlb, et al for puppet and puppetserver in Debian. OMG, they're so lovely! <3
 - Ordered some interesting books to read January onward. New year resolution? Meh, not really. Or maybe. But nah.
+- Also did some interesting stuff this month but can't really talk about it now. Hopefully sooooon.
 
 ---
 

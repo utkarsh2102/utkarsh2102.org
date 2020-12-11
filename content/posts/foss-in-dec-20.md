@@ -162,6 +162,18 @@ Well, I did report some bugs and issues and also sent some patches:
 - [PR #1282](https://github.com/paper-trail-gem/paper_trail/pull/1282) for paper_trail, adding `RuboCop::Packaging` amongst other used extensions.
 - [Bug #978640](https://bugs.debian.org/978640) for nheko Debian package, reporting a crash, as a result of libfmt7 regression.
 
+#### Misc and Fun
+
+Besides squashing bugs and submitting patches, I did some other things as well!
+
+- Participated in my first [Advent of Code](https://adventofcode.com/) event! :)  
+  Whilst it was indeed fun, I didn't really complete it. No reason, really. But I'll definitely come back stronger next year, heh! :)  
+  All the solutions thus far could be found [here](https://github.com/utkarsh2102/AdventOfCode/).
+- Did a couple of reviews for some PRs and triaged some bugs here and there, meh.
+- Also did some cloud debugging, not so fun if you ask me, but cool enough to make me want to do it again! ^_^
+- Worked along with pollo, zigo, ehashman, rlb, et al for puppet and puppetserver in Debian. OMG, they're so lovely! <3
+- Ordered some interesting books to read January onward. New year resolution? Meh, not really. Or maybe. But nah.
+
 ---
 
 Until next time.  

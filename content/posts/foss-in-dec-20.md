@@ -59,6 +59,22 @@ I was assigned 22.75 hours for LTS and 45.00 hours for ELTS and worked on the fo
 
 #### LTS CVE Fixes and Announcements:
 
+- Issued [DLA 2474-1](https://lists.debian.org/debian-lts-announce/2020/11/msg00050.html), fixing [CVE-2020-28928](https://security-tracker.debian.org/tracker/CVE-2020-28928), for [musl](https://tracker.debian.org/pkg/musl).  
+  For Debian 9 Stretch, these problems have been fixed in version 1.1.16-3+deb9u1.
+- Issued [DLA 2481-1](https://lists.debian.org/debian-lts-announce/2020/12/msg00008.html), fixing [CVE-2020-25709](https://security-tracker.debian.org/tracker/CVE-2020-25709) and [CVE-2020-25710](https://security-tracker.debian.org/tracker/CVE-2020-25710), for [openldap](https://tracker.debian.org/pkg/openldap).  
+  For Debian 9 Stretch, these problems have been fixed in version 2.4.44+dfsg-5+deb9u6.
+- Issued [DLA 2484-1](https://lists.debian.org/debian-lts-announce/2020/12/msg00010.html), fixing [#969126](https://bugs.debian.org/969126), for [python-certbot](https://tracker.debian.org/pkg/python-certbot).  
+  For Debian 9 Stretch, these problems have been fixed in version 0.28.0-1~deb9u3.
+- Issued [DLA 2487-1](https://lists.debian.org/debian-lts-announce/2020/12/msg00013.html), fixing [CVE-2020-27350](https://security-tracker.debian.org/tracker/CVE-2020-27350), for [apt](https://tracker.debian.org/pkg/apt).  
+  For Debian 9 Stretch, these problems have been fixed in version 1.4.11. The update was prepared by the maintainer, Julian.
+- Issued [DLA 2488-1](https://lists.debian.org/debian-lts-announce/2020/12/msg00014.html), fixing [CVE-2020-27351](https://security-tracker.debian.org/tracker/CVE-2020-27351), for [python-apt](https://tracker.debian.org/pkg/python-apt).  
+  For Debian 9 Stretch, these problems have been fixed in version 1.4.2. The update was prepared by the maintainer, Julian.
+- Issued [DLA 2495-1](https://lists.debian.org/debian-lts-announce/2020/12/msg00022.html), fixing [CVE-2020-17527](https://security-tracker.debian.org/tracker/CVE-2020-17527), for [tomcat8](https://tracker.debian.org/pkg/tomcat8).  
+  For Debian 9 Stretch, these problems have been fixed in version 8.5.54-0+deb9u5.
+- Issued [DLA 2488-2](https://lists.debian.org/debian-lts-announce/2020/12/msg00037.html), for [python-apt](https://tracker.debian.org/pkg/python-apt).  
+  For Debian 9 Stretch, these problems have been fixed in version 1.4.3. The update was prepared by the maintainer, Julian.
+- Issued [DLA 2508-1](https://lists.debian.org/debian-lts-announce/2020/12/msg00038.html), fixing [CVE-2020-35730](https://security-tracker.debian.org/tracker/CVE-2020-35730), for [roundcube](https://tracker.debian.org/pkg/roundcube).  
+  For Debian 9 Stretch, these problems have been fixed in version 1.2.3+dfsg.1-4+deb9u8. The update was prepared by the maintainer, Guilhem.
 
 #### ELTS CVE Fixes and Announcements:
 

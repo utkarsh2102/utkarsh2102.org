@@ -91,6 +91,34 @@ I was assigned 22.75 hours for LTS and 45.00 hours for ELTS and worked on the fo
 
 #### Other (E)LTS Work:
 
+- Front-desk duty from 21-12 until 27-12 and from 28-12 until 03-01 for both LTS and ELTS.
+- Triaged [openldap](https://tracker.debian.org/pkg/openldap),
+[python-certbot](https://tracker.debian.org/pkg/python-certbot),
+[lemonldap-ng](https://tracker.debian.org/pkg/lemonldap-ng),
+[qemu](https://tracker.debian.org/pkg/qemu),
+[gdm3](https://tracker.debian.org/pkg/gdm3),
+[open-iscsi](https://tracker.debian.org/pkg/open-iscsi),
+[gobby](https://tracker.debian.org/pkg/gobby),
+[jackson-databind](https://tracker.debian.org/pkg/jackson-databind),
+[wavpack](https://tracker.debian.org/pkg/wavpack),
+[cairo](https://tracker.debian.org/pkg/cairo),
+[nsd](https://tracker.debian.org/pkg/nsd),
+[tomcat8](https://tracker.debian.org/pkg/tomcat8), and
+[bountycastle](https://tracker.debian.org/pkg/bountycastle).
+- Marked CVE-2020-17527/tomcat8 as not-affected for jessie.
+- Marked CVE-2020-28052/bountycastle as not-affected for jessie.
+- Marked CVE-2020-14394/qemu as postponed for jessie.
+- Marked CVE-2020-35738/wavpack as not-affected for jessie.
+- Marked CVE-2020-3550{3-6}/qemu as postponed for jessie.
+- Marked CVE-2020-3550{3-6}/qemu as postponed for stretch.
+- Marked CVE-2020-16093/lemonldap-ng as no-dsa for stretch.
+- Marked CVE-2020-27837/gdm3 as no-dsa for stretch.
+- Marked CVE-2020-{13987, 13988, 17437}/open-iscsi as no-dsa for stretch.
+- Marked CVE-2020-35450/gobby as no-dsa for stretch.
+- Marked CVE-2020-35728/jackson-databind as no-dsa for stretch.
+- Marked CVE-2020-28935/nsd as no-dsa for stretch.
+- Auto EOL'ed libpam-tacplus, open-iscsi, wireshark, gdm3, golang-go.crypto, jackson-databind, spotweb, python-autobahn, asterisk, nsd, ruby-nokogiri, linux, and motion for jessie.
+- General discussion on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2020/12/threads.html).
 
 ---
 

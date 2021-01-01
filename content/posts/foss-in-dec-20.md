@@ -78,6 +78,16 @@ I was assigned 22.75 hours for LTS and 45.00 hours for ELTS and worked on the fo
 
 #### ELTS CVE Fixes and Announcements:
 
+- Issued [ELA 324-1](https://deb.freexian.com/extended-lts/updates/ela-324-1-musl/), fixing [CVE-2020-28928](https://security-tracker.debian.org/tracker/CVE-2020-28928), for [musl](https://tracker.debian.org/pkg/musl).  
+  For Debian 8 Jessie, these problems have been fixed in version 1.1.5-2+deb8u2.
+- Issued [ELA 325-1](https://deb.freexian.com/extended-lts/updates/ela-325-1-mutt/), fixing [CVE-2020-28896](https://security-tracker.debian.org/tracker/CVE-2020-28896), for [mutt](https://tracker.debian.org/pkg/mutt).  
+  For Debian 8 Jessie, these problems have been fixed in version 1.5.23-3+deb8u4.
+- Issued [ELA 327-1](https://deb.freexian.com/extended-lts/updates/ela-327-1-openldap/), fixing [CVE-2020-25709](https://security-tracker.debian.org/tracker/CVE-2020-25709) and [CVE-2020-25710](https://security-tracker.debian.org/tracker/CVE-2020-25710), for [openldap](https://tracker.debian.org/pkg/openldap).  
+  For Debian 8 Jessie, these problems have been fixed in version 2.4.40+dfsg-1+deb8u8.
+- Issued [ELA 335-1](https://deb.freexian.com/extended-lts/updates/ela-335-1-flac/), fixing [CVE-2020-0499](https://security-tracker.debian.org/tracker/CVE-2020-0499), for [flac](https://tracker.debian.org/pkg/flac).  
+  For Debian 8 Jessie, these problems have been fixed in version 1.3.0-3+deb8u1.
+- Issued [ELA 340-1](https://deb.freexian.com/extended-lts/updates/ela-340-1-cairo/), fixing [CVE-2020-35492](https://security-tracker.debian.org/tracker/CVE-2020-35492), for [cairo](https://tracker.debian.org/pkg/cairo).  
+  For Debian 8 Jessie, these problems have been fixed in version 1.14.0-2.1+deb8u3.
 
 #### Other (E)LTS Work:
 

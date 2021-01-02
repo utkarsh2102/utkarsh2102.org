@@ -24,16 +24,42 @@ Here's my (fifteenth) monthly update about the activities I've done in the F/L/O
 ## Debian
 {{< figure src="/images/debian-logo-small.png" >}}
 
-This was my 23rd month of contributing to [Debian](https://www.debian.org/).
+This was my 24th month of contributing to [Debian](https://www.debian.org/).
 I became a [DM](https://wiki.debian.org/DebianMaintainer) in late March last year and a [DD](https://wiki.debian.org/DebianDeveloper) last Christmas! \o/
 
-Apart from doing a bunch of activities like attending KubeCon + RubyConf (blog to follow!), et al and simultaneously giving
-my undergrad exams, I did (relatively) more work than I had really anticipated!
+Amongs a lot of things, this was month was crazy, hectic, adventerous, and the last of 2020 -- more on some parts later this month.  
+I finally finished my 7th semester (FTW!) and moved onto my last one! That said, I had been busy with other things™ but still did a bunch of Debian stuff
 
-Here are the following things I did in Debian this month:
+Here are the following things I did this month:
 
 #### Uploads and bug fixes:
 
+- [ruby-gh](https://tracker.debian.org/pkg/ruby-gh) (0.18.0-2) - .
+- [ruby-gh](https://tracker.debian.org/pkg/ruby-gh) (0.18.0-3) - .
+- [libgit2](https://tracker.debian.org/pkg/libgit2) (1.0.1+dfsg.1-2) - .
+- [libgit2](https://tracker.debian.org/pkg/libgit2) (1.0.1+dfsg.1-3) - .
+- [libgit-raw-perl](https://tracker.debian.org/pkg/libgit-raw-perl) (0.87+ds-1) - .
+- [python-pygit2](https://tracker.debian.org/pkg/python-pygit2) (1.3.0+dfsg1-2) - .
+- [golang-gopkg-libgit2-git2go.v30](https://tracker.debian.org/pkg/golang-gopkg-libgit2-git2go.v30) (30.3.2-1) - .
+- [libgit2](https://tracker.debian.org/pkg/libgit2) (1.1.0+dfsg.1-1) - .
+- [golang-gopkg-libgit2-git2go.v30](https://tracker.debian.org/pkg/golang-gopkg-libgit2-git2go.v30) (30.3.2-2) - .
+- [golang-gopkg-libgit2-git2go.v31](https://tracker.debian.org/pkg/golang-gopkg-libgit2-git2go.v31) (31.4.3-1) - .
+- [libgit2](https://tracker.debian.org/pkg/libgit2) (1.1.0+dfsg.1-2) - .
+- [python-pygit2](https://tracker.debian.org/pkg/python-pygit2) (1.4.0+dfsg1-1) - .
+- [ruby-rugged](https://tracker.debian.org/pkg/ruby-rugged) (1.1.0+ds-1) - .
+- [rails](https://tracker.debian.org/pkg/rails) (2:6.0.3.4+dfsg-2) - .
+- [ruby3.0](https://tracker.debian.org/pkg/ruby3.0) (3.0.0~preview2-1) - .
+- [golang-gopkg-libgit2-git2go.v31](https://tracker.debian.org/pkg/golang-gopkg-libgit2-git2go.v31) (31.4.3-2) - .
+- [golang-github-robertkrimen-otto](https://tracker.debian.org/pkg/golang-github-robertkrimen-otto) (0.0~git20200922.ef014fd-1) - .
+- [bidi-clojure](https://tracker.debian.org/pkg/bidi-clojure) (2.1.3-2) - .
+- [comidi-clojure](https://tracker.debian.org/pkg/comidi-clojure) (0.3.2-2) - .
+- [ruby3.0](https://tracker.debian.org/pkg/ruby3.0) (3.0.0~rc1-1) - .
+- [polybar](https://tracker.debian.org/pkg/polybar) (3.5.3-1) - .
+- [ruby3.0](https://tracker.debian.org/pkg/ruby3.0) (3.0.0-1) - .
+- [pathetic-clojure](https://tracker.debian.org/pkg/pathetic-clojure) (0.5.1-2) - .
+- [url-clojure](https://tracker.debian.org/pkg/url-clojure) (0.1.1-2) - .
+- [libgit2](https://tracker.debian.org/pkg/libgit2) (1.1.0+dfsg.1-3) - .
+- [ruby-paper-trail](https://tracker.debian.org/pkg/ruby-paper-trail) (11.1.0-1) - .
 
 #### Other $things:
 

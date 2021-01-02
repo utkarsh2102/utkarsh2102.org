@@ -34,32 +34,28 @@ Here are the following things I did this month:
 
 #### Uploads and bug fixes:
 
-- [ruby-gh](https://tracker.debian.org/pkg/ruby-gh) (0.18.0-2) - .
-- [ruby-gh](https://tracker.debian.org/pkg/ruby-gh) (0.18.0-3) - .
-- [libgit2](https://tracker.debian.org/pkg/libgit2) (1.0.1+dfsg.1-2) - .
-- [libgit2](https://tracker.debian.org/pkg/libgit2) (1.0.1+dfsg.1-3) - .
-- [libgit-raw-perl](https://tracker.debian.org/pkg/libgit-raw-perl) (0.87+ds-1) - .
-- [python-pygit2](https://tracker.debian.org/pkg/python-pygit2) (1.3.0+dfsg1-2) - .
-- [golang-gopkg-libgit2-git2go.v30](https://tracker.debian.org/pkg/golang-gopkg-libgit2-git2go.v30) (30.3.2-1) - .
-- [libgit2](https://tracker.debian.org/pkg/libgit2) (1.1.0+dfsg.1-1) - .
-- [golang-gopkg-libgit2-git2go.v30](https://tracker.debian.org/pkg/golang-gopkg-libgit2-git2go.v30) (30.3.2-2) - .
-- [golang-gopkg-libgit2-git2go.v31](https://tracker.debian.org/pkg/golang-gopkg-libgit2-git2go.v31) (31.4.3-1) - .
-- [libgit2](https://tracker.debian.org/pkg/libgit2) (1.1.0+dfsg.1-2) - .
-- [python-pygit2](https://tracker.debian.org/pkg/python-pygit2) (1.4.0+dfsg1-1) - .
-- [ruby-rugged](https://tracker.debian.org/pkg/ruby-rugged) (1.1.0+ds-1) - .
-- [rails](https://tracker.debian.org/pkg/rails) (2:6.0.3.4+dfsg-2) - .
-- [ruby3.0](https://tracker.debian.org/pkg/ruby3.0) (3.0.0~preview2-1) - .
-- [golang-gopkg-libgit2-git2go.v31](https://tracker.debian.org/pkg/golang-gopkg-libgit2-git2go.v31) (31.4.3-2) - .
-- [golang-github-robertkrimen-otto](https://tracker.debian.org/pkg/golang-github-robertkrimen-otto) (0.0~git20200922.ef014fd-1) - .
-- [bidi-clojure](https://tracker.debian.org/pkg/bidi-clojure) (2.1.3-2) - .
-- [comidi-clojure](https://tracker.debian.org/pkg/comidi-clojure) (0.3.2-2) - .
-- [ruby3.0](https://tracker.debian.org/pkg/ruby3.0) (3.0.0~rc1-1) - .
-- [polybar](https://tracker.debian.org/pkg/polybar) (3.5.3-1) - .
-- [ruby3.0](https://tracker.debian.org/pkg/ruby3.0) (3.0.0-1) - .
-- [pathetic-clojure](https://tracker.debian.org/pkg/pathetic-clojure) (0.5.1-2) - .
-- [url-clojure](https://tracker.debian.org/pkg/url-clojure) (0.1.1-2) - .
-- [libgit2](https://tracker.debian.org/pkg/libgit2) (1.1.0+dfsg.1-3) - .
-- [ruby-paper-trail](https://tracker.debian.org/pkg/ruby-paper-trail) (11.1.0-1) - .
+- [ruby-gh](https://tracker.debian.org/pkg/ruby-gh) (0.18.0-2) - Fixing FTBFS, [bug #976163](https://bugs.debian.org/976163).
+- [libgit2](https://tracker.debian.org/pkg/libgit2) (1.0.1+dfsg.1-3) - libgit2 transition; cf: [bug #971571](https://bugs.debian.org/971571).
+- [libgit-raw-perl](https://tracker.debian.org/pkg/libgit-raw-perl) (0.87+ds-1) - Transition upload for [bug #971567](https://bugs.debian.org/971567).
+- [python-pygit2](https://tracker.debian.org/pkg/python-pygit2) (1.3.0+dfsg1-2) - Transition upload for [bug #971564](https://bugs.debian.org/971564).
+- [golang-gopkg-libgit2-git2go.v30](https://tracker.debian.org/pkg/golang-gopkg-libgit2-git2go.v30) (30.3.2-1) - Transition upload for [bug #976522](https://bugs.debian.org/976522).
+- [libgit2](https://tracker.debian.org/pkg/libgit2) (1.1.0+dfsg.1-1) - New upstream version, v1.1.0.
+- [golang-gopkg-libgit2-git2go.v31](https://tracker.debian.org/pkg/golang-gopkg-libgit2-git2go.v31) (31.4.3-1) - Transition upload for [bug #976522](https://bugs.debian.org/976522).
+- [libgit2](https://tracker.debian.org/pkg/libgit2) (1.1.0+dfsg.1-2) - libgit2 transition; cf: [bug #971571](https://bugs.debian.org/971571).
+- [python-pygit2](https://tracker.debian.org/pkg/python-pygit2) (1.4.0+dfsg1-1) - New upstream version, v1.4.0.
+- [ruby-rugged](https://tracker.debian.org/pkg/ruby-rugged) (1.1.0+ds-1) - Transition upload for [bug #971565](https://bugs.debian.org/971565).
+- [rails](https://tracker.debian.org/pkg/rails) (2:6.0.3.4+dfsg-2) - Fixes for [bug #976291](https://bugs.debian.org/976291) and [974065](https://bugs.debian.org/974065). Thanks, Praveen!
+- [ruby3.0](https://tracker.debian.org/pkg/ruby3.0) (3.0.0~preview2-1) - New upstream version, v3.0.0~preview2.
+- [golang-github-robertkrimen-otto](https://tracker.debian.org/pkg/golang-github-robertkrimen-otto) (0.0~git20200922.ef014fd-1) - Fixing FTBFS, [bug #976549](https://bugs.debian.org/976549).
+- [bidi-clojure](https://tracker.debian.org/pkg/bidi-clojure) (2.1.3-2) - Fixing FTBFS, [bug #975224](https://bugs.debian.org/975224).
+- [comidi-clojure](https://tracker.debian.org/pkg/comidi-clojure) (0.3.2-2) - Fixing FTBFS, [bug #975218](https://bugs.debian.org/975218).
+- [ruby3.0](https://tracker.debian.org/pkg/ruby3.0) (3.0.0~rc1-1) - New upstream version, v3.0.0~rc1.
+- [polybar](https://tracker.debian.org/pkg/polybar) (3.5.3-1) - New upstream version, v3.5.3.
+- [ruby3.0](https://tracker.debian.org/pkg/ruby3.0) (3.0.0-1) - New upstream version, v3.0.0. Merry Christmas! \o/
+- [pathetic-clojure](https://tracker.debian.org/pkg/pathetic-clojure) (0.5.1-2) - Source-only upload for migration.
+- [url-clojure](https://tracker.debian.org/pkg/url-clojure) (0.1.1-2) - Source-only upload for migration.
+- [libgit2](https://tracker.debian.org/pkg/libgit2) (1.1.0+dfsg.1-3) - Fix for [bug #972574](https://bugs.debian.org/972574). Thanks, Cedric!
+- [ruby-paper-trail](https://tracker.debian.org/pkg/ruby-paper-trail) (11.1.0-1) - New upstream version, 11.1.0.
 
 #### Other $things:
 

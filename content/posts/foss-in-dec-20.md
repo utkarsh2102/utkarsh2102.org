@@ -34,6 +34,7 @@ Here are the following things I did this month:
 
 #### Uploads and bug fixes:
 
+- [leiningen-clojure](https://tracker.debian.org/pkg/leiningen-clojure) (2.9.1-3) - Fixing FTBFS, [bug #973094](https://bugs.debian.org/973094).
 - [ruby-gh](https://tracker.debian.org/pkg/ruby-gh) (0.18.0-2) - Fixing FTBFS, [bug #976163](https://bugs.debian.org/976163).
 - [libgit2](https://tracker.debian.org/pkg/libgit2) (1.0.1+dfsg.1-3) - libgit2 transition; cf: [bug #971571](https://bugs.debian.org/971571).
 - [libgit-raw-perl](https://tracker.debian.org/pkg/libgit-raw-perl) (0.87+ds-1) - Transition upload for [bug #971567](https://bugs.debian.org/971567).
@@ -63,7 +64,7 @@ Here are the following things I did this month:
 - Mentoring for newcomers.
 - FTP Trainee reviewing.
 - Moderation of -project mailing list.
-- Sponsored `phpmyadmin` for William and `libexif` for Hugh.
+- Sponsored `golang-github-gorilla-css` for Fedrico.
 
 ---
 

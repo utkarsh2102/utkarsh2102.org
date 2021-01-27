@@ -17,7 +17,7 @@ Python libraries, Micro, and libgit2. Besides, I also co-maintain the
 
 I was [Google Summer of Code](https://summerofcode.withgoogle.com/) student
 twice (once in [2019](https://summerofcode.withgoogle.com/archive/2019/projects/6014695855620096/)
-and then in [2020](https://summerofcode.withgoogle.com/projects/#6589566074486784),
+and then in [2020](https://summerofcode.withgoogle.com/archive/2020/projects/4736285727522816/),
 both times in Debian, where I authored my "baby" project,
 [RuboCop::Packaging](https://github.com/utkarsh2102/rubocop-packaging), which
 is a linter and an auto-corrector, written in Ruby, helping downstream Ruby

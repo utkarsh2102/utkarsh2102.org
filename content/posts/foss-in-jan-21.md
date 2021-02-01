@@ -34,12 +34,26 @@ However, I still did some Debian stuff here and there. Here are the following th
 
 #### Uploads and bug fixes:
 
+- [ruby-rack](https://tracker.debian.org/pkg/ruby-rack) (2.1.1-6) - Fixing [CVE-2020-8184](https://security-tracker.debian.org/tracker/CVE-2020-8184)/[bug #963477](https://bugs.debian.org/963477).
+- [ruby-faye-websocket](https://tracker.debian.org/pkg/ruby-faye-websocket) (0.11.0-1) - Fixing [CVE-2020-15133](https://security-tracker.debian.org/tracker/CVE-2020-15133)/[bug #967061](https://bugs.debian.org/967061).
+- [ruby-faye](https://tracker.debian.org/pkg/ruby-faye) (1.4.0-1) - Fixing [CVE-2020-11020](https://security-tracker.debian.org/tracker/CVE-2020-11020)/[bug #959392](https://bugs.debian.org/959392) and [CVE-2020-15134](https://security-tracker.debian.org/tracker/CVE-2020-15134)/[bug #967063](https://bugs.debian.org/967063).
+- [ruby-rack](https://tracker.debian.org/pkg/ruby-rack) (2.1.4-2) - Fix failing tests and new upstream version, v2.1.4.
+- [ruby-rake-ant](https://tracker.debian.org/pkg/ruby-rake-ant) (1.0.4-1) - Initial release, [bug #979498](https://bugs.debian.org/979498).
+- [libgit2](https://tracker.debian.org/pkg/libgit2) (1.1.0+dfsg.1-4) - Source-only upload for migration.
+- [ruby-scanf](https://tracker.debian.org/pkg/ruby-scanf) (1.0.0-1) - Initial release, [bug #979497](https://bugs.debian.org/979497).
+- [polybar](https://tracker.debian.org/pkg/polybar) (3.5.4-1) - New upstream version, v3.5.4.
+- [fpc](https://tracker.debian.org/pkg/fpc) (3.2.0+dfsg-10) - Severe crash fix for bugs [#979850](https://bugs.debian.org/979850), [#979853](https://bugs.debian.org/979853), [#979862](https://bugs.debian.org/979862), and [#979851](979851).
+- [ruby-em-redis](https://tracker.debian.org/pkg/ruby-em-redis) (0.3.0+gh-3) - Fixing FTBFS, [bug #978975](https://bugs.debian.org/978975), as requested by Holger! :)
+- [gdebi](https://tracker.debian.org/pkg/gdebi) (0.9.5.7+nmu4) - Fixing FTBFS, [bug #951923](https://bugs.debian.org/951923), as requested by Holger! :)
+- [ruby-redcarpet](https://tracker.debian.org/pkg/ruby-redcarpet) (3.4.0-4+deb10u1) - Fixing [CVE-2020-26298](https://security-tracker.debian.org/tracker/CVE-2020-26298)/[bug #980057](https://bugs.debian.org/980057).
+- [ruby-in-parallel](https://tracker.debian.org/pkg/ruby-in-parallel) (0.1.17-1.2) - Fixing autopkgtest, [bug #979700](https://bugs.debian.org/979700).
+- [ruby-in-parallel](https://tracker.debian.org/pkg/ruby-in-parallel) (0.1.17-1.3) - Fixing random test failures, [bug #980585](https://bugs.debian.org/980585).
+- [python-bottle](https://tracker.debian.org/pkg/python-bottle) (0.12.15-2+deb10u1) - Fixing [CVE-2020-28473](https://security-tracker.debian.org/tracker/CVE-2020-28473).
 
 #### Other $things:
 
 - Attended the Debian Ruby team meeting.
 - Mentoring for newcomers.
-- FTP Trainee reviewing.
 - Moderation of -project mailing list.
 - Sponsored `golang-github-gorilla-css` for Fedrico.
 

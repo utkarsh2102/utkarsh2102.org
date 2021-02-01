@@ -114,6 +114,9 @@ I was assigned 26.00 hours for LTS and 36.75 hours for ELTS and worked on the fo
 [openldap](https://tracker.debian.org/pkg/openldap),
 [libdatetime-timezone-perl](https://tracker.debian.org/pkg/libdatetime-timezone-perl),
 [tzdata](https://tracker.debian.org/pkg/tzdata),
+[jasper](https://tracker.debian.org/pkg/jasper),
+[ckeditor](https://tracker.debian.org/pkg/ckeditor),
+[liblivemedia](https://tracker.debian.org/pkg/liblivemedia),
 [wavpack](https://tracker.debian.org/pkg/wavpack), and
 [ruby-redcarpet](https://tracker.debian.org/pkg/ruby-redcarpet).
 - Marked CVE-2019-12953/dropbear as postponed for jessie.
@@ -129,7 +132,10 @@ I was assigned 26.00 hours for LTS and 36.75 hours for ELTS and worked on the fo
 - Marked CVE-2021-3326/glibc as no-dsa for jessie.
 - Marked CVE-2021-3326/glibc as no-dsa for stretch.
 - Marked CVE-2020-35517/qemu as not-affected instead of postponed for jessie.
-- Auto EOL'ed csync2, firefox-esr, linux, thunderbird, and xen for jessie.
+- Marked CVE-2021-2627{1,2}/ckeditor as postponed for jessie.
+- Marked CVE-2020-24027/liblivemedia as no-dsa for stretch.
+- Marked CVE-2021-2627{1,2}/ckeditor as postponed for stretch.
+- Auto EOL'ed csync2, firefox-esr, linux, thunderbird, collabtive, activemq, and xen for jessie.
 - General discussion on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2021/01/threads.html).
 
 ---

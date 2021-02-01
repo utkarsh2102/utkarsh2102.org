@@ -24,15 +24,16 @@ Here's my (sixteenth) monthly update about the activities I've done in the F/L/O
 ## Debian
 {{< figure src="/images/debian-logo-small.png" >}}
 
-This was my 24th month of contributing to [Debian](https://www.debian.org/).
-I became a [DM](https://wiki.debian.org/DebianMaintainer) in late March last year and a [DD](https://wiki.debian.org/DebianDeveloper) last Christmas! \o/
+This was my 25th month of contributing to [Debian](https://www.debian.org/).
+I became a [DM](https://wiki.debian.org/DebianMaintainer) in late March 2019 and a [DD](https://wiki.debian.org/DebianDeveloper) on Christmas '19! \o/
 
-Amongs a lot of things, this was month was crazy, hectic, adventerous, and the last of 2020 -- more on some parts later this month.  
-I finally finished my 7th semester (FTW!) and moved onto my last one! That said, I had been busy with other things™ but still did a bunch of Debian stuff
+This month was bat-shit crazy. Why? We'll come to it later, probably 15th of this month?  
+Anyway, besides being crazy, hectic, adventerous, and the first of 2021, this month I was super-insanely busy. With what? Hm, more about this later this month! ^_^  
 
-Here are the following things I did this month:
+However, I still did some Debian stuff here and there. Here are the following things I worked on:
 
 #### Uploads and bug fixes:
+
 
 #### Other $things:
 

@@ -79,7 +79,7 @@ I was assigned 26.00 hours for LTS and 36.75 hours for ELTS and worked on the fo
   For Debian 9 Stretch, these problems have been fixed in version 3.3.4-2+deb9u1.
 - Prepared [DSA 4831-1](https://lists.debian.org/debian-security-announce/2021/msg00010.html), fixing [CVE-2020-26298](https://security-tracker.debian.org/tracker/CVE-2020-26298), for [ruby-redcarpet](https://tracker.debian.org/pkg/ruby-redcarpet).
   For Debian 10 Buster, these problems have been fixed in version 3.4.0-4+deb10u1. The announcement was released by the Security Team.
-- Issued [DLA 2528-1](https://lists.debian.org/debian-lts-announce/2021/01/msg00016.html), fixing TEMP-0000000-FAEBC0, for [gst-plugins-bad1.0](https://tracker.debian.org/pkg/gst-plugins-bad1.0).  
+- Issued [DLA 2528-1](https://lists.debian.org/debian-lts-announce/2021/01/msg00016.html), fixing [CVE-2021-3185](https://security-tracker.debian.org/tracker/CVE-2021-3185), for [gst-plugins-bad1.0](https://tracker.debian.org/pkg/gst-plugins-bad1.0).  
   For Debian 9 Stretch, these problems have been fixed in version 1.10.4-1+deb9u1.
 - Issued [DLA 2529-1](https://lists.debian.org/debian-lts-announce/2021/01/msg00017.html), fixing [CVE-2021-3181](https://security-tracker.debian.org/tracker/CVE-2021-3181), for [mutt](https://tracker.debian.org/pkg/mutt).  
   For Debian 9 Stretch, these problems have been fixed in version 1.7.2-1+deb9u5.
@@ -96,7 +96,7 @@ I was assigned 26.00 hours for LTS and 36.75 hours for ELTS and worked on the fo
   For Debian 8 Jessie, these problems have been fixed in version 4.70.0-1+deb8u1.
 - Issued [ELA 347-1](https://deb.freexian.com/extended-lts/updates/ela-347-1-ruby-redcarpet/), fixing [CVE-2020-26298](https://security-tracker.debian.org/tracker/CVE-2020-26298), for [ruby-redcarpet](https://tracker.debian.org/pkg/ruby-redcarpet).  
   For Debian 8 Jessie, these problems have been fixed in version 3.1.2-1+deb8u1.
-- Issued [ELA 348-1](https://deb.freexian.com/extended-lts/updates/ela-348-1-gst-plugins-bad1.0/), fixing TEMP-0000000-FAEBC0, for [gst-plugins-bad1.0](https://tracker.debian.org/pkg/gst-plugins-bad1.0).  
+- Issued [ELA 348-1](https://deb.freexian.com/extended-lts/updates/ela-348-1-gst-plugins-bad1.0/), fixing [CVE-2021-3185](https://security-tracker.debian.org/tracker/CVE-2021-3185), for [gst-plugins-bad1.0](https://tracker.debian.org/pkg/gst-plugins-bad1.0).  
   For Debian 8 Jessie, these problems have been fixed in version 1.4.4-2.1+deb8u3.
 - Issued [ELA 349-1](https://deb.freexian.com/extended-lts/updates/ela-349-1-mutt/), fixing [CVE-2021-3181](https://security-tracker.debian.org/tracker/CVE-2021-3181), for [mutt](https://tracker.debian.org/pkg/mutt).  
   For Debian 8 Jessie, these problems have been fixed in version 1.5.23-3+deb8u5.

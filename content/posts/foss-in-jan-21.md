@@ -159,6 +159,9 @@ very little work outside it, really. The issues and patches that I sent are:
 - [Issue #5](https://github.com/libc/em-redis/issues/5) for em-redis, reporting test failures on IPv6-only build machines.
 - [Issue #939](https://github.com/eventmachine/eventmachine/issues/939) for eventmachine, reporting test failures for em-redis on IPv6-only build machines.
 
+Besides, there's something more that is in the pipelines. Can't talk about it now, shh. But
+hopefully very sooooooon!
+
 ---
 
 Until next time.  

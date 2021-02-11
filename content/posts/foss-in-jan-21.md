@@ -68,6 +68,7 @@ And [Debian Extended LTS (ELTS)](https://deb.freexian.com/extended-lts) is its s
 
 This was my sixteenth month as a Debian LTS and seventh month as a Debian ELTS paid contributor.  
 I was assigned 26.00 hours for LTS and 36.75 hours for ELTS and worked on the following things:  
+(however, I worked extra for 9 hours for LTS and 9 hours for ELTS this month, which I intend to balance from the next month!)
 
 #### LTS CVE Fixes and Announcements:
 

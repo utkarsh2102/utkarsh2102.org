@@ -137,6 +137,7 @@ I was assigned 26.00 hours for LTS and 36.75 hours for ELTS and worked on the fo
 - Marked CVE-2020-24027/liblivemedia as no-dsa for stretch.
 - Marked CVE-2021-2627{1,2}/ckeditor as postponed for stretch.
 - Auto EOL'ed csync2, firefox-esr, linux, thunderbird, collabtive, activemq, and xen for jessie.
+- Attended the monthly LTS meeting. Logs [here](http://meetbot.debian.net/debian-lts/2021/debian-lts.2021-01-28-14.58.html).
 - General discussion on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2021/01/threads.html).
 
 ---

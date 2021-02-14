@@ -7,15 +7,18 @@ images = [
     "/images/debian_ruby.png",
     "/images/ruby-logo-small.png",
     "/images/debian-lts-small.png",
+    "/images/minidebconf_india2021.png",
     "/images/computing.jpg"
 ]
 tags = [
     "debian",
     "monthly",
+    "minidebconf",
 ]
 categories = [
     "debian",
     "open-source",
+    "conference",
 ]
 +++
 
@@ -143,6 +146,28 @@ I was assigned 26.00 hours for LTS and 36.75 hours for ELTS and worked on the fo
 
 ---
 
+## Interesting Bits!
+
+- This January, on 23rd and 24th, we had [Mini DebConf India 2021 online](https://in2021.mini.debconf.org/).  
+  I had a talk as well, titled, "[Why Point Releases are important and how you can help
+  prepare them?](https://in2021.mini.debconf.org/talks/18-why-point-releases-are-important-and-how-you-can-help-prepare-them/)".
+
+  It was a fun and a very short talk, where I just list out the reasons and ways to help in
+  the preparation of "point releases". I did some experimentation with this talk, figuring
+  out what works for the audience and what doesn't and where can I improve for the next time
+  I talk about this topic! \o/  
+  You can listen to the talk [here](https://ftp.acc.umu.se/pub/debian-meetings/2021/MiniDebConf-India/18-why-point-releases-are-important-and-how-you-can-help-prepare-them.webm)
+  and let me know if you have any feedback!
+
+  Anyway, the conference lasted for 2 days and I also did some volunteering (talk director,
+  talk miester) in Hindi and English, both! It was all so fun and new. Anyway, here's the picture we took:
+  ![](/images/minidebconf_india2021.png#center)
+
+- Besides, there's something more that is in the pipelines. Can't talk about it now, shh. But
+  hopefully very sooooooon!
+
+---
+
 ## Other $things! \o/
 
 This month was tiresome, with most of the time being spent on the Debian stuff, I did
@@ -161,9 +186,6 @@ very little work outside it, really. The issues and patches that I sent are:
 - [Issue #1331](https://github.com/bottlepy/bottle/issues/1331) for bottle, asking for relevant commits for CVE-2020-28473 and clarifying other things.
 - [Issue #5](https://github.com/libc/em-redis/issues/5) for em-redis, reporting test failures on IPv6-only build machines.
 - [Issue #939](https://github.com/eventmachine/eventmachine/issues/939) for eventmachine, reporting test failures for em-redis on IPv6-only build machines.
-
-Besides, there's something more that is in the pipelines. Can't talk about it now, shh. But
-hopefully very sooooooon!
 
 ---
 

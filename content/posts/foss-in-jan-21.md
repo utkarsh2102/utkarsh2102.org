@@ -163,6 +163,11 @@ I was assigned 26.00 hours for LTS and 36.75 hours for ELTS and worked on the fo
   talk miester) in Hindi and English, both! It was all so fun and new. Anyway, here's the picture we took:
   ![](/images/minidebconf_india2021.png#center)
 
+- In another exciting news, I got my first CVE assigned!!! \o/  
+  No, it is not something that I found, it was discovered by Tavis Ormandy. I just assigned
+  this a CVE ID, [CVE-2021-3181](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3181).  
+  This is my first, so I am very excited about this! ^_^
+
 - Besides, there's something more that is in the pipelines. Can't talk about it now, shh. But
   hopefully very sooooooon!
 

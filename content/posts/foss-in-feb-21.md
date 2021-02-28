@@ -32,28 +32,29 @@ Anyway, whilst I was super-insanely busy this month, I still did some Debian stu
 
 #### Uploads and bug fixes:
 
-- [ruby-rack](https://tracker.debian.org/pkg/ruby-rack) (2.1.1-6) - Fixing [CVE-2020-8184](https://security-tracker.debian.org/tracker/CVE-2020-8184)/[bug #963477](https://bugs.debian.org/963477).
-- [ruby-faye-websocket](https://tracker.debian.org/pkg/ruby-faye-websocket) (0.11.0-1) - Fixing [CVE-2020-15133](https://security-tracker.debian.org/tracker/CVE-2020-15133)/[bug #967061](https://bugs.debian.org/967061).
-- [ruby-faye](https://tracker.debian.org/pkg/ruby-faye) (1.4.0-1) - Fixing [CVE-2020-11020](https://security-tracker.debian.org/tracker/CVE-2020-11020)/[bug #959392](https://bugs.debian.org/959392) and [CVE-2020-15134](https://security-tracker.debian.org/tracker/CVE-2020-15134)/[bug #967063](https://bugs.debian.org/967063).
-- [ruby-rack](https://tracker.debian.org/pkg/ruby-rack) (2.1.4-2) - Fix failing tests and new upstream version, v2.1.4.
-- [ruby-rake-ant](https://tracker.debian.org/pkg/ruby-rake-ant) (1.0.4-1) - Initial release, [bug #979498](https://bugs.debian.org/979498).
-- [libgit2](https://tracker.debian.org/pkg/libgit2) (1.1.0+dfsg.1-4) - Source-only upload for migration.
-- [ruby-scanf](https://tracker.debian.org/pkg/ruby-scanf) (1.0.0-1) - Initial release, [bug #979497](https://bugs.debian.org/979497).
-- [polybar](https://tracker.debian.org/pkg/polybar) (3.5.4-1) - New upstream version, v3.5.4.
-- [fpc](https://tracker.debian.org/pkg/fpc) (3.2.0+dfsg-10) - Severe crash fix for bugs [#979850](https://bugs.debian.org/979850), [#979853](https://bugs.debian.org/979853), [#979862](https://bugs.debian.org/979862), and [#979851](979851).
-- [ruby-em-redis](https://tracker.debian.org/pkg/ruby-em-redis) (0.3.0+gh-3) - Fixing FTBFS, [bug #978975](https://bugs.debian.org/978975), as requested by Holger! :)
-- [gdebi](https://tracker.debian.org/pkg/gdebi) (0.9.5.7+nmu4) - Fixing FTBFS, [bug #951923](https://bugs.debian.org/951923), as requested by Holger! :)
-- [ruby-redcarpet](https://tracker.debian.org/pkg/ruby-redcarpet) (3.4.0-4+deb10u1) - Fixing [CVE-2020-26298](https://security-tracker.debian.org/tracker/CVE-2020-26298)/[bug #980057](https://bugs.debian.org/980057).
-- [ruby-in-parallel](https://tracker.debian.org/pkg/ruby-in-parallel) (0.1.17-1.2) - Fixing autopkgtest, [bug #979700](https://bugs.debian.org/979700).
-- [ruby-in-parallel](https://tracker.debian.org/pkg/ruby-in-parallel) (0.1.17-1.3) - Fixing random test failures, [bug #980585](https://bugs.debian.org/980585).
-- [python-bottle](https://tracker.debian.org/pkg/python-bottle) (0.12.15-2+deb10u1) - Fixing [CVE-2020-28473](https://security-tracker.debian.org/tracker/CVE-2020-28473).
+- [ruby-mechanize](https://tracker.debian.org/pkg/ruby-mechanize) (2.7.7-1) - Fixing [CVE-2021-21289](https://security-tracker.debian.org/tracker/CVE-2021-21289).
+- [rails](https://tracker.debian.org/pkg/rails) (2:6.0.3.4+dfsg-3) - Fixing silent build failure, [bug #979133](https://bugs.debian.org/979133).
+- [tiledb](https://tracker.debian.org/pkg/tiledb) (1.7.7-1.1) - NMU + source-only upload for migration.
+- [ruby-launchy](https://tracker.debian.org/pkg/ruby-launchy) (2.5.0-3) - Add Breaks+Replaces for launchy; fixing [bug #974046](https://bugs.debian.org/974046).
+- [ruby-upr](https://tracker.debian.org/pkg/ruby-upr) (0.3.0-3) - Fixing FTBFS + autopkgtest; cf: [bug #883370](https://bugs.debian.org/883370).
+- [gdisk](https://tracker.debian.org/pkg/gdisk) (1.0.6-1.1) - Add Restrictions: allow-stderr for autopkgtest; fixing [bug #981231](https://bugs.debian.org/981231).
+- [test-check-clojure](https://tracker.debian.org/pkg/test-check-clojure) (0.9.0-4) - Fixing FTBFS + autpkgtest; cf: [bug #982721](https://bugs.debian.org/982721).
+- [rails](https://tracker.debian.org/pkg/rails) (2:6.0.3.5+dfsg-1) - Fixing [CVE-2021-22880](https://security-tracker.debian.org/tracker/CVE-2021-22880) and [CVE-2021-22881](https://security-tracker.debian.org/tracker/CVE-2021-22881).
+- [ruby-mechanize](https://tracker.debian.org/pkg/ruby-mechanize) (2.7.6-1+deb10u1) - pu-upload, fixing [CVE-2021-21289](https://security-tracker.debian.org/tracker/CVE-2021-21289).
+- [ruby-handlebars-assets](https://tracker.debian.org/pkg/ruby-handlebars-assets) (2:0.23.8+dfsg-3) - Fixing autpkgtest by embedding a dummy rails app.
+- [ruby-rails-assets-emojione](https://tracker.debian.org/pkg/ruby-rails-assets-emojione) (2.2.6-5) - Fixing autpkgtest by embedding a dummy rails app.
+- [ruby-rails-assets-jquery-colorbox](https://tracker.debian.org/pkg/ruby-rails-assets-jquery-colorbox) (1.6.3~dfsg-7) - Fixing autpkgtest by embedding a dummy rails app.
+- [ruby-rails-assets-jquery.slimscroll](https://tracker.debian.org/pkg/ruby-rails-assets-jquery.slimscroll) (1.3.6+dfsg-3) - Fixing autpkgtest by embedding a dummy rails app.
+- [ruby-rails-assets-markdown-it](https://tracker.debian.org/pkg/ruby-rails-assets-markdown-it) (8.4.2-5) - Fixing autpkgtest by embedding a dummy rails app.
+- [ruby-mousetrap-rails](https://tracker.debian.org/pkg/ruby-mousetrap-rails) (1.4.6-7) - Fixing autpkgtest by embedding a dummy rails app.
+- [ruby-rails-assets-jquery-fullscreen-plugin](https://tracker.debian.org/pkg/ruby-rails-assets-jquery-fullscreen-plugin) (0.5.0+dfsg-4) - Fixing autpkgtest by embedding a dummy rails app.
 
 #### Other $things:
 
-- Attended the Debian Ruby team meeting.
+- Attended the Debian LTS team meeting.
 - Mentoring for newcomers.
 - Moderation of -project mailing list.
-- Sponsored `golang-github-gorilla-css` for Fedrico.
+- Sponsored `ruby-rspec-stubbed-env` for Cédric Boutillier, heh :P
 
 ---
 

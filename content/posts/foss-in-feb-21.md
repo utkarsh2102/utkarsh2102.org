@@ -71,8 +71,8 @@ Anyway, whilst I was super-insanely busy this month, I still did some Debian stu
   Fully remote + dream job/work + most of the work is in the open-source domain + the **beessstttt** co-workers one could ever ask for! 💖  
 
   It's been an amazing time so far and I'll talk more about it later this month.  
-  But for now, here's our *team monitor selfie*™ (with Rick missing because of his "secret plan"! 🤦‍♂️)
-  ![](/images/server-team-meeting.png#center)
+  But for now, here's our *team monitor selfie*™ (with Rick missing because of his "secret plan"! 🤦‍♂️)  
+  ![](/images/server-team-meeting.png#center)  
   *We'll soon e-meet them in a more detailed manner in the next blog post, that is, later this month!*
 
 - In another exciting news, I got 2 more CVEs assigned!!! \o/  

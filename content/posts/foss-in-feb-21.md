@@ -66,79 +66,106 @@ Anyway, whilst I was super-insanely busy this month, I still did some Debian stu
 And [Debian Extended LTS (ELTS)](https://deb.freexian.com/extended-lts) is its sister project, extending support to the Jessie release (+2 years after LTS support).
 
 This was my sixteenth month as a Debian LTS and seventh month as a Debian ELTS paid contributor.  
-I was assigned 26.00 hours for LTS and 36.75 hours for ELTS and worked on the following things:  
-(however, I worked extra for 9 hours for LTS and 9 hours for ELTS this month, which I intend to balance from the next month!)
+I was assigned 60.00 hours for LTS and 60.00 hours for ELTS and worked on the following things:  
+(however, I had overworked for 9 hours for both, LTS and ELTS, last month so I had to work for 51 hours for both this month!)
 
 #### LTS CVE Fixes and Announcements:
 
-- Issued [DLA 2518-1](https://lists.debian.org/debian-lts-announce/2021/01/msg00006.html), fixing [CVE-2020-35492](https://security-tracker.debian.org/tracker/CVE-2020-35492), for [cairo](https://tracker.debian.org/pkg/cairo).  
-  For Debian 9 Stretch, these problems have been fixed in version 1.14.8-1+deb9u1.
-- Issued [DLA 2525-1](https://lists.debian.org/debian-lts-announce/2021/01/msg00013.html), fixing [CVE-2018-19840](https://security-tracker.debian.org/tracker/CVE-2018-19840), [CVE-2018-19841](https://security-tracker.debian.org/tracker/CVE-2018-19841), [CVE-2019-11498](https://security-tracker.debian.org/tracker/CVE-2019-11498), [CVE-2019-1010315](https://security-tracker.debian.org/tracker/CVE-2019-1010315), [CVE-2019-1010317](https://security-tracker.debian.org/tracker/CVE-2019-1010317), [CVE-2019-1010319](https://security-tracker.debian.org/tracker/CVE-2019-1010319), and [CVE-2020-35738](https://security-tracker.debian.org/tracker/CVE-2020-35738), for [wavpack](https://tracker.debian.org/pkg/wavpack).  
-  For Debian 9 Stretch, these problems have been fixed in version 5.0.0-2+deb9u3.
-- Issued [DLA 2526-1](https://lists.debian.org/debian-lts-announce/2021/01/msg00014.html), fixing [CVE-2020-26298](https://security-tracker.debian.org/tracker/CVE-2020-26298), for [ruby-redcarpet](https://tracker.debian.org/pkg/ruby-redcarpet).  
-  For Debian 9 Stretch, these problems have been fixed in version 3.3.4-2+deb9u1.
-- Prepared [DSA 4831-1](https://lists.debian.org/debian-security-announce/2021/msg00010.html), fixing [CVE-2020-26298](https://security-tracker.debian.org/tracker/CVE-2020-26298), for [ruby-redcarpet](https://tracker.debian.org/pkg/ruby-redcarpet).
-  For Debian 10 Buster, these problems have been fixed in version 3.4.0-4+deb10u1. The announcement was released by the Security Team.
-- Issued [DLA 2528-1](https://lists.debian.org/debian-lts-announce/2021/01/msg00016.html), fixing [CVE-2021-3185](https://security-tracker.debian.org/tracker/CVE-2021-3185), for [gst-plugins-bad1.0](https://tracker.debian.org/pkg/gst-plugins-bad1.0).  
-  For Debian 9 Stretch, these problems have been fixed in version 1.10.4-1+deb9u1.
-- Issued [DLA 2529-1](https://lists.debian.org/debian-lts-announce/2021/01/msg00017.html), fixing [CVE-2021-3181](https://security-tracker.debian.org/tracker/CVE-2021-3181), for [mutt](https://tracker.debian.org/pkg/mutt).  
-  For Debian 9 Stretch, these problems have been fixed in version 1.7.2-1+deb9u5.
-- Issued [DLA 2531-1](https://lists.debian.org/debian-lts-announce/2021/01/msg00019.html)), fixing [CVE-2020-28473](https://security-tracker.debian.org/tracker/CVE-2020-28473), for [python-bottle](https://tracker.debian.org/pkg/python-bottle).  
-  For Debian 9 Stretch, these problems have been fixed in version 0.12.13-1+deb9u1.
-- Released [buster-pu update](https://tracker.debian.org/news/1225804/accepted-python-bottle-01215-2deb10u1-source-all-into-proposed-updates-stable-new-proposed-updates/), fixing [CVE-2020-28473](https://security-tracker.debian.org/tracker/CVE-2020-28473), for [python-bottle](https://tracker.debian.org/pkg/python-bottle).
-  For Debian 10 Buster, these problems have been fixed in version 0.12.15-2+deb10u1.
+- Issued [DLA 2544-1](https://lists.debian.org/debian-lts-announce/2021/02/msg00005.html), fixing [CVE-2020-36221](https://security-tracker.debian.org/tracker/CVE-2020-36221), [CVE-2020-36222](https://security-tracker.debian.org/tracker/CVE-2020-36222), [CVE-2020-36223](https://security-tracker.debian.org/tracker/CVE-2020-36223), [CVE-2020-36224](https://security-tracker.debian.org/tracker/CVE-2020-36224), [CVE-2020-36225](https://security-tracker.debian.org/tracker/CVE-2020-36225), [CVE-2020-36226](https://security-tracker.debian.org/tracker/CVE-2020-36226), [CVE-2020-36227](https://security-tracker.debian.org/tracker/CVE-2020-36227), [CVE-2020-36228](https://security-tracker.debian.org/tracker/CVE-2020-36228), [CVE-2020-36229](https://security-tracker.debian.org/tracker/CVE-2020-36229), and [CVE-2020-36230](https://security-tracker.debian.org/tracker/CVE-2020-36230), for [openldap](https://tracker.debian.org/pkg/openldap).  
+  For Debian 9 stretch, these problems have been fixed in version 2.4.44+dfsg-5+deb9u7.
+- Issued [DLA 2545-1](https://lists.debian.org/debian-lts-announce/2021/02/msg00006.html), fixing [CVE-2020-8020](https://security-tracker.debian.org/tracker/CVE-2020-8020) and [CVE-2020-8021](https://security-tracker.debian.org/tracker/CVE-2020-8021), for [open-build-service](https://tracker.debian.org/pkg/open-build-service).  
+  For Debian 9 stretch, these problems have been fixed in version 2.7.1-10+deb9u1.
+- Issued [DLA 2546-1](https://lists.debian.org/debian-lts-announce/2021/02/msg00007.html), fixing [CVE-2020-8695](https://security-tracker.debian.org/tracker/CVE-2020-8695), [CVE-2020-8696](https://security-tracker.debian.org/tracker/CVE-2020-8696), and [CVE-2020-8698](https://security-tracker.debian.org/tracker/CVE-2020-8698), for [intel-microcode](https://tracker.debian.org/pkg/intel-microcode).  
+  For Debian 9 stretch, these problems have been fixed in version 3.20201118.1~deb9u1.
+- Issued [DLA 2548-1](https://lists.debian.org/debian-lts-announce/2021/02/msg00009.html), fixing [CVE-2020-35502](https://security-tracker.debian.org/tracker/CVE-2020-35502), [CVE-2021-20209](https://security-tracker.debian.org/tracker/CVE-2021-20209), [CVE-2021-20210](https://security-tracker.debian.org/tracker/CVE-2021-20210), [CVE-2021-20211](https://security-tracker.debian.org/tracker/CVE-2021-20211), [CVE-2021-20212](https://security-tracker.debian.org/tracker/CVE-2021-20212), [CVE-2021-20213](https://security-tracker.debian.org/tracker/CVE-2021-20213), [CVE-2021-20215](https://security-tracker.debian.org/tracker/CVE-2021-20215), [CVE-2021-20216](https://security-tracker.debian.org/tracker/CVE-2021-20216), and [CVE-2021-20217](https://security-tracker.debian.org/tracker/CVE-2021-20217), for [privoxy](https://tracker.debian.org/pkg/privoxy).  
+  For Debian 9 stretch, these problems have been fixed in version 3.0.26-3+deb9u1.
+- Issued [DLA 2549-1](https://lists.debian.org/debian-lts-announce/2021/02/msg00010.html), fixing [CVE-2020-0256](https://security-tracker.debian.org/tracker/CVE-2020-0256) and [CVE-2021-0308](https://security-tracker.debian.org/tracker/CVE-2021-0308), for [gdisk](https://tracker.debian.org/pkg/gdisk).  
+  For Debian 9 stretch, these problems have been fixed in version 1.0.1-1+deb9u1.
+- Released a [non-maintainer upload](https://tracker.debian.org/news/1230167/accepted-gdisk-106-11-source-into-unstable/), fixing [#981231](https://bugs.debian.org/981231), autopkgtest regression for [CVE-2020-0256](https://security-tracker.debian.org/tracker/CVE-2020-0256) and [CVE-2021-0308](https://security-tracker.debian.org/tracker/CVE-2021-0308), for [gdisk](https://tracker.debian.org/pkg/gdisk).  
+  For Debian sid, these problems have been fixed in version 1.0.6-1.1. 
+- Issued [DLA 2554-1](https://lists.debian.org/debian-lts-announce/2021/02/msg00015.html), fixing [CVE-2021-26910](https://security-tracker.debian.org/tracker/CVE-2021-26910), for [firejail](https://tracker.debian.org/pkg/firejail).  
+  For Debian 9 stretch, these problems have been fixed in version 0.9.44.8-2+deb9u2.
+- Issued [DLA 2558-1](https://lists.debian.org/debian-lts-announce/2021/02/msg00019.html), fixing [CVE-2021-27135](https://security-tracker.debian.org/tracker/CVE-2021-27135), for [xterm](https://tracker.debian.org/pkg/xterm).  
+  For Debian 9 stretch, these problems have been fixed in version 327-2+deb9u1.
+- Issued [DLA 2561-1](https://lists.debian.org/debian-lts-announce/2021/02/msg00021.html), fixing [CVE-2021-21289](https://security-tracker.debian.org/tracker/CVE-2021-21289), for [ruby-mechanize](https://tracker.debian.org/pkg/ruby-mechanize).  
+  For Debian 9 stretch, these problems have been fixed in version 2.7.5-1+deb9u1.
+- Released [buster-pu update](https://tracker.debian.org/pkg/ruby-mechanize), fixing [CVE-2021-21289](https://security-tracker.debian.org/tracker/CVE-2021-21289), for [ruby-mechanize](https://tracker.debian.org/pkg/ruby-mechanize).  
+  For Debian 10 Buster, these problems have been fixed in version 2.7.6-1+deb10u1.
+- Released [team/maintainer upload](https://tracker.debian.org/news/1227462/accepted-ruby-mechanize-277-1-source-into-unstable/), fixing [CVE-2021-21289](https://security-tracker.debian.org/tracker/CVE-2021-21289), for [ruby-mechanize](https://tracker.debian.org/pkg/ruby-mechanize).  
+  For Debian sid, these problems have been fixed in version 2.7.7-1.
+- Released [team/maintainer upload](https://tracker.debian.org/news/1231598/accepted-rails-26035dfsg-1-source-into-unstable/), fixing [CVE-2021-22880](https://security-tracker.debian.org/tracker/CVE-2021-22880) and [CVE-2021-22881](https://security-tracker.debian.org/tracker/CVE-2021-22881), for [rails](https://tracker.debian.org/pkg/rails).  
+  For Debian sid, these problems have been fixed in version 2:6.0.3.5+dfsg-1.
+- Issued [DLA 2570-1](https://lists.debian.org/debian-lts-announce/2021/02/msg00031.html), fixing [CVE-2021-26937](https://security-tracker.debian.org/tracker/CVE-2021-26937), for [screen](https://tracker.debian.org/pkg/screen).  
+  For Debian 9 stretch, these problems have been fixed in version 4.5.0-6+deb9u1.
+- Issued [DLA 2573-1](https://lists.debian.org/debian-lts-announce/2021/02/msg00034.html), fixing [#981404](https://bugs.debian.org/981404) and [#982519](https://bugs.debian.org/982519), for [libzstd](https://tracker.debian.org/pkg/libzstd).  
+  For Debian 9 stretch, these problems have been fixed in version 1.1.2-1+deb9u1.
+- Issued [DLA 2574-1](https://lists.debian.org/debian-lts-announce/2021/02/msg00035.html), fixing [CVE-2021-27212](https://security-tracker.debian.org/tracker/CVE-2021-27212), for [openldap](https://tracker.debian.org/pkg/openldap).  
+  For Debian 9 stretch, these problems have been fixed in version 2.4.44+dfsg-5+deb9u8.
 
 #### ELTS CVE Fixes and Announcements:
 
-- Issued [ELA 344-1](https://deb.freexian.com/extended-lts/updates/ela-344-1-apt/), fixing [CVE-2020-27350](https://security-tracker.debian.org/tracker/CVE-2020-27350), for [apt](https://tracker.debian.org/pkg/apt).  
-  For Debian 8 Jessie, these problems have been fixed in version 1.0.9.8.7.
-- Issued [ELA 346-1](https://deb.freexian.com/extended-lts/updates/ela-346-1-wavpack/), fixing [CVE-2016-10169](https://security-tracker.debian.org/tracker/CVE-2016-10169), [CVE-2018-19840](https://security-tracker.debian.org/tracker/CVE-2018-19840), [CVE-2019-1010319](https://security-tracker.debian.org/tracker/CVE-2019-1010319), and [CVE-2020-35738](https://security-tracker.debian.org/tracker/CVE-2020-35738), for [wavpack](https://tracker.debian.org/pkg/wavpack).  
-  For Debian 8 Jessie, these problems have been fixed in version 4.70.0-1+deb8u1.
-- Issued [ELA 347-1](https://deb.freexian.com/extended-lts/updates/ela-347-1-ruby-redcarpet/), fixing [CVE-2020-26298](https://security-tracker.debian.org/tracker/CVE-2020-26298), for [ruby-redcarpet](https://tracker.debian.org/pkg/ruby-redcarpet).  
-  For Debian 8 Jessie, these problems have been fixed in version 3.1.2-1+deb8u1.
-- Issued [ELA 348-1](https://deb.freexian.com/extended-lts/updates/ela-348-1-gst-plugins-bad1.0/), fixing [CVE-2021-3185](https://security-tracker.debian.org/tracker/CVE-2021-3185), for [gst-plugins-bad1.0](https://tracker.debian.org/pkg/gst-plugins-bad1.0).  
-  For Debian 8 Jessie, these problems have been fixed in version 1.4.4-2.1+deb8u3.
-- Issued [ELA 349-1](https://deb.freexian.com/extended-lts/updates/ela-349-1-mutt/), fixing [CVE-2021-3181](https://security-tracker.debian.org/tracker/CVE-2021-3181), for [mutt](https://tracker.debian.org/pkg/mutt).  
-  For Debian 8 Jessie, these problems have been fixed in version 1.5.23-3+deb8u5.
-- Issued [ELA 350-1](https://deb.freexian.com/extended-lts/updates/ela-350-1-python-bottle/), fixing [CVE-2020-28473](https://security-tracker.debian.org/tracker/CVE-2020-28473), for [python-bottle](https://tracker.debian.org/pkg/python-bottle).
+- Issued [ELA 357-1](https://deb.freexian.com/extended-lts/updates/ela-357-1-jasper/), fixing [CVE-2021-3272](https://security-tracker.debian.org/tracker/CVE-2021-3272), for [jasper](https://tracker.debian.org/pkg/jasper).  
+  For Debian 8 jessie, these problems have been fixed in version 1.900.1-debian1-2.4+deb8u7.
+- Issued [ELA 358-1](https://deb.freexian.com/extended-lts/updates/ela-358-1-openldap/), fixing [CVE-2020-36221](https://security-tracker.debian.org/tracker/CVE-2020-36221), [CVE-2020-36222](https://security-tracker.debian.org/tracker/CVE-2020-36222), [CVE-2020-36223](https://security-tracker.debian.org/tracker/CVE-2020-36223), [CVE-2020-36224](https://security-tracker.debian.org/tracker/CVE-2020-36224), [CVE-2020-36225](https://security-tracker.debian.org/tracker/CVE-2020-36225), [CVE-2020-36226](https://security-tracker.debian.org/tracker/CVE-2020-36226), [CVE-2020-36227](https://security-tracker.debian.org/tracker/CVE-2020-36227), [CVE-2020-36228](https://security-tracker.debian.org/tracker/CVE-2020-36228), [CVE-2020-36229](https://security-tracker.debian.org/tracker/CVE-2020-36229), and [CVE-2020-36230](https://security-tracker.debian.org/tracker/CVE-2020-36230), for [openldap](https://tracker.debian.org/pkg/openldap).  
+  For Debian 8 jessie, these problems have been fixed in version 2.4.40+dfsg-1+deb8u9.
+- Issued [ELA 359-1](https://deb.freexian.com/extended-lts/updates/ela-359-1-python-apt/), fixing [CVE-2020-27351](https://security-tracker.debian.org/tracker/CVE-2020-27351), for [python-apt](https://tracker.debian.org/pkg/python-apt).  
+  For Debian 8 jessie, these problems have been fixed in version 0.9.3.14.
+- Issued [ELA 360-1](https://deb.freexian.com/extended-lts/updates/ela-360-1-gdisk/), fixing [CVE-2020-0256](https://security-tracker.debian.org/tracker/CVE-2020-0256) and [CVE-2021-0308](https://security-tracker.debian.org/tracker/CVE-2021-0308), for [gdisk](https://tracker.debian.org/pkg/gdisk).  
+  For Debian 8 jessie, these problems have been fixed in version 0.8.10-2+deb8u1.
+- Issued [ELA 361-1](https://deb.freexian.com/extended-lts/updates/ela-361-1-jasper/), fixing [CVE-2021-26926](https://security-tracker.debian.org/tracker/CVE-2021-26926) and [CVE-2021-26927](https://security-tracker.debian.org/tracker/CVE-2021-26927), for [jasper](https://tracker.debian.org/pkg/jasper).  
+  For Debian 8 jessie, these problems have been fixed in version 1.900.1-debian1-2.4+deb8u9.
+- Issued [ELA 362-1](https://deb.freexian.com/extended-lts/updates/ela-362-1-intel-microcode/), fixing [CVE-2020-8695](https://security-tracker.debian.org/tracker/CVE-2020-8695), [CVE-2020-8696](https://security-tracker.debian.org/tracker/CVE-2020-8696), and [CVE-2020-8698](https://security-tracker.debian.org/tracker/CVE-2020-8698), for [intel-microcode](https://tracker.debian.org/pkg/intel-microcode).  
+  For Debian 8 jessie, these problems have been fixed in version 3.20201118.1~deb8u1.
+- Issued [ELA 363-1](https://deb.freexian.com/extended-lts/updates/ela-363-1-xterm/), fixing [CVE-2021-27135](https://security-tracker.debian.org/tracker/CVE-2021-27135), for [xterm](https://tracker.debian.org/pkg/xterm).  
+  For Debian 8 jessie, these problems have been fixed in version 312-2+deb8u1.
+- Issued [ELA 371-1](https://deb.freexian.com/extended-lts/updates/ela-371-1-openldap/), fixing [CVE-2021-27212](https://security-tracker.debian.org/tracker/CVE-2021-27212), for [openldap](https://tracker.debian.org/pkg/openldap).  
+  For Debian 8 jessie, these problems have been fixed in version 2.4.40+dfsg-1+deb8u10.
 
 #### Other (E)LTS Work:
 
-- Front-desk duty from 28-12 until 03-01 and from 25-01 until 31-01 for both LTS and ELTS.
-- Triaged [dropbear](https://tracker.debian.org/pkg/dropbear),
-[gst-plugins-bad1.0](https://tracker.debian.org/pkg/gst-plugins-bad1.0),
-[phpmyadmin](https://tracker.debian.org/pkg/phpmyadmin),
-[qemu](https://tracker.debian.org/pkg/qemu),
+- Front-desk duty from 22-02 until 28-02 for both LTS and ELTS.
+- Triaged [privoxy](https://tracker.debian.org/pkg/privoxy),
+[dnsmasq](https://tracker.debian.org/pkg/dnsmasq),
+[openldap](https://tracker.debian.org/pkg/openldap),
+[libzstd](https://tracker.debian.org/pkg/libzstd),
+[ruby-mechanize](https://tracker.debian.org/pkg/ruby-mechanize),
 [firefox-esr](https://tracker.debian.org/pkg/firefox-esr),
 [thunderbird](https://tracker.debian.org/pkg/thunderbird),
-[openldap](https://tracker.debian.org/pkg/openldap),
-[libdatetime-timezone-perl](https://tracker.debian.org/pkg/libdatetime-timezone-perl),
-[tzdata](https://tracker.debian.org/pkg/tzdata),
-[jasper](https://tracker.debian.org/pkg/jasper),
-[ckeditor](https://tracker.debian.org/pkg/ckeditor),
-[liblivemedia](https://tracker.debian.org/pkg/liblivemedia),
-[wavpack](https://tracker.debian.org/pkg/wavpack), and
-[ruby-redcarpet](https://tracker.debian.org/pkg/ruby-redcarpet).
-- Marked CVE-2019-12953/dropbear as postponed for jessie.
-- Marked CVE-2019-12953/dropbear as postponed for stretch.
-- Marked CVE-2018-19841/wavpack as not-affected for jessie.
-- Marked CVE-2019-1010315/wavpack as not-affected for jessie.
-- Marked CVE-2019-1010317/wavpack as not-affected for jessie.
-- Marked CVE-2021-21252/phpmyadmin as no-dsa for stretch.
-- Marked CVE-2021-20196/qemu as postponed for stretch.
-- Marked CVE-2021-21252/phpmyadmin as no-dsa for jessie.
-- Marked CVE-2021-20196/qemu as postponed for jessie.
-- Marked CVE-2020-11947/qemu as postponed for jessie.
-- Marked CVE-2021-3326/glibc as no-dsa for jessie.
-- Marked CVE-2021-3326/glibc as no-dsa for stretch.
-- Marked CVE-2020-35517/qemu as not-affected instead of postponed for jessie.
-- Marked CVE-2021-2627{1,2}/ckeditor as postponed for jessie.
-- Marked CVE-2020-24027/liblivemedia as no-dsa for stretch.
-- Marked CVE-2021-2627{1,2}/ckeditor as postponed for stretch.
-- Auto EOL'ed csync2, firefox-esr, linux, thunderbird, collabtive, activemq, and xen for jessie.
-- Got my **first ever** CVE assigned - [CVE-2021-3181](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3181) for mutt. Weeeehooooo! \o/
-- Attended the monthly LTS meeting. Logs [here](http://meetbot.debian.net/debian-lts/2021/debian-lts.2021-01-28-14.58.html).
-- General discussion on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2021/01/threads.html).
+[screen](https://tracker.debian.org/pkg/screen),
+[xterm](https://tracker.debian.org/pkg/xterm),
+[glibc](https://tracker.debian.org/pkg/glibc),
+[isync](https://tracker.debian.org/pkg/isync),
+[rails](https://tracker.debian.org/pkg/rails),
+[openscad](https://tracker.debian.org/pkg/openscad),
+[imagemagick](https://tracker.debian.org/pkg/imagemagick),
+[avahi](https://tracker.debian.org/pkg/avahi),
+[gdk-pixbuf](https://tracker.debian.org/pkg/gdk-pixbuf),
+[python-reportlab](https://tracker.debian.org/pkg/python-reportlab),
+[python-aiohttp](https://tracker.debian.org/pkg/python-aiohttp),
+[spip](https://tracker.debian.org/pkg/spip),
+[gdisk](https://tracker.debian.org/pkg/gdisk), and
+[jasper](https://tracker.debian.org/pkg/jasper).
+- Marked CVE-2021-20214/privoxy as not-affected for stretch.
+- Marked CVE-2021-27645/glibc as no-dsa for stretch.
+- Marked CVE-2021-20247/isync as no-dsa for stretch.
+- Marked CVE-2020-28599/openscad as no-dsa for stretch.
+- Markec CVE-2021-2024{1,4-6}/imagemagick as ignored for stretch.
+- Marked CVE-2021-26720/avahi as postponed for jessie.
+- Marked CVE-2021-20240/gdk-pixbuf as not-affected for jessie.
+- Marked CVE-2021-27645/glibc as no-dsa for jessie.
+- Marked CVE-2020-28463/python-reportlab as postponed for jessie.
+- Document extra CVEs as notes for imagemagick in jessie.
+- Auto EOL'ed libupnp, webkit2gtk, libraw, jackson-dataformat-cbor, node-lodash, linux, asterisk, yara, python-django, botan1.10, smarty3, xen, u-boot, steghide, mumble, gsoap, ruby-twitter-stream, isync, nodejs, openscad, mupdf, mongo-java-driver, firefox-esr, thunderbird, and salt for jessie.
+- Sponsored upload for php-horde-text-filter for Sylvain and published its DLA announcement.
+- Got [CVE-2021-26937](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26937) for [screen](https://www.gnu.org/software/screen/). Yay, this is the 2nd one I got assigned! \o/
+- Got [CVE-2021-27135](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-27135) for [xterm](https://invisible-island.net/xterm/). Woah, this is the 3rd one, am I on a roll or what? \o/
+- Co-ordinated with package maintainer (and upstream) of ca-certificates for backporting patch to stretch.
+- Co-ordinated with package maintainer of ca-certificates for backporting patch to stretch.
+- Co-ordinated with package maintainer of screen for fixing vulnerabilites in stretch.
+- Attended monthly meeting for Debian LTS.
+- Answered questions (& discussions) on IRC (#debian-lts and #debian-elts).
+- Cross-checked LTS survey results, emailed Ola about the problems found.
+- General and other discussions on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2021/02/threads.html).
 
 ---
 

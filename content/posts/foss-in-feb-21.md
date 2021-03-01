@@ -1,5 +1,5 @@
 +++
-date = "2021-03-01 15:00:00 +0530"
+date = "2021-03-01 20:00:00 +0530"
 title = "FOSS Activites in February 2021"
 slug = "foss-in-feb-21"
 images = [
@@ -7,7 +7,8 @@ images = [
     "/images/debian_ruby.png",
     "/images/ruby-logo-small.png",
     "/images/debian-lts-small.png",
-    "/images/computing.jpg"
+    "/images/computing.jpg",
+    "/images/server-team-meeting.png"
 ]
 tags = [
     "debian",
@@ -76,8 +77,8 @@ Anyway, whilst I was super-insanely busy this month, I still did some Debian stu
 
 - In another exciting news, I got 2 more CVEs assigned!!! \o/  
   No, it is not something that I found, it was discovered by Tavis Ormandy. I just assigned
-  them a CVE ID, [CVE-2021-3181](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3181) and
-  [CVE-2021-3181](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3181).  
+  them a CVE ID, [CVE-2021-26937](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26937)
+  for screen and [CVE-2021-27135](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-27135) for xterm.  
   This is my 2nd and 3rd, so I am (still) very excited about this! ^_^
 
 ---

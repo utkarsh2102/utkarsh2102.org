@@ -1,5 +1,5 @@
 +++
-date = "2021-03-01 16:00:00 +0530"
+date = "2021-03-01 15:00:00 +0530"
 title = "FOSS Activites in February 2021"
 slug = "foss-in-feb-21"
 images = [
@@ -55,6 +55,30 @@ Anyway, whilst I was super-insanely busy this month, I still did some Debian stu
 - Mentoring for newcomers.
 - Moderation of -project mailing list.
 - Sponsored `ruby-rspec-stubbed-env` for Cédric Boutillier, heh :P
+
+---
+
+## Interesting Bits!
+
+- Last month, I wrote:
+
+  > Besides, there's something more that is in the pipelines. Can't talk about it now, shh. But
+  > hopefully very sooooooon!
+
+  And now I *can* talk about it! So here it is..  
+  I've joined Canonical as a SDE to work on Ubuntu, full time!!! \o/  
+  Fully remote + dream job/work + most of the work is in the open-source domain + the **beessstttt** co-workers one could ever ask for! 💖  
+
+  It's been an amazing time so far and I'll talk more about it later this month.  
+  But for now, here's our *team monitor selfie*™ (with Rick missing because of his "secret plan"! 🤦‍♂️)
+  ![](/images/server-team-meeting.png#center)
+  *We'll soon e-meet them in a more detailed manner in the next blog post, that is, later this month!*
+
+- In another exciting news, I got 2 more CVEs assigned!!! \o/  
+  No, it is not something that I found, it was discovered by Tavis Ormandy. I just assigned
+  them a CVE ID, [CVE-2021-3181](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3181) and
+  [CVE-2021-3181](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3181).  
+  This is my 2nd and 3rd, so I am (still) very excited about this! ^_^
 
 ---
 
@@ -166,33 +190,6 @@ I was assigned 60.00 hours for LTS and 60.00 hours for ELTS and worked on the fo
 - Answered questions (& discussions) on IRC (#debian-lts and #debian-elts).
 - Cross-checked LTS survey results, emailed Ola about the problems found.
 - General and other discussions on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2021/02/threads.html).
-
----
-
-## Interesting Bits!
-
-- This January, on 23rd and 24th, we had [Mini DebConf India 2021 online](https://in2021.mini.debconf.org/).  
-  I had a talk as well, titled, "[Why Point Releases are important and how you can help
-  prepare them?](https://in2021.mini.debconf.org/talks/18-why-point-releases-are-important-and-how-you-can-help-prepare-them/)".
-
-  It was a fun and a very short talk, where I just list out the reasons and ways to help in
-  the preparation of "point releases". I did some experimentation with this talk, figuring
-  out what works for the audience and what doesn't and where can I improve for the next time
-  I talk about this topic! \o/  
-  You can listen to the talk [here](https://ftp.acc.umu.se/pub/debian-meetings/2021/MiniDebConf-India/18-why-point-releases-are-important-and-how-you-can-help-prepare-them.webm)
-  and let me know if you have any feedback!
-
-  Anyway, the conference lasted for 2 days and I also did some volunteering (talk director,
-  talk miester) in Hindi and English, both! It was all so fun and new. Anyway, here's the picture we took:
-  ![](/images/minidebconf_india2021.png#center)
-
-- In another exciting news, I got my first CVE assigned!!! \o/  
-  No, it is not something that I found, it was discovered by Tavis Ormandy. I just assigned
-  this a CVE ID, [CVE-2021-3181](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3181).  
-  This is my first, so I am very excited about this! ^_^
-
-- Besides, there's something more that is in the pipelines. Can't talk about it now, shh. But
-  hopefully very sooooooon!
 
 ---
 

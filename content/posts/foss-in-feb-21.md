@@ -196,26 +196,5 @@ I was assigned 60.00 hours for LTS and 60.00 hours for ELTS and worked on the fo
 
 ---
 
-## Other $things! \o/
-
-This month was tiresome, with most of the time being spent on the Debian stuff, I did
-very little work outside it, really. The issues and patches that I sent are:
-
-- [Issue #700](https://github.com/vmg/redcarpet/issues/700) for redcarpet, asking for a reproducer for CVE-2020-26298 and some additional patch related queries.
-- [Issue #7](https://github.com/samwoods1/in-parallel/issues/7) for in-parallel, asking them to not use relative paths for tests.
-- [Issue #8](https://github.com/samwoods1/in-parallel/issues/8) for in-parallel, reporting a test failure for the library.
-- [Issue #2](https://github.com/jruby/rake-ant/issues/2) for rake-ant, asking them to bump their dependencies to a newer version.
-- [PR #3](https://github.com/jruby/rake-ant/pull/3) for rake-ant, bumping the dependencies to a newer version, fixing the above issue, heh.
-- [Issue #4](https://github.com/jruby/rake-ant/issues/4) for rake-ant, requesting to drop `git` from their gemspec.
-- [PR #5](https://github.com/jruby/rake-ant/pull/5) for rake-ant, dropping `git` from gemspec, fixing the above issue, heh.
-- [Issue #95](https://github.com/dbry/WavPack/issues/95) for WavPack, asking for a review of past security vulnerabilites wrt v4.70.0.
-- Reviewed [PR #128](https://github.com/openid/ruby-openid/pull/128) for ruby-openid, addressing the past regression with CVE fix merge.
-- Reviewed [PR #63](https://github.com/CocoaPods/cocoapods-acknowledgements/pull/63) for cocoapods-acknowledgements, updating redcarpet to v3.5.1, as a safety measure due to recently discovered vulnerability.
-- [Issue #1331](https://github.com/bottlepy/bottle/issues/1331) for bottle, asking for relevant commits for CVE-2020-28473 and clarifying other things.
-- [Issue #5](https://github.com/libc/em-redis/issues/5) for em-redis, reporting test failures on IPv6-only build machines.
-- [Issue #939](https://github.com/eventmachine/eventmachine/issues/939) for eventmachine, reporting test failures for em-redis on IPv6-only build machines.
-
----
-
 Until next time.  
 `:wq` for today.

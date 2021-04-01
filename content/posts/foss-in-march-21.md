@@ -35,6 +35,8 @@ Anyway, with now working on Ubuntu full-time, I did little of Debian this month.
 - [polybar](https://tracker.debian.org/pkg/polybar) (3.5.5-1) - New upstream version, v3.5.5.
 - [ruby-http-parser](https://tracker.debian.org/pkg/ruby-http-parser) (1.2.1-5) - Disable tests causing FTBFS on s390x architecture.
 - [debian-security-support](https://tracker.debian.org/pkg/debian-security-support) (1:11+2021.03.19) - Fix for [bug #984539](https://bugs.debian.org/984539): dpkg hook should never fail.
+- Filed [bug #985314](https://bugs.debian.org/985314) against asterisk (systemd misconfiguration) and added a patch as well.
+- Filed [bug #985421](https://bugs.debian.org/985421) against at (add DEP8 tests) and added a patch as well.
 
 #### Other $things:
 

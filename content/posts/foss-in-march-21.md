@@ -76,6 +76,7 @@ I was assigned 60.00 hours for LTS and 39.00 hours for ELTS and worked on the fo
   For Debian 9 stretch, these problems have been fixed in version 0.7.9-2+deb9u1.
 - Issued [DLA 2558-2](https://lists.debian.org/debian-lts-announce/2021/03/msg00026.html), fixing regression caused by DLA 2558-1, for [xterm](https://tracker.debian.org/pkg/xterm).  
   For Debian 9 stretch, these problems have been fixed in version 327-2+deb9u2.
+- Released [debian-security-support to unstable](https://tracker.debian.org/news/1236782/accepted-debian-security-support-11120210319-source-into-unstable/) via Holger to fix [bug #984539](https://bugs.debian.org/984539).
 
 #### ELTS CVE Fixes and Announcements:
 

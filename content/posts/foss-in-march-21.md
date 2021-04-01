@@ -141,6 +141,8 @@ I was assigned 60.00 hours for LTS and 39.00 hours for ELTS and worked on the fo
 - Co-ordinating w/ maintainer of courier-authlib for stretch and jessie update.
 - Fixing build failures of ELTS' security tracker and re-ordering entries in data/CVE-EXTENDED-LTS/list file.
 - Answer queries of dupondje and mikap about openssl on IRC; and it being not-affected for stretch.
+- Help review the status of CVE-2021-3121/golang-github-gogo-protobuf-dev for Ola.
+- Co-ordinating w/ Noah for cloud-init and setuptools.
 - Auto EOL'ed mongodb, linux, guacamole-client, node-xmlhttprequest, newlib, neutron, privoxy, glpi, and zabbix for jessie.
 - Attended monthly meeting for Debian LTS.
 - Answered questions (& discussions) on IRC (#debian-lts and #debian-elts).

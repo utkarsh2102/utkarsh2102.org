@@ -30,10 +30,17 @@ Anyway, I did some Debian stuff, thanks to Salzburg BSP (more down below). I wor
 
 #### Uploads and bug fixes:
 
+- [ruby2.7](https://tracker.debian.org/pkg/ruby2.7) (2.7.3-1) - New upstream version, fixing [CVE-2021-28965](https://security-tracker.debian.org/tracker/CVE-2021-28965)/[#986807](https://bugs.debian.org/986807).
+- [jackson-databind](https://tracker.debian.org/pkg/jackson-databind) (2.9.8-3+deb10u3) - buster-pu upload, fixing [CVE-2020-24616](https://security-tracker.debian.org/tracker/CVE-2020-24616), [CVE-2020-24750](https://security-tracker.debian.org/tracker/CVE-2020-24750), [CVE-2020-25649](https://security-tracker.debian.org/tracker/CVE-2020-25649), [CVE-2020-35490](https://security-tracker.debian.org/tracker/CVE-2020-35490), [CVE-2020-35491](https://security-tracker.debian.org/tracker/CVE-2020-35491), [CVE-2020-35728](https://security-tracker.debian.org/tracker/CVE-2020-35728), [CVE-2020-36179](https://security-tracker.debian.org/tracker/CVE-2020-36179), [CVE-2020-36180](https://security-tracker.debian.org/tracker/CVE-2020-36180), [CVE-2020-36181](https://security-tracker.debian.org/tracker/CVE-2020-36181), [CVE-2020-36182](https://security-tracker.debian.org/tracker/CVE-2020-36182), [CVE-2020-36183](https://security-tracker.debian.org/tracker/CVE-2020-36183), [CVE-2020-36184](https://security-tracker.debian.org/tracker/CVE-2020-36184), [CVE-2020-36185](https://security-tracker.debian.org/tracker/CVE-2020-36185), [CVE-2020-36186](https://security-tracker.debian.org/tracker/CVE-2020-36186), [CVE-2020-36187](https://security-tracker.debian.org/tracker/CVE-2020-36187), [CVE-2020-36188](https://security-tracker.debian.org/tracker/CVE-2020-36188), [CVE-2020-36189](https://security-tracker.debian.org/tracker/CVE-2020-36189), and [CVE-2021-20190](https://security-tracker.debian.org/tracker/CVE-2021-20190).
+- [ruby-librarian](https://tracker.debian.org/pkg/ruby-librarian) (0.6.4-3) - Fixing autpkgtest; cf: [#987113](https://bugs.debian.org/987113).
+- [opendmarc](https://tracker.debian.org/pkg/opendmarc) (1.3.2-6+deb10u2) - buster-pu upload, fixing [CVE-2020-12460](https://security-tracker.debian.org/tracker/CVE-2020-12460)/[#966464](https://bugs.debian.org/966464).
+- Sponsored upload of [fluidsynth](https://tracker.debian.org/pkg/fluidsynth) (2.1.7-1.1) to [unstable](https://tracker.debian.org/news/1239551/accepted-fluidsynth-217-11-source-into-unstable/), fixing [CVE-2021-28421](https://security-tracker.debian.org/tracker/CVE-2021-28421)/[#987168](https://bugs.debian.org/987168) for Reiner Herrmann.
+- Sponsored upload of [fluidsynth](https://tracker.debian.org/pkg/fluidsynth) (1.1.11-1+deb10u1) to [buster](https://tracker.debian.org/news/1240246/accepted-fluidsynth-1111-1deb10u1-source-amd64-into-proposed-updates-stable-new-proposed-updates/), fixing [CVE-2021-28421](https://security-tracker.debian.org/tracker/CVE-2021-28421)/[#987168](https://bugs.debian.org/987168) for Reiner Herrmann.
+- Sponsored upload of [libpam-alreadyloggedin](https://tracker.debian.org/pkg/libpam-alreadyloggedin) (0.3-9) to [unstable](https://tracker.debian.org/news/1239618/accepted-libpam-alreadyloggedin-03-9-source-into-unstable/), fixing [#958224](https://bugs.debian.org/958224), [#986247](https://bugs.debian.org/986247), and [#969122)](https://bugs.debian.org/969122)) for Reiner Herrmann.
 
 #### Other $things:
 
-- Mentoring for newcomers.
+- Mentoring for newcomers and assisting people in BSP.
 - Moderation of -project mailing list.
 
 ---

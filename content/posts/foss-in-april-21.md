@@ -5,6 +5,7 @@ slug = "foss-in-april-21"
 images = [
     "/images/debian-logo-small.png",
     "/images/debian-lts-small.png",
+    "/images/salzburg_bsp.png",
 ]
 tags = [
     "debian",
@@ -25,7 +26,8 @@ This was my 28th month of active contributing to [Debian](https://www.debian.org
 I became a [DM](https://wiki.debian.org/DebianMaintainer) in late March 2019 and a [DD](https://wiki.debian.org/DebianDeveloper) on Christmas '19! \o/
 
 Crazy month, as always. Lots of things happening and lots of moving parts.  
-Now that I am working on Ubuntu-full time, I barely get much time to do any extra stuff. Then the massive COVID wave that has plunged India had made this month further crazier. More on that later, maybe. IDK.  
+Now that I am working on Ubuntu-full time, I barely get much time to do any extra stuff. Then the massive COVID wave that has plunged India had made this month further crazier. More on that later, maybe. IDK.
+
 Anyway, I did some Debian stuff, thanks to Salzburg BSP (more down below). I worked on the following stuff:
 
 #### Uploads and bug fixes:
@@ -42,6 +44,37 @@ Anyway, I did some Debian stuff, thanks to Salzburg BSP (more down below). I wor
 
 - Mentoring for newcomers and assisting people in BSP.
 - Moderation of -project mailing list.
+
+---
+
+## Salzburg BSP 2021
+
+This was my first virtual BSP and the first BSP in Salzburg and it was absolutely amazing!  
+Many kudos to Bernd Zeimetz for organizing it so smoothly and wonderfully, for real! \o/
+
+We had a bunch of amazing sessions, besides hacking, of course, like:
+- yoga,
+- sports,
+- games, and
+- datacenter tour -> which was super!
+
+We also had lots of things happening at #debian-bsp-2021-szg and did a lot of work.  
+Whilst everything we did is available on the [pad](https://pad.riseup.net/p/bsp-2021-04-AT-Salzburg), I work on the following things:
+- [deki/utkarsh]: CVE-2021-28421/fluidsynth (sid); cf: #987168/#987471.
+- [deki/utkarsh]: CVE-2021-28421/fluidsynth (buster); cf: #987168/#987494.
+- [utkarsh]: 18 CVEs for jackson-databind (buster); cf: #987489.
+- [utkarsh]: fix for ruby-librarian/#987113 (unblock request: #987501).
+- [utkarsh]: 17 CVEs for jackson-databind (stretch); LTS upload.
+- [utkarsh]: CVE-2020-12460/opendmarc (stretch); LTS upload.
+- [utkarsh]: CVE-2020-12460/opendmarc (buster); cf: #987531.
+- [deki/utkarsh]: libpam-alreadyloggedin, broken autopkgtest; #958224
+- [deki/utkarsh]: libpam-alreadyloggedin, installed in wrong directory; #986247
+- [deki/utkarsh]: libpam-alreadyloggedin, FTCBFS; #969122
+- [donfede/utkarsh] 10 CVEs for salt (buster)
+- [donfede/utkarsh] 10 CVEs for salt (bullseye)
+
+And finally, we clicked a picture! \o/
+![](/images/salzburg_bsp.png#center)
 
 ---
 

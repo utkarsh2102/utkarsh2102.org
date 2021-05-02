@@ -22,7 +22,7 @@ Here's my (nineteenth) monthly update about the activities I've done in the F/L/
 ## Debian
 {{< figure src="/images/debian-logo-small.png" >}}
 
-This was my 28th month of active contributing to [Debian](https://www.debian.org/).
+This was my 28th month of actively contributing to [Debian](https://www.debian.org/).
 I became a [DM](https://wiki.debian.org/DebianMaintainer) in late March 2019 and a [DD](https://wiki.debian.org/DebianDeveloper) on Christmas '19! \o/
 
 Crazy month, as always. Lots of things happening and lots of moving parts.  
@@ -178,11 +178,11 @@ I was assigned 60.00 hours for LTS and 60.00 hours for ELTS and worked on the fo
 - Mark CVE-2020-12272/opendmarc as postponed for jessie.
 - Mark CVE-2021-20296, CVE-2021-3475, CVE-2021-3476, CVE-2021-3477, CVE-2021-3478, and CVE-2021-3479, affecting openexr, as no-dsa for jessie and stretch.
 - Suggest proposed fixes for [CVE-2021-22876/curl on LTS public list](https://lists.debian.org/debian-lts/2021/04/msg00002.html).
-- Publish the missing DLA update for website on behalf of the community contribution. Thread [here](https://lists.debian.org/debian-lts/2021/04/msg00017.html).
+- Publish the missing DLA update for the website on behalf of the community contribution. Thread [here](https://lists.debian.org/debian-lts/2021/04/msg00017.html).
 - Help suggest and unblock work if FD is missing or something. Thread [here](https://lists.debian.org/debian-lts/2021/04/msg00009.html).
 - Suggest marking CVE-2021-23369/{node,libjs}-handlebars as no-dsa/ignored for all suites. Thread [here](https://lists.debian.org/debian-lts/2021/04/msg00026.html).
-- Help unblock Anton with the failed python2.7 build on i386 by co-ordinating with the sec team. Thread [here](https://lists.debian.org/debian-lts/2021/04/msg00034.html).
-- Private ELTS-related discussion on the ELTS list (+  w/ Raphael).
+- Help unblock Anton with the failed python2.7 build on i386 by coordinating with the sec team. Thread [here](https://lists.debian.org/debian-lts/2021/04/msg00034.html).
+- Private ELTS-related discussion on the ELTS list (+ w/ Raphael).
 - Auto EOL'ed webkit2gtk, python-bleach, tika, linux, ircii, spice-vdagent, libspring-security-2.0-java, file-roller, rustc, python-django-registration, gsoap, thunderbird, mosquitto, ruby-sidekiq, gnuchess, libpodofo, unbound, drupal7, 389-ds-base, and scrollz for jessie.
 - Answered questions (& discussions) on IRC (#debian-lts and #debian-elts).
 - General and other discussions on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2021/02/threads.html).

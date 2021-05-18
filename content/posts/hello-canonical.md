@@ -74,6 +74,42 @@ finalyyyy signed my contract! \o/
 (the interview process and what went on during those 10 weeks is a story for later ;))
 
 
+## The Server Team! \o
+
+This position, which I didn't mention earlier, was for the "Server Team" which is a team of
+15 people, working to make Ubuntu server the best! And as I
+[tweeted](https://twitter.com/utkarsh2102/status/1383420034467332107) sometime back, the team
+is absolutely lovely, super kind, and consists of the best of teammates one could possibly
+ask for! 🥰
+
+Here's a quick sneak peak into our weekly team meeting. Thanks to
+[Rafael](https://twitter.com/rafaeldtinoco) for taking such a lovely picture. And yes, the cat
+is a part of our squad! 🐾
+
+![](/images/server-team-meeting-cat.jpg#center)
+
+And oh, did I mention that we're completely remote and distributed?  
+**FUN FACT**: Our team covers all the TZs, that is, at any point of time (during weekdays),
+you'll find someone or the other from the team around! \o/
+
+Anyway, our squad, managed by Rick is divided into two halves: **Squeaky Wheels** and
+**Table Flip**. Cool names, right?  
+Squeaky Wheels does the distro side of stuff and consists of Christian, Andreas, Rafael, Robie,
+Bryce, Sergio, Kanashrio, Athos, and now myself as well! And OTOH, Table Flip consists of Dan,
+Chad, Paride, Lucas, James, and Grant.
+
+Even though I interact w/ Squeaky Wheels more (basically daily), each of my teammates are
+absolutely lovely and awesome!
+
+Whilst I'll talk more about things here in the upcoming months, this is it for now! If there's
+anything in particular you'd like to know more about, let me know!
+
+And lastly, here's us vibing our way through, making Ubuntu server better, 'cause that's how
+we roll! 😎
+
+![](/images/server-team-vibing-small.gif#center)
+
+
 ---
 
 Until next time.  

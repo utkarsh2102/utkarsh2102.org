@@ -83,8 +83,8 @@ is absolutely lovely, super kind, and consists of the best of teammates one coul
 ask for! 🥰
 
 Here's a quick sneak peek into our weekly team meeting. Thanks to
-[Rafael](https://twitter.com/rafaeldtinoco) for taking such a lovely picture. And yes, the cat
-is a part of our squad! 🐾
+[Rafael](https://twitter.com/rafaeldtinoco) for taking such a lovely picture. And yes,
+~~the cat~~ Luna is a part of our squad! 🐾
 
 ![](/images/server-team-meeting-cat.jpg#center)
 
@@ -95,7 +95,7 @@ you'll find someone or the other from the team around! \o/
 Anyway, our squad, managed by Rick is divided into two halves: **Squeaky Wheels** and
 **Table Flip**. Cool names, right?  
 Squeaky Wheels does the distro side of stuff and consists of Christian, Andreas, Rafael, Robie,
-Bryce, Sergio, Kanashrio, Athos, and now myself as well! And OTOH, Table Flip consists of Dan,
+Bryce, Sergio, Kanashiro, Athos, and now myself as well! And OTOH, Table Flip consists of Dan,
 Chad, Paride, Lucas, James, and Grant.
 
 Even though I interact w/ Squeaky Wheels more (basically daily), each of my teammates is

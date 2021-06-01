@@ -26,7 +26,7 @@ This was my 28th month of actively contributing to [Debian](https://www.debian.o
 I became a [DM](https://wiki.debian.org/DebianMaintainer) in late March 2019 and a [DD](https://wiki.debian.org/DebianDeveloper) on Christmas '19! \o/
 
 Crazy month, as always. Lots of things happening and lots of moving parts.  
-Now that I am working on Ubuntu-full time, I barely get much time to do any extra stuff. Then the massive COVID wave that has plunged India had made this month further crazier. More on that later, maybe. IDK.
+Now that I am working on Ubuntu full-time, I barely get much time to do any extra stuff. Then the massive COVID wave that has plunged India had made this month further crazier. More on that later, maybe. IDK.
 
 Anyway, I did some Debian stuff, thanks to Salzburg BSP (more down below). I worked on the following stuff:
 

@@ -33,6 +33,13 @@ So whilst I couldn't upload a lot of packages because of the freeze, here's what
 
 #### Uploads and bug fixes:
 
+- [ruby-rack-cors](https://tracker.debian.org/pkg/ruby-rack-cors) (1.0.2-1+deb10u1) - Fix for [CVE-2019-18978](https://security-tracker.debian.org/tracker/CVE-2019-18978)/[#944849](https://bugs.debian.org/944849).
+- [rails](https://tracker.debian.org/pkg/rails) (2:6.0.3.7+dfsg-1) - New upstream version, fixing {[CVE-2021-22904](https://security-tracker.debian.org/tracker/CVE-2021-22904), [CVE-2021-22902](https://security-tracker.debian.org/tracker/CVE-2021-22902), and [CVE-2021-22885](https://security-tracker.debian.org/tracker/CVE-2021-22885)}/[#988214](https://bugs.debian.org/988214).
+- [ruby-marcel](https://tracker.debian.org/pkg/ruby-marcel) (1.0.1+dfsg-2) - Upload to unstable for rails.
+- [python-aws-requests-auth](https://tracker.debian.org/pkg/python-aws-requests-auth) (0.4.3-2) - Enable build-time tests.
+- [gist](https://tracker.debian.org/pkg/gist) (6.0.0-2) - Add patch to skip test when `$HTTP_PROXY` isn't set.
+- [php-cache-lite](https://tracker.debian.org/pkg/php-cache-lite) (1.8.3-1) - New upstream version, fixing FTBFS w/ PHP 8.0.
+
 #### Other $things:
 
 - Mentoring for newcomers and assisting people in BSP.

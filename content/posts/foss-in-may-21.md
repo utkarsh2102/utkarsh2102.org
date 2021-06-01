@@ -39,6 +39,9 @@ So whilst I couldn't upload a lot of packages because of the freeze, here's what
 - [python-aws-requests-auth](https://tracker.debian.org/pkg/python-aws-requests-auth) (0.4.3-2) - Enable build-time tests.
 - [gist](https://tracker.debian.org/pkg/gist) (6.0.0-2) - Add patch to skip test when `$HTTP_PROXY` isn't set.
 - [php-cache-lite](https://tracker.debian.org/pkg/php-cache-lite) (1.8.3-1) - New upstream version, fixing FTBFS w/ PHP 8.0.
+- Sponsored upload of [htmldoc](https://tracker.debian.org/pkg/htmldoc) (1.9.3-1+deb10u1) to [buster-pu](https://tracker.debian.org/news/1241189/accepted-htmldoc-193-1deb10u1-source-all-amd64-into-proposed-updates-stable-new-proposed-updates/), fixing [CVE-2019-19630](https://security-tracker.debian.org/tracker/CVE-2019-19630) and [CVE-2021-20308](https://security-tracker.debian.org/tracker/CVE-2021-20308) for Håvard Flaget Aasen.
+- Sponsored upload of [libbusiness-us-usps-webtools-perl](https://tracker.debian.org/pkg/libbusiness-us-usps-webtools-perl) (1.125-1) to [unstable](https://tracker.debian.org/news/1241495/accepted-libbusiness-us-usps-webtools-perl-1125-1-source-into-unstable/), fixing [#988330](https://bugs.debian.org/988330) for Yadd.
+- Sponsored upload of [radsecproxy](https://tracker.debian.org/pkg/radsecproxy) (1.8.2-4) to [unstable](https://tracker.debian.org/news/1241891/accepted-radsecproxy-182-4-source-into-unstable/), fixing [CVE-2021-32642](https://security-tracker.debian.org/tracker/CVE-2021-32642) for Sven Hartge.
 
 #### Other $things:
 

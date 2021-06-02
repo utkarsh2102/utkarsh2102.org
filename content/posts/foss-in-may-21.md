@@ -65,6 +65,41 @@ a.k.a. [LocutusOfBorg](https://nm.debian.org/person/locutusofborg) is! He's been
 bunch of my things & helping with re-triggers, et al. Thanks a bunch, Gianfranco; beers on me
 whenever we meet! 🍻
 
+#### Merges:
+
+- [2021-05-05] [ruby2.7 (2.7.3-2ubuntu1)](https://code.launchpad.net/~utkarsh/ubuntu/+source/ruby2.7/+git/ruby2.7/+merge/402253).
+- [2021-05-11] [exim4 (4.94.2-2ubuntu1)](https://code.launchpad.net/~utkarsh/ubuntu/+source/exim4/+git/exim4/+merge/402442).
+- [2021-05-17] [openvpn (2.5.1-3ubuntu1)](https://code.launchpad.net/~utkarsh/ubuntu/+source/openvpn/+git/openvpn/+merge/402809).
+- [2021-05-19] [autofs (5.1.7-1)](https://code.launchpad.net/~utkarsh/ubuntu/+source/autofs/+git/autofs/+merge/398955).
+- [2021-05-25] [xterm (366-1ubuntu1)](https://code.launchpad.net/~utkarsh/ubuntu/+source/xterm/+git/xterm/+merge/403238).
+
+#### Uploads & Syncs:
+
+- [2021-05-20] [php-net-url2/2.2.1-0.2build2](https://launchpad.net/ubuntu/+source/php-net-url2/2.2.1-0.2build2) - no-change rebuild.
+- [2021-05-26] [phpmyadmin/4:5.0.4+dfsg2-2ubuntu1](https://code.launchpad.net/~utkarsh/ubuntu/+source/phpmyadmin/+git/phpmyadmin/+merge/403226) - fix build w/ PHP 8.
+- [2021-05-26] [php-async-aws-core/1.7.2-1build1](https://bugs.launchpad.net/ubuntu/+source/php-async-aws-core/+bug/1929692) - no-change rebuild.
+- [2021-05-26] [php-async-aws-ses/1.3.0-1build1](https://bugs.launchpad.net/ubuntu/+source/php-async-aws-ses/+bug/1929692) - no-change rebuild.
+- [2021-05-26] [php-async-aws-sqs/1.3.2-1build1](https://bugs.launchpad.net/ubuntu/+source/php-async-aws-sqs/+bug/1929692) - no-change rebuild.
+- [2021-05-26] [php-http-interop-http-factory-tests/0.9.0-1build1](https://bugs.launchpad.net/ubuntu/+source/php-http-interop-http-factory-tests/+bug/1929692) - no-change rebuild.
+- [2021-05-26] [php-twig/3.3.2-1](https://bugs.launchpad.net/ubuntu/+source/php-twig/+bug/1929738) - sync'd from experimental.
+- [2021-05-26] [php-doctrine-cache/1.10.2-2ubuntu1](https://launchpad.net/ubuntu/+source/php-doctrine-cache/1.10.2-2ubuntu1) - fix build w/ PHP 8.
+- [2021-05-26] [php-symfony-contracts/2.4.0-1](https://bugs.launchpad.net/ubuntu/+source/php-symfony-contracts/+bug/1929738) - sync'd from experimental.
+- [2021-05-26] [php-phpseclib/2.0.30-2ubuntu1](https://launchpad.net/ubuntu/+source/php-phpseclib/2.0.30-2ubuntu1) - fix build w/ PHP 8.
+- [2021-05-27] [php-email-validator/3.1.1-2](https://bugs.launchpad.net/ubuntu/+source/php-email-validator/+bug/1929738) - sync'd from experimental.
+- [2021-05-27] [php-async-aws-core/1.10.0-1](https://bugs.launchpad.net/ubuntu/+source/php-async-aws-core/+bug/1929738) - sync'd from experimental.
+- [2021-05-27] [php-async-aws-ses/1.4.0-1](https://bugs.launchpad.net/ubuntu/+source/php-async-aws-ses/+bug/1929738) - sync'd from experimental.
+- [2021-05-27] [php-async-aws-sqs/1.5.0-1](https://bugs.launchpad.net/ubuntu/+source/php-async-aws-sqs/+bug/1929738) - sync'd from experimental.
+- [2021-05-27] [libphp-swiftmailer/6.2.4-1ubuntu1](https://launchpad.net/ubuntu/+source/libphp-swiftmailer/6.2.4-1ubuntu1) - fix build w/ PHP 8.
+- [2021-05-27] [phpunit/9.5.4-1](https://bugs.launchpad.net/ubuntu/+source/phpunit/+bug/1929738) - sync'd from experimental.
+- [2021-05-27] [php-psr-cache/3.0.0-1](https://bugs.launchpad.net/ubuntu/+source/php-psr-cache/+bug/1929738) - sync'd from experimental.
+- [2021-05-27] [php-psr-container/2.0.1-1](https://bugs.launchpad.net/ubuntu/+source/php-psr-container/+bug/1929738) - sync'd from experimental.
+- [2021-05-28] [php-wmerrors/2.0.0~git20190628.183ef7d-2ubuntu1](https://launchpad.net/ubuntu/+source/php-wmerrors/2.0.0~git20190628.183ef7d-2ubuntu1) - fix build w/ PHP 8.
+- [2021-05-28] [php-monolog/2.2.0-1](https://bugs.launchpad.net/ubuntu/+source/php-monolog/+bug/1929738) - sync'd from experimental.
+- [2021-05-28] [php-amqplib/3.0.0-1](https://bugs.launchpad.net/ubuntu/+source/php-amqplib/+bug/1929738) - sync'd from experimental.
+- [2021-05-28] [php-cache-lite/1.8.3-1](https://tracker.debian.org/news/1241923/accepted-php-cache-lite-183-1-source-into-experimental/) - uploaded to Debian.
+- [2021-05-28] [php-cache-lite/1.8.3-1](https://bugs.launchpad.net/ubuntu/+source/php-cache-lite/+bug/1929738) - sync'd from experimental.
+- [2021-05-29] [php-symfony-contracts/2.4.0-1ubuntu1](https://launchpad.net/ubuntu/+source/php-symfony-contracts/2.4.0-1ubuntu1) - fix build w/ PHP 8.
+- [2021-05-31] [php-symfony-contracts/2.4.0-1ubuntu2](https://launchpad.net/ubuntu/+source/php-symfony-contracts/2.4.0-1ubuntu2) - fix build w/ php-cache-container.
 
 ---
 

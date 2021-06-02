@@ -101,6 +101,17 @@ whenever we meet! 🍻
 - [2021-05-29] [php-symfony-contracts/2.4.0-1ubuntu1](https://launchpad.net/ubuntu/+source/php-symfony-contracts/2.4.0-1ubuntu1) - fix build w/ PHP 8.
 - [2021-05-31] [php-symfony-contracts/2.4.0-1ubuntu2](https://launchpad.net/ubuntu/+source/php-symfony-contracts/2.4.0-1ubuntu2) - fix build w/ php-cache-container.
 
+#### MIRs:
+
+- [2021-05-16] [LP: #1915445/python-aws-requests-auth](https://bugs.launchpad.net/ubuntu/+source/python-aws-requests-auth/+bug/1915445).
+- [2021-05-20] [LP: #1152187/systemd-container](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1152187/comments/19).
+- [2021-05-31] [LP: #1930207/prips](https://bugs.launchpad.net/ubuntu/+source/prips/+bug/1930207).
+
+#### Seed Operations:
+
+- [2021-05-31] [MP #403505/systemd-container for Bionic](https://code.launchpad.net/~utkarsh/ubuntu-seeds/+git/ubuntu-seeds/+merge/403505).
+- [2021-06-01] [MP #403562/prips for Impish](https://code.launchpad.net/~utkarsh/ubuntu-seeds/+git/ubuntu-seeds/+merge/403562).
+
 ---
 
 ## Debian (E)LTS

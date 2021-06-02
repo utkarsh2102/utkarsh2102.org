@@ -1,5 +1,5 @@
 +++
-date = "2021-06-01 00:00:00 +0530"
+date = "2021-06-06 02:10:00 +0530"
 title = "FOSS Activites in May 2021"
 slug = "foss-in-may-21"
 images = [
@@ -47,6 +47,24 @@ So whilst I couldn't upload a lot of packages because of the freeze, here's what
 
 - Mentoring for newcomers and assisting people in BSP.
 - Moderation of -project mailing list.
+
+---
+
+## Ubuntu
+{{< figure src="/images/ubuntu-logo-small.png" >}}
+
+This was my 4th month of actively contributing to [Ubuntu](https://ubuntu.com/about).
+Now that I've joined [Canonical to work on Ubuntu full-time](https://utkarsh2102.com/posts/hello-canonical/), there's a bunch of things I do! \o/
+
+This month, by all means, was dedicated mostly to PHP 8.0, transitioning from PHP 7.4 to 8.0.
+Naturally, it had so many moving parts and moments of utmost frustration, shared w/ Bryce. :D
+
+So even though I can't upload anything, I worked on the following stuff & asked for sponsorship.  
+But before, I'd like to take a moment to stress how kind and awesome [Gianfranco Costamagna](https://launchpad.net/~costamagnagianfranco),
+a.k.a. [LocutusOfBorg](https://nm.debian.org/person/locutusofborg) is! He's been sponsoring a
+bunch of my things & helping with re-triggers, et al. Thanks a bunch, Gianfranco; beers on me
+whenever we meet! 🍻
+
 
 ---
 

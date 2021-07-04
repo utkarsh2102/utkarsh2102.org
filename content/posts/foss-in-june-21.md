@@ -49,5 +49,19 @@ Anyway, I did the following stuff in Debian:
 
 ---
 
+## Ubuntu
+{{< figure src="/images/ubuntu-logo-small.png" >}}
+
+This was my 5th month of actively contributing to [Ubuntu](https://ubuntu.com/about).
+Now that I've joined [Canonical to work on Ubuntu full-time](https://utkarsh2102.com/posts/hello-canonical/), there's a bunch of things I do! \o/
+
+This month, again, was dedicated to PHP 8.0, transitioning from PHP 7.4 to 8.0.
+And finally, me and Bryce were able to complete the transition! \o/
+
+This month, I also became an Ubuntu Core Developer. :D
+I'll write about it in sometime; lol, yet another promise. Heh.
+
+---
+
 Until next time.  
 `:wq` for today.

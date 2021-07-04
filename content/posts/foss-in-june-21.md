@@ -34,6 +34,19 @@ As a side note, this month, I spent a lot of time on Clubhouse, the new social a
 Anyway, I did the following stuff in Debian:
 
 
+#### Uploads and bug fixes:
+
+- [rails](https://tracker.debian.org/pkg/rails) (2:5.2.2.1+dfsg-1+deb10u3) - Fix for [CVE-2021-22885](https://security-tracker.debian.org/tracker/CVE-2021-22904)/[#988214](https://bugs.debian.org/988214), [CVE-2021-22904](https://security-tracker.debian.org/tracker/CVE-2021-22904)/[#988214](https://bugs.debian.org/988214), and [CVE-2021-22880](https://security-tracker.debian.org/tracker/CVE-2021-22880).
+- [eterm](https://tracker.debian.org/pkg/eterm) (0.9.6-6.1) - Fix [CVE-2021-33477](https://security-tracker.debian.org/tracker/CVE-2021-33477)/[#989041](https://bugs.debian.org/989041) for Debian unstable, a.k.a. sid.
+- [eterm](https://tracker.debian.org/pkg/eterm) (0.9.6-5+deb10u1) - Fix [CVE-2021-33477](https://security-tracker.debian.org/tracker/CVE-2021-33477)/[#989041](https://bugs.debian.org/989041) for Debian 10, buster.
+- [micro](https://tracker.debian.org/pkg/micro) (2.0.9-1) - New upstream version, v2.0.9.
+- [ruby-httpclient](https://tracker.debian.org/pkg/ruby-httpclient) (2.8.3-3) - Disable tests related to `HTTP_PROXY` as Launchpad builders don't like them.
+
+#### Other $things:
+
+- Mentoring for newcomers.
+- Moderation of -project mailing list.
+
 ---
 
 Until next time.  

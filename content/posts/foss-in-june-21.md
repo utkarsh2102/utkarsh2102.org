@@ -89,6 +89,18 @@ That said, the things that I mostly worked on are:
 - [2021-06-22] filed hints w/ Iain (laney) to make php-defaults migrate - [MP #404519](https://code.launchpad.net/~utkarsh/britney/+git/britney/+merge/404519).
 - [2021-06-23] announced the end of PHP 8.0's successful tranisition on ubuntu-devel@. Thread [here](https://lists.ubuntu.com/archives/ubuntu-devel/2021-June/041519.html)! \o/
 
+#### +1 Maintenance:
+
+- Shadowed Christian Ehrhardt on his +1. My report [here](https://lists.ubuntu.com/archives/ubuntu-devel/2021-June/041512.html).
+  - Added hints for schleuder; [MP #404025](https://code.launchpad.net/~utkarsh/britney/+git/britney/+merge/404025).
+  - Fixed [ruby-httpclient via 2.8.3-3](https://tracker.debian.org/news/1242716/accepted-ruby-httpclient-283-3-source-into-unstable/) in Debian.
+  - Requested removal of ruby-gitlab-pg-query from Impish (-proposed) - [LP: #1931257](https://bugs.launchpad.net/ubuntu/+source/ruby-gitlab-pg-query/+bug/1931257).
+  - Re-triggered python-django-debug-toolbar/1:3.2.1-1 for amd64 and it passed & migrated.
+  - Fixed [ruby-rails-html-sanitizer via 1.3.0-2](https://tracker.debian.org/news/1242685/accepted-ruby-rails-html-sanitizer-130-2-source-into-unstable/) in Debian to make it work with newer API of ruby-loofah.
+  - Re-triggered ruby-stackprof with glibc as triggers on amd64; it passed & unblocked glibc.
+  - Re-triggered ruby-ferret with glibc as triggers on amd64; it passed & unblocked glibc.
+  - Re-triggered ruby-hiredis with glibc as triggers on armhf; it passed & unblocked glibc.
+  - Added hints for ruby-excon on s390x; [MP #404113](https://code.launchpad.net/~utkarsh/britney/+git/britney/+merge/404113).
 
 ---
 

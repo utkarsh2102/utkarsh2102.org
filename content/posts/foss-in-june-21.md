@@ -126,5 +126,25 @@ That said, the things that I mostly worked on are:
 
 ---
 
+## Debian (E)LTS
+{{< figure src="/images/debian-lts-small.png" >}}
+
+[Debian Long Term Support (LTS)](https://www.freexian.com/en/services/debian-lts.html) is a project to extend the lifetime of all Debian stable releases to (at least) 5 years. Debian LTS is not handled by the Debian security team, but by a separate group of volunteers and companies interested in making it a success.  
+
+And [Debian Extended LTS (ELTS)](https://deb.freexian.com/extended-lts) is its sister project, extending support to the Jessie release (+2 years after LTS support).
+
+This was my twentieth month as a Debian LTS and eleventh month as a Debian ELTS paid contributor.  
+I was assigned 29.75 hours for LTS and 40.00 hours for ELTS and worked on the following things:  
+
+#### LTS CVE Fixes and Announcements:
+
+
+#### ELTS CVE Fixes and Announcements:
+
+
+#### Other (E)LTS Work:
+
+---
+
 Until next time.  
 `:wq` for today.

@@ -102,6 +102,21 @@ That said, the things that I mostly worked on are:
   - Re-triggered ruby-hiredis with glibc as triggers on armhf; it passed & unblocked glibc.
   - Added hints for ruby-excon on s390x; [MP #404113](https://code.launchpad.net/~utkarsh/britney/+git/britney/+merge/404113).
 
+
+#### Seed Operations:
+
+- [2021-06-01] MP #403562/prips for Impish - [MP: #403562](https://code.launchpad.net/~utkarsh/ubuntu-seeds/+git/ubuntu-seeds/+merge/403562).
+  - [2021-06-02] MP #403602/prips for Hirsute - [MP: #403602](https://code.launchpad.net/~utkarsh/ubuntu-seeds/+git/ubuntu-seeds/+merge/403602).
+  - [2021-06-02] MP #403603/prips for Groovy - [MP: #403603](https://code.launchpad.net/~utkarsh/ubuntu-seeds/+git/ubuntu-seeds/+merge/403603).
+  - [2021-06-02] MP #403604/prips for Focal - [MP: #403604](https://code.launchpad.net/~utkarsh/ubuntu-seeds/+git/ubuntu-seeds/+merge/403604).
+  - [2021-06-02] MP #403605/prips for Bionic - [MP: #403605](https://code.launchpad.net/~utkarsh/ubuntu-seeds/+git/ubuntu-seeds/+merge/403605).
+- [2021-06-17] MP #404326/python-aws-requests-auth for Impish - [MP #404326](https://code.launchpad.net/~utkarsh/ubuntu-seeds/+git/ubuntu-seeds/+merge/404326).
+  - [2021-06-22] MP #404489/python-aws-requests-auth for Hirsute - [MP #404489](https://code.launchpad.net/~utkarsh/ubuntu-seeds/+git/ubuntu-seeds/+merge/404489).
+  - [2021-06-22] MP #404490/python-aws-requests-auth for Groovy - [MP #404490](https://code.launchpad.net/~utkarsh/ubuntu-seeds/+git/ubuntu-seeds/+merge/404490).
+  - [2021-06-22] MP #404491/python-aws-requests-auth for Focal - [MP #404491](https://code.launchpad.net/~utkarsh/ubuntu-seeds/+git/ubuntu-seeds/+merge/404491).
+  - [2021-06-22] MP #404492/python-aws-requests-auth for Bionic - [MP #404492](https://code.launchpad.net/~utkarsh/ubuntu-seeds/+git/ubuntu-seeds/+merge/404492).
+
+
 ---
 
 Until next time.  

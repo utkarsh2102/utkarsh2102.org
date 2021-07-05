@@ -117,6 +117,13 @@ That said, the things that I mostly worked on are:
   - [2021-06-22] MP #404492/python-aws-requests-auth for Bionic - [MP #404492](https://code.launchpad.net/~utkarsh/ubuntu-seeds/+git/ubuntu-seeds/+merge/404492).
 
 
+#### Bug Triages:
+
+- [2021-06-04] [Friday bug triage](https://lists.ubuntu.com/archives/ubuntu-server/2021-June/008838.html).
+- [2021-06-14] [Friday bug triage](https://lists.ubuntu.com/archives/ubuntu-server/2021-June/008849.html).
+- [2021-06-18] [Friday bug triage](https://lists.ubuntu.com/archives/ubuntu-server/2021-June/008856.html).
+
+
 ---
 
 Until next time.  

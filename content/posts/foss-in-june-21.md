@@ -170,6 +170,30 @@ I was assigned 29.75 hours for LTS and 40.00 hours for ELTS and worked on the fo
 
 #### Other (E)LTS Work:
 
+- Front-desk duty from 28-06 until 04-07 for both LTS and ELTS.
+- Triaged [rails](https://tracker.debian.org/pkg/rails),
+[nginx](https://tracker.debian.org/pkg/nginx),
+[eterm](https://tracker.debian.org/pkg/eterm),
+[mrxvt](https://tracker.debian.org/pkg/mrxvt),
+[rxvt](https://tracker.debian.org/pkg/rxvt),
+[ieee-data](https://tracker.debian.org/pkg/ieee-data),
+[cloud-init](https://tracker.debian.org/pkg/cloud-init),
+[intel-microcode](https://tracker.debian.org/pkg/intel-microcode),
+[htmldoc](https://tracker.debian.org/pkg/htmldoc),
+[djvulibre](https://tracker.debian.org/pkg/djvulibre),
+[composter](https://tracker.debian.org/pkg/composter), and
+[curl](https://tracker.debian.org/pkg/curl).
+- Mark CVE-2021-32563/thunar as no-dsa for stretch.
+- Auto EOL'ed unrar-nonfree, darktable, mruby, htslib, ndpi, dcraw, libspring-security-2.0-java, rabbitmq-server, and linux for jessie.
+- [LTS] Discussed ieee-data's fix for LTS. Thread [here](https://lists.debian.org/debian-lts/2021/06/msg00004.html).
+- [ELTS] Discussed cloud-init's logs w/ Raphael and ask for a rebuild.
+- [(E)LTS] Discussed intel-microcode's status w/ the maintainer and track regressions, et al.
+- [(E)LTS] Discussed htmldoc's situation; about upgrade problems and prep a fix for that.
+- Attended monthly Debian LTS meeting.
+- Answered questions (& discussions) on IRC (#debian-lts and #debian-elts).
+- General and other discussions on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2021/06/threads.html).
+
+
 ---
 
 Until next time.  

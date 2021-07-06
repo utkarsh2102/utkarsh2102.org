@@ -138,6 +138,22 @@ I was assigned 29.75 hours for LTS and 40.00 hours for ELTS and worked on the fo
 
 #### LTS CVE Fixes and Announcements:
 
+- Issued [DLA 2670-1](https://lists.debian.org/debian-lts-announce/2021/05/msg00025.html), fixing [CVE-2021-23017](https://security-tracker.debian.org/tracker/CVE-2021-23017), for [nginx](https://tracker.debian.org/pkg/nginx).  
+  For Debian 9 stretch, these problems have been fixed in version 1.10.3-1+deb9u6.
+- Issued [DLA 2671-1](https://lists.debian.org/debian-lts-announce/2021/05/msg00026.html), fixing [CVE-2021-33477](https://security-tracker.debian.org/tracker/CVE-2021-33477), for [rxvt-unicode](https://tracker.debian.org/pkg/rxvt-unicode).  
+  For Debian 9 stretch, these problems have been fixed in version 9.22-1+deb9u1.
+- Issued [DLA 2681-1](https://lists.debian.org/debian-lts-announce/2021/06/msg00010.html), fixing [CVE-2021-33477](https://security-tracker.debian.org/tracker/CVE-2021-33477), for [eterm](https://tracker.debian.org/pkg/eterm).  
+  For Debian 9 stretch, these problems have been fixed in version 0.9.6-5+deb9u1.
+- Prepped and uploaded a fix for [CVE-2021-33477](https://security-tracker.debian.org/tracker/CVE-2021-33477) to Debian unstable. News [here](https://tracker.debian.org/news/1242592/accepted-eterm-096-61-source-into-unstable/).  
+  For Debian unstable, these problems have been fixed in version 0.9.6-6.1.
+- Prepped and uploaded a fix for [CVE-2021-33477](https://security-tracker.debian.org/tracker/CVE-2021-33477) to Debian buster-pu. News [here](https://tracker.debian.org/news/1242616/accepted-eterm-096-5deb10u1-source-into-proposed-updates-stable-new-proposed-updates/).  
+  For Debian 10 buster, these problems have been fixed in version 0.9.6-5+deb10u1.
+- Issued [DLA 2682-1](https://lists.debian.org/debian-lts-announce/2021/06/msg00011.html), fixing [CVE-2021-33477](https://security-tracker.debian.org/tracker/CVE-2021-33477), for [mrxvt](https://tracker.debian.org/pkg/mrxvt).  
+  For Debian 9 stretch, these problems have been fixed in version 0.5.4-2+deb9u1.
+- Issued [DLA 2683-1](https://lists.debian.org/debian-lts-announce/2021/06/msg00012.html), fixing [CVE-2017-7483](https://security-tracker.debian.org/tracker/CVE-2017-7483) and [CVE-2021-33477](https://security-tracker.debian.org/tracker/CVE-2021-33477), for [rxvt](https://tracker.debian.org/pkg/rxvt).  
+  For Debian 9 stretch, these problems have been fixed in version 1:2.7.10-7+deb9u2.
+- Issued [DLA 2700-1](https://lists.debian.org/debian-lts-announce/2021/07/msg00000.html), fixing [CVE-2019-19630](https://security-tracker.debian.org/tracker/CVE-2019-19630), [CVE-2021-20308](https://security-tracker.debian.org/tracker/CVE-2021-20308), [CVE-2021-23158](https://security-tracker.debian.org/tracker/CVE-2021-23158), [CVE-2021-23165](https://security-tracker.debian.org/tracker/CVE-2021-23165), [CVE-2021-23180](https://security-tracker.debian.org/tracker/CVE-2021-23180), [CVE-2021-23191](https://security-tracker.debian.org/tracker/CVE-2021-23191), [CVE-2021-23206](https://security-tracker.debian.org/tracker/CVE-2021-23206), [CVE-2021-26252](https://security-tracker.debian.org/tracker/CVE-2021-26252), [CVE-2021-26259](https://security-tracker.debian.org/tracker/CVE-2021-26259), and [CVE-2021-26948](https://security-tracker.debian.org/tracker/CVE-2021-26948), for [htmldoc](https://tracker.debian.org/pkg/htmldoc).  
+  For Debian 9 stretch, these problems have been fixed in version 1.8.27-8+deb9u1.
 
 #### ELTS CVE Fixes and Announcements:
 

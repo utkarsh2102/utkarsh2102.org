@@ -167,6 +167,7 @@ I was assigned 29.75 hours for LTS and 40.00 hours for ELTS and worked on the fo
   For Debian 8 jessie, these problems have been fixed in version 1.5.6-5+deb8u2.
 - Issued [ELA 454-1](https://deb.freexian.com/extended-lts/updates/ela-454-1-djvulibre/), fixing [CVE-2021-3630](https://security-tracker.debian.org/tracker/CVE-2021-3630), for [djvulibre](https://tracker.debian.org/pkg/djvulibre).  
   For Debian 8 jessie, these problems have been fixed in version 3.5.25.4-4+deb8u4.
+- Started working on intel-microcode fixes; have been waiting to see if there are any regressions noticed on sid, bullseye, and buster. Except for 0x906ea processors, everthing seems fine so far, at least.
 
 #### Other (E)LTS Work:
 

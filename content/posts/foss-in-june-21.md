@@ -157,6 +157,16 @@ I was assigned 29.75 hours for LTS and 40.00 hours for ELTS and worked on the fo
 
 #### ELTS CVE Fixes and Announcements:
 
+- Issued [ELA 437-1](https://deb.freexian.com/extended-lts/updates/ela-437-1-nginx/), fixing [CVE-2021-23017](https://security-tracker.debian.org/tracker/CVE-2021-23017), for [nginx](https://tracker.debian.org/pkg/nginx).  
+  For Debian 8 jessie, these problems have been fixed in version 1.6.2-5+deb8u8.
+- Issued [ELA 448-1](https://deb.freexian.com/extended-lts/updates/ela-448-1-cloud-int/), fixing [CVE-2021-3429](https://security-tracker.debian.org/tracker/CVE-2021-3429), for [cloud-int](https://tracker.debian.org/pkg/cloud-int).  
+  For Debian 8 jessie, these problems have been fixed in version 0.7.6~bzr976-2+deb8u3.
+- Issued [ELA 451-1](https://deb.freexian.com/extended-lts/updates/ela-451-1-htmldoc/), fixing [CVE-2021-20308](https://security-tracker.debian.org/tracker/CVE-2021-20308), [CVE-2021-23158](https://security-tracker.debian.org/tracker/CVE-2021-23158), [CVE-2021-23165](https://security-tracker.debian.org/tracker/CVE-2021-23165), [CVE-2021-23180](https://security-tracker.debian.org/tracker/CVE-2021-23180), [CVE-2021-23191](https://security-tracker.debian.org/tracker/CVE-2021-23191), [CVE-2021-23206](https://security-tracker.debian.org/tracker/CVE-2021-23206), [CVE-2021-26252](https://security-tracker.debian.org/tracker/CVE-2021-26252), [CVE-2021-26259](https://security-tracker.debian.org/tracker/CVE-2021-26259), and [CVE-2021-26948](https://security-tracker.debian.org/tracker/CVE-2021-26948), for [htmldoc](https://tracker.debian.org/pkg/htmldoc).  
+  For Debian 8 jessie, these problems have been fixed in version 1.8.27-8+deb8u2.
+- Issued [ELA 452-1](https://deb.freexian.com/extended-lts/updates/ela-452-1-python-pip/), fixing [CVE-2021-3572](https://security-tracker.debian.org/tracker/CVE-2021-3572), for [python-pip](https://tracker.debian.org/pkg/python-pip).  
+  For Debian 8 jessie, these problems have been fixed in version 1.5.6-5+deb8u2.
+- Issued [ELA 454-1](https://deb.freexian.com/extended-lts/updates/ela-454-1-djvulibre/), fixing [CVE-2021-3630](https://security-tracker.debian.org/tracker/CVE-2021-3630), for [djvulibre](https://tracker.debian.org/pkg/djvulibre).  
+  For Debian 8 jessie, these problems have been fixed in version 3.5.25.4-4+deb8u4.
 
 #### Other (E)LTS Work:
 

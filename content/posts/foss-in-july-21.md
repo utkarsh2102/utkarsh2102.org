@@ -69,6 +69,19 @@ And [Debian Extended LTS (ELTS)](https://deb.freexian.com/extended-lts) is its s
 This was my twenty-second month as a Debian LTS and eleventh month as a Debian ELTS paid contributor.  
 I was assigned 39.75 hours for LTS and 40.00 hours for ELTS and worked on the following things:  
 
+#### LTS CVE Fixes and Announcements:
+
+- Issued [DLA 2702-1](https://lists.debian.org/debian-lts-announce/2021/07/msg00002.html), fixing [CVE-2021-3630](https://security-tracker.debian.org/tracker/CVE-2021-3630), for [djvulibre](https://tracker.debian.org/pkg/djvulibre).  
+  For Debian 9 stretch, these problems have been fixed in version 3.5.27.1-7+deb9u2.
+- Issued [DLA 2703-1](https://lists.debian.org/debian-lts-announce/2021/07/msg00003.html), fixing [bug #908623](https://bugs.debian.org/908623) and [bug #932711](https://bugs.debian.org/932711), for [ieee-data](https://tracker.debian.org/pkg/ieee-data).  
+  For Debian 9 stretch, these problems have been fixed in version 20160613.1+deb9u1.
+- Issued [DLA 2718-1](https://lists.debian.org/debian-lts-announce/2021/07/msg00022.html), fixing [CVE-2020-24489](https://security-tracker.debian.org/tracker/CVE-2020-24489), [CVE-2020-24511](https://security-tracker.debian.org/tracker/CVE-2020-24511), [CVE-2020-24512](https://security-tracker.debian.org/tracker/CVE-2020-24512), and [CVE-2020-24513](https://security-tracker.debian.org/tracker/CVE-2020-24513), for [intel-microcode](https://tracker.debian.org/pkg/intel-microcode).  
+  For Debian 9 stretch, these problems have been fixed in version 3.20210608.2~deb9u2.
+- Issued [DLA 2730-1](https://lists.debian.org/debian-lts-announce/2021/08/msg00006.html), fixing [CVE-2020-13881](https://security-tracker.debian.org/tracker/CVE-2020-13881), for [libpam-tacplus](https://tracker.debian.org/pkg/libpam-tacplus).  
+  For Debian 9 stretch, these problems have been fixed in version 1.3.8-2+deb9u1.
+- Issued [DLA 2731-1](https://lists.debian.org/debian-lts-announce/2021/08/msg00007.html), though CVEs aren't assigned yet, for [wordpress](https://tracker.debian.org/pkg/wordpress).  
+  For Debian 9 stretch, these problems have been fixed in version 4.7.21+dfsg-0+deb9u1.
+
 ---
 
 Until next time.  

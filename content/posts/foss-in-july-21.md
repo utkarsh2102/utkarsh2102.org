@@ -82,6 +82,19 @@ I was assigned 39.75 hours for LTS and 40.00 hours for ELTS and worked on the fo
 - Issued [DLA 2731-1](https://lists.debian.org/debian-lts-announce/2021/08/msg00007.html), though CVEs aren't assigned yet, for [wordpress](https://tracker.debian.org/pkg/wordpress).  
   For Debian 9 stretch, these problems have been fixed in version 4.7.21+dfsg-0+deb9u1.
 
+#### ELTS CVE Fixes and Announcements:
+
+- Issued [ELA 465-1](https://deb.freexian.com/extended-lts/updates/ela-465-1-intel-microcode/), fixing [CVE-2020-24489](https://security-tracker.debian.org/tracker/CVE-2020-24489), [CVE-2020-24511](https://security-tracker.debian.org/tracker/CVE-2020-24511), [CVE-2020-24512](https://security-tracker.debian.org/tracker/CVE-2020-24512), and [CVE-2020-24513](https://security-tracker.debian.org/tracker/CVE-2020-24513), for [intel-microcode](https://tracker.debian.org/pkg/intel-microcode).  
+  For Debian 8 jessie, these problems have been fixed in version 3.20210608.2~deb8u2.
+- Issued [ELA 466-1](https://deb.freexian.com/extended-lts/updates/ela-466-1-libjdom1-java/), fixing [CVE-2021-33813](https://security-tracker.debian.org/tracker/CVE-2021-33813), for [libjdom1-java](https://tracker.debian.org/pkg/libjdom1-java).  
+  For Debian 8 jessie, these problems have been fixed in version 1.1.3-1+deb8u1.
+- Issued [ELA 467-1](https://deb.freexian.com/extended-lts/updates/ela-467-1-wordpress/), though CVEs aren't assigned yet, for [wordpress](https://tracker.debian.org/pkg/wordpress).
+  For Debian 8 jessie, these problems have been fixed in version 4.1.33+dfsg-0+deb8u1.
+- Issued [ELA 468-1](https://deb.freexian.com/extended-lts/updates/ela-468-1-libkohana2-php/), fixing [CVE-2016-10510](https://security-tracker.debian.org/tracker/CVE-2016-10510), for [libkohana2-php](https://tracker.debian.org/pkg/libkohana2-php).  
+  For Debian 8 jessie, these problems have been fixed in version 2.3.4-2+deb8u1.
+- Started working on src:usermode for fixing [bug #991808](https://bugs.debian.org/991808) but will probably fix src:libuser first, since it's also one of the supported packages.
+- Started working on exiv2 issues but waiting for more CVEs to be alloted.
+
 ---
 
 Until next time.  

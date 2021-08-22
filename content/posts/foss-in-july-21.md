@@ -95,6 +95,75 @@ I was assigned 39.75 hours for LTS and 40.00 hours for ELTS and worked on the fo
 - Started working on src:usermode for fixing [bug #991808](https://bugs.debian.org/991808) but will probably fix src:libuser first, since it's also one of the supported packages.
 - Started working on exiv2 issues but waiting for more CVEs to be alloted.
 
+#### Other (E)LTS Work:
+
+- Front-desk duty from 26-07 until 01-08 for both LTS and ELTS.
+- Triaged [nodejs](https://tracker.debian.org/pkg/nodejs),
+[mongodb](https://tracker.debian.org/pkg/mongodb),
+[bluez](https://tracker.debian.org/pkg/bluez),
+[libmatio](https://tracker.debian.org/pkg/libmatio),
+[mbedtls](https://tracker.debian.org/pkg/mbedtls),
+[node-url-parse](https://tracker.debian.org/pkg/node-url-parse),
+[otrs2](https://tracker.debian.org/pkg/otrs2),
+[polipo](https://tracker.debian.org/pkg/polipo),
+[ruby-bindata](https://tracker.debian.org/pkg/ruby-bindata),
+[util-linux](https://tracker.debian.org/pkg/util-linux),
+[exiv2](https://tracker.debian.org/pkg/exiv2),
+[ruby2.3](https://tracker.debian.org/pkg/ruby2.3),
+[varnish](https://tracker.debian.org/pkg/varnish),
+[gdal](https://tracker.debian.org/pkg/gdal),
+[prosody](https://tracker.debian.org/pkg/prosody),
+[glibc](https://tracker.debian.org/pkg/glibc),
+[gdal](https://tracker.debian.org/pkg/gdal),
+[rpm](https://tracker.debian.org/pkg/rpm),
+[icu](https://tracker.debian.org/pkg/icu),
+[ckeditor](https://tracker.debian.org/pkg/ckeditor),
+[libvirt](https://tracker.debian.org/pkg/libvirt),
+[libjdom1-java](https://tracker.debian.org/pkg/libjdom1-java),
+[libjdom2-java](https://tracker.debian.org/pkg/libjdom2-java),
+[tesseract](https://tracker.debian.org/pkg/tesseract),
+[util-linux](https://tracker.debian.org/pkg/util-linux),
+[qemu](https://tracker.debian.org/pkg/qemu),
+[pillow](https://tracker.debian.org/pkg/pillow),
+[tomcat8](https://tracker.debian.org/pkg/tomcat8),
+[libcommons-compress-java](https://tracker.debian.org/pkg/libcommons-compress-java),
+[389-ds-base](https://tracker.debian.org/pkg/389-ds-base), and
+[intel-microcode](https://tracker.debian.org/pkg/intel-microcode).
+- Mark CVE-2021-22930/nodejs as end-of-life for stretch.
+- Mark CVE-2021-20333/mongodb as end-of-life for stretch.
+- Mark CVE-2021-3652/389-ds-base as no-dsa for stretch.
+- Mark CVE-2021-3658/bluez as no-dsa for stretch.
+- Mark CVE-2020-19497/libmatio as no-dsa for stretch.
+- Mark CVE-2021-24119/mbedtls as no-dsa for stretch.
+- Mark CVE-2021-3664/node-url-parse as end-of-life for stretch.
+- Mark CVE-2021-36091/otrs2 as no-dsa for stretch.
+- Mark CVE-2021-36092/otrs2 as no-dsa for stretch.
+- Mark CVE-2020-36420/polipo as ignored for stretch.
+- Mark CVE-2021-32823/ruby-bindata as no-dsa for stretch.
+- Mark CVE-2021-37600/util-linux as no-dsa for stretch.
+- Mark CVE-2019-25050/gdal as not-affected for stretch.
+- Mark CVE-2021-37601/prosody as not-affected for stretch instead.
+- Mark CVE-2021-35942/glibc as no-dsa for jessie.
+- Mark CVE-2021-36081/tesseract as not-affected for jessie.
+- Mark CVE-2021-35939/rpm as no-dsa for jessie.
+- Mark CVE-2021-35938/rpm as no-dsa for jessie.
+- Mark CVE-2021-35937/rpm as no-dsa for jessie.
+- Mark CVE-2021-30535/icu as not-affected for jessie.
+- Mark CVE-2021-3667/libvirt as not-affected for jessie.
+- Mark CVE-2021-3631/libvirt as no-dsa for jessie.
+- Mark CVE-2021-21391/ckeditor as no-dsa for jessie.
+- Mark CVE-2021-36090/libcommons-compress-java as no-dsa for jessie.
+- Mark CVE-2021-3638/qemu as not-affected for jessie.
+- Mark CVE-2021-34552/pillow as no-dsa for jessie.
+- Mark CVE-2021-37600/util-linux as no-dsa for jessie.
+- Mark CVE-2019-25050/gdal as not-affected for jessie.
+- Mark CVE-2021-3658/bluez as no-dsa for jessie.
+- Auto EOL'ed tiff, dcraw, libspring-security-2.0-java, rabbitmq-server, unrar-nonfree, darktable, mruby, htslib, ndpi, sam2p, libmatio, webkit2gtk, mongodb, otrs2, nodejs, vlc, jruby, asterisk, drupal7, libapache2-mod-auth-openidc, mosquitto, sylpheed, claws-mail, prosody, libapache2-mod-auth-mellon, and linux for jessie.
+- Fix version of libjdom2-java's ELA.
+- Attended monthly Debian LTS meeting.
+- Answered questions (& discussions) on IRC (#debian-lts and #debian-elts).
+- General and other discussions on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2021/07/threads.html).
+
 ---
 
 Until next time.  

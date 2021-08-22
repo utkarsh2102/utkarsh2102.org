@@ -79,6 +79,8 @@ I was assigned 39.75 hours for LTS and 40.00 hours for ELTS and worked on the fo
   For Debian 9 stretch, these problems have been fixed in version 3.20210608.2~deb9u2.
 - Issued [DLA 2730-1](https://lists.debian.org/debian-lts-announce/2021/08/msg00006.html), fixing [CVE-2020-13881](https://security-tracker.debian.org/tracker/CVE-2020-13881), for [libpam-tacplus](https://tracker.debian.org/pkg/libpam-tacplus).  
   For Debian 9 stretch, these problems have been fixed in version 1.3.8-2+deb9u1.
+  - Also, uploaded [libpam-tacplus/1.3.8-2.1 to Debian unstable/sid](https://tracker.debian.org/news/1245344/accepted-libpam-tacplus-138-21-source-into-unstable/), fixing [CVE-2020-13881](https://security-tracker.debian.org/tracker/CVE-2020-13881)/[#962830](https://bugs.debian.org/962830).
+  - Simultaneously, uploaded [libpam-tacplus/1.3.8-2+deb10u1 to Debian 10/buster](https://tracker.debian.org/news/1245501/accepted-libpam-tacplus-138-2deb10u1-source-amd64-into-proposed-updates-stable-new-proposed-updates/), fixing [CVE-2020-13881](https://security-tracker.debian.org/tracker/CVE-2020-13881)/[#962830](https://bugs.debian.org/962830.
 - Issued [DLA 2731-1](https://lists.debian.org/debian-lts-announce/2021/08/msg00007.html), though CVEs aren't assigned yet, for [wordpress](https://tracker.debian.org/pkg/wordpress).  
   For Debian 9 stretch, these problems have been fixed in version 4.7.21+dfsg-0+deb9u1.
 
@@ -88,6 +90,8 @@ I was assigned 39.75 hours for LTS and 40.00 hours for ELTS and worked on the fo
   For Debian 8 jessie, these problems have been fixed in version 3.20210608.2~deb8u2.
 - Issued [ELA 466-1](https://deb.freexian.com/extended-lts/updates/ela-466-1-libjdom1-java/), fixing [CVE-2021-33813](https://security-tracker.debian.org/tracker/CVE-2021-33813), for [libjdom1-java](https://tracker.debian.org/pkg/libjdom1-java).  
   For Debian 8 jessie, these problems have been fixed in version 1.1.3-1+deb8u1.
+  - Also, uploaded [libjdom1-java/1.1.3-2.1 to Debian unstable/sid](https://tracker.debian.org/news/1245334/accepted-libjdom1-java-113-21-source-into-unstable/), fixing [CVE-2021-33813](https://security-tracker.debian.org/tracker/CVE-2021-33813)/[#990672](https://bugs.debian.org/990672).
+  - Simultaneously, uploaded [libjdom2-java/2.0.6-2.1 to Debian unstable/sid](https://tracker.debian.org/news/1245371/accepted-libjdom2-java-206-21-source-into-unstable/) fixing [CVE-2021-33813](https://security-tracker.debian.org/tracker/CVE-2021-33813)/[#990672](https://bugs.debian.org/990672).
 - Issued [ELA 467-1](https://deb.freexian.com/extended-lts/updates/ela-467-1-wordpress/), though CVEs aren't assigned yet, for [wordpress](https://tracker.debian.org/pkg/wordpress).
   For Debian 8 jessie, these problems have been fixed in version 4.1.33+dfsg-0+deb8u1.
 - Issued [ELA 468-1](https://deb.freexian.com/extended-lts/updates/ela-468-1-libkohana2-php/), fixing [CVE-2016-10510](https://security-tracker.debian.org/tracker/CVE-2016-10510), for [libkohana2-php](https://tracker.debian.org/pkg/libkohana2-php).  

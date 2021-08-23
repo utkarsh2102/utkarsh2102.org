@@ -184,6 +184,7 @@ I was assigned 29.75 hours for LTS and 40.00 hours for ELTS and worked on the fo
 [djvulibre](https://tracker.debian.org/pkg/djvulibre),
 [composter](https://tracker.debian.org/pkg/composter), and
 [curl](https://tracker.debian.org/pkg/curl).
+- Mark CVE-2021-30535/icu as not-affected for stretch.
 - Mark CVE-2021-32563/thunar as no-dsa for stretch.
 - Mark CVE-2017-7483 as fixed via +deb9u2 upload.
 - Auto EOL'ed unrar-nonfree, darktable, mruby, htslib, ndpi, dcraw, libspring-security-2.0-java, rabbitmq-server, and linux for jessie.

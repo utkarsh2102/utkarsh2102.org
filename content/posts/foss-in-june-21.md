@@ -29,7 +29,7 @@ I became a [DM](https://wiki.debian.org/DebianMaintainer) in late March 2019 and
 
 However, this wasn't  really a good month for mental health. And so apparently lesser work but still more than nothing, heh. :D
 
-As a side note, this month, I spent a lot of time on Clubhouse, the new social auido app, at least in India. (I am sure you'd have heard?) Anyway, I made some friends there; more on that later, maybe? (ik, I say that a lot, but ugh, I'll get to it!)
+As a side note, this month, I spent a lot of time on Clubhouse, the new social audio app, at least in India. (I am sure you'd have heard?) Anyway, I made some friends there; more on that later, maybe? (ik, I say that a lot, but ugh, I'll get to it!)
 
 Anyway, I did the following stuff in Debian:
 
@@ -56,7 +56,7 @@ This was my 5th month of actively contributing to [Ubuntu](https://ubuntu.com/ab
 Now that I've joined [Canonical to work on Ubuntu full-time](https://utkarsh2102.com/posts/hello-canonical/), there's a bunch of things I do! \o/
 
 This month, again, was dedicated to PHP 8.0, transitioning from PHP 7.4 to 8.0.
-And finally, me and Bryce were able to complete the transition! \o/
+And finally, I and Bryce were able to complete the transition! \o/
 
 This month, I also became an Ubuntu Core Developer. :D
 I'll write about it in sometime; lol, yet another promise. Heh.
@@ -133,8 +133,8 @@ That said, the things that I mostly worked on are:
 
 And [Debian Extended LTS (ELTS)](https://deb.freexian.com/extended-lts) is its sister project, extending support to the Jessie release (+2 years after LTS support).
 
-This was my twentieth month as a Debian LTS and eleventh month as a Debian ELTS paid contributor.  
-I was assigned 29.75 hours for LTS and 40.00 hours for ELTS and worked on the following things:  
+This was my twenty-first month as a Debian LTS and eleventh month as a Debian ELTS paid contributor.  
+I was assigned 40.00 hours for LTS and 40.00 hours for ELTS and worked on the following things:  
 
 #### LTS CVE Fixes and Announcements:
 
@@ -167,7 +167,7 @@ I was assigned 29.75 hours for LTS and 40.00 hours for ELTS and worked on the fo
   For Debian 8 jessie, these problems have been fixed in version 1.5.6-5+deb8u2.
 - Issued [ELA 454-1](https://deb.freexian.com/extended-lts/updates/ela-454-1-djvulibre/), fixing [CVE-2021-3630](https://security-tracker.debian.org/tracker/CVE-2021-3630), for [djvulibre](https://tracker.debian.org/pkg/djvulibre).  
   For Debian 8 jessie, these problems have been fixed in version 3.5.25.4-4+deb8u4.
-- Started working on intel-microcode fixes; have been waiting to see if there are any regressions noticed on sid, bullseye, and buster. Except for 0x906ea processors, everthing seems fine so far, at least.
+- Started working on intel-microcode fixes; have been waiting to see if there are any regressions noticed on sid, bullseye, and buster. Except for 0x906ea processors, everything seems fine so far, at least.
 
 #### Other (E)LTS Work:
 

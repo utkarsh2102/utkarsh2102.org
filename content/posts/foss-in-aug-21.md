@@ -34,6 +34,7 @@ Anyway, I did the following stuff in Debian:
 
 #### Uploads and bug fixes:
 
+- [ruby3.0](https://tracker.debian.org/pkg/ruby3.0) (3.0.0-2) - Upload to unstable! \o/
 
 #### Other $things:
 

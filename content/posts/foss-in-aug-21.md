@@ -68,16 +68,16 @@ I was assigned 23.75 hours for LTS and 40.00 hours for ELTS and worked on the fo
 
 #### LTS CVE Fixes and Announcements:
 
-- Issued [DLA 2743-1](), fixing [CVE-2017-5715](https://security-tracker.debian.org/tracker/CVE-2017-5715), for [amd64-microcode](https://tracker.debian.org/pkg/amd64-microcode).  
+- Issued [DLA 2743-1](https://lists.debian.org/debian-lts-announce/2021/08/msg00019.html), fixing [CVE-2017-5715](https://security-tracker.debian.org/tracker/CVE-2017-5715), for [amd64-microcode](https://tracker.debian.org/pkg/amd64-microcode).  
   For Debian 9 stretch, these problems have been fixed in version 3.20181128.1~deb9u1.
-- Issued [DLA 2744-1](), fixing the [versioning issue](https://bugs.debian.org/991808), for [usermode](https://tracker.debian.org/pkg/usermode).  
+- Issued [DLA 2744-1](https://lists.debian.org/debian-lts-announce/2021/08/msg00021.html), fixing the [versioning issue](https://bugs.debian.org/991808), for [usermode](https://tracker.debian.org/pkg/usermode).  
   For Debian 9 stretch, these problems have been fixed in version 1.109-1+deb9u1.
-- Issued [DLA 2750-1](), fixing [CVE-2019-20421](https://security-tracker.debian.org/tracker/CVE-2019-20421), [CVE-2021-3482](https://security-tracker.debian.org/tracker/CVE-2021-3482), [CVE-2021-29457](https://security-tracker.debian.org/tracker/CVE-2021-29457), [CVE-2021-29473](https://security-tracker.debian.org/tracker/CVE-2021-29473), [CVE-2021-31291](https://security-tracker.debian.org/tracker/CVE-2021-31291), and [CVE-2021-31292](https://security-tracker.debian.org/tracker/CVE-2021-31292), for [exiv2](https://tracker.debian.org/pkg/exiv2).  
+- Issued [DLA 2750-1](https://lists.debian.org/debian-lts-announce/2021/08/msg00028.html), fixing [CVE-2019-20421](https://security-tracker.debian.org/tracker/CVE-2019-20421), [CVE-2021-3482](https://security-tracker.debian.org/tracker/CVE-2021-3482), [CVE-2021-29457](https://security-tracker.debian.org/tracker/CVE-2021-29457), [CVE-2021-29473](https://security-tracker.debian.org/tracker/CVE-2021-29473), [CVE-2021-31291](https://security-tracker.debian.org/tracker/CVE-2021-31291), and [CVE-2021-31292](https://security-tracker.debian.org/tracker/CVE-2021-31292), for [exiv2](https://tracker.debian.org/pkg/exiv2).  
   For Debian 9 stretch, these problems have been fixed in version 0.25-3.1+deb9u3.
 
 #### ELTS CVE Fixes and Announcements:
 
-- Issued [ELA 479-1](), fixing [CVE-2019-20421](https://security-tracker.debian.org/tracker/CVE-2019-20421), [CVE-2021-3482](https://security-tracker.debian.org/tracker/CVE-2021-3482), [CVE-2021-29457](https://security-tracker.debian.org/tracker/CVE-2021-29457), [CVE-2021-29473](https://security-tracker.debian.org/tracker/CVE-2021-29473), [CVE-2021-31291](https://security-tracker.debian.org/tracker/CVE-2021-31291), and [CVE-2021-31292](https://security-tracker.debian.org/tracker/CVE-2021-31292), for [exiv2](https://tracker.debian.org/pkg/exiv2).  
+- Issued [ELA 479-1](https://deb.freexian.com/extended-lts/updates/ela-479-1-exiv2/), fixing [CVE-2019-20421](https://security-tracker.debian.org/tracker/CVE-2019-20421), [CVE-2021-3482](https://security-tracker.debian.org/tracker/CVE-2021-3482), [CVE-2021-29457](https://security-tracker.debian.org/tracker/CVE-2021-29457), [CVE-2021-29473](https://security-tracker.debian.org/tracker/CVE-2021-29473), [CVE-2021-31291](https://security-tracker.debian.org/tracker/CVE-2021-31291), and [CVE-2021-31292](https://security-tracker.debian.org/tracker/CVE-2021-31292), for [exiv2](https://tracker.debian.org/pkg/exiv2).  
   For Debian 8 jessie, these problems have been fixed in version 0.24-4.1+deb8u6.
 
 #### Other (E)LTS Work:

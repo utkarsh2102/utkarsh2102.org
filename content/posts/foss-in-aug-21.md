@@ -90,18 +90,6 @@ I was assigned 23.75 hours for LTS and 40.00 hours for ELTS and worked on the fo
 [ntfs-3g](https://tracker.debian.org/pkg/ntfs-3g), and
 [cyrus-imapd](https://tracker.debian.org/pkg/cyrus-imapd), and
 [exiv2](https://tracker.debian.org/pkg/exiv2),
-[ffmpeg](https://tracker.debian.org/pkg/ffmpeg),
-[git](https://tracker.debian.org/pkg/git),
-[gpac](https://tracker.debian.org/pkg/gpac),
-[inetutils](https://tracker.debian.org/pkg/inetutils),
-[mc](https://tracker.debian.org/pkg/mc),
-[modsecurity-crs](https://tracker.debian.org/pkg/modsecurity-crs),
-[node-object-path](https://tracker.debian.org/pkg/node-object-path),
-[php-pear](https://tracker.debian.org/pkg/php-pear),
-[systemd-cron](https://tracker.debian.org/pkg/systemd-cron),
-[node-tar](https://tracker.debian.org/pkg/node-tar),
-[ruby2.3](https://tracker.debian.org/pkg/ruby2.3),
-[gst-plugins-bad0.10](https://tracker.debian.org/pkg/gst-plugins-bad0.10),
 [jsoup](https://tracker.debian.org/pkg/jsoup),
 [libxstream-java](https://tracker.debian.org/pkg/libxstream-java),
 [qemu](https://tracker.debian.org/pkg/qemu),

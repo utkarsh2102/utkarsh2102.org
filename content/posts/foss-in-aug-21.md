@@ -79,6 +79,8 @@ I was assigned 23.75 hours for LTS and 40.00 hours for ELTS and worked on the fo
 
 - Issued [ELA 479-1](https://deb.freexian.com/extended-lts/updates/ela-479-1-exiv2/), fixing [CVE-2019-20421](https://security-tracker.debian.org/tracker/CVE-2019-20421), [CVE-2021-3482](https://security-tracker.debian.org/tracker/CVE-2021-3482), [CVE-2021-29457](https://security-tracker.debian.org/tracker/CVE-2021-29457), [CVE-2021-29473](https://security-tracker.debian.org/tracker/CVE-2021-29473), [CVE-2021-31291](https://security-tracker.debian.org/tracker/CVE-2021-31291), and [CVE-2021-31292](https://security-tracker.debian.org/tracker/CVE-2021-31292), for [exiv2](https://tracker.debian.org/pkg/exiv2).  
   For Debian 8 jessie, these problems have been fixed in version 0.24-4.1+deb8u6.
+- Noticed that there's a fallout of CVE-2021-3185, where an update was issued for gst-plugins-bad1.0, however, not for gst-plugins-bad0.10.  
+  Thanks to Sylvain's script, this came up and I prepped an update for that.
 - Started to work on libjdom1-java's regression.
 
 #### Other (E)LTS Work:

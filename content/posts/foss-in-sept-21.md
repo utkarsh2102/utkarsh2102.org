@@ -63,9 +63,9 @@ will start to list stuff from next year onward, as I was doing before. :D
 
 And [Debian Extended LTS (ELTS)](https://deb.freexian.com/extended-lts) is its sister project, extending support to the Jessie release (+2 years after LTS support).
 
-This was my twenty-third month as a Debian LTS and eleventh month as a Debian ELTS paid contributor.  
-I was assigned 23.75 hours for LTS and 40.00 hours for ELTS and worked on the following things:  
-(however, I only worked for 23.75h on ELTS work, thereby, carrying the rest to next month)
+This was my twenty-fourth month as a Debian LTS and twelfth month as a Debian ELTS paid contributor.  
+I was assigned 24.75 hours for LTS and 40.00 hours for ELTS and worked on the following things:  
+(however, I worked for 6.75h more on ELTS work, thereby, making a total of 46.75h)
 
 #### LTS CVE Fixes and Announcements:
 

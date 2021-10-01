@@ -19,22 +19,21 @@ categories = [
 ]
 +++
 
-Here's my (twenty-third) monthly but brief update about the activities I've done in the F/L/OSS world.
+Here's my (twenty-fourth) monthly but brief update about the activities I've done in the F/L/OSS world.
 
 ## Debian
 {{< figure src="/images/debian-logo-small.png" >}}
 
-This was my 32nd month of actively contributing to [Debian](https://www.debian.org/).
+This was my 33rd month of actively contributing to [Debian](https://www.debian.org/).
 I became a [DM](https://wiki.debian.org/DebianMaintainer) in late March 2019 and a [DD](https://wiki.debian.org/DebianDeveloper) on Christmas '19! \o/
 
-Tough month but I mostly spent on it churning through the immense backlog. But that
-somewhat backfired and I have even more backlog than ever. :D
+Just churning through the backlog this month. Ugh.
 
 Anyway, I did the following stuff in Debian:
 
 #### Uploads and bug fixes:
 
-- [ruby3.0](https://tracker.debian.org/pkg/ruby3.0) (3.0.0-2) - Upload to unstable! \o/
+Hah, as a surprise, I did no uploads or bug fixes this month. :(
 
 #### Other $things:
 

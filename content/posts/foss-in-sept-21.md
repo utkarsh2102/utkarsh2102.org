@@ -45,12 +45,14 @@ Hah, as a surprise, I did no uploads or bug fixes this month. :(
 ## Ubuntu
 {{< figure src="/images/ubuntu-logo-small.png" >}}
 
-This was my 7th month of actively contributing to [Ubuntu](https://ubuntu.com/about).
+This was my 8th month of actively contributing to [Ubuntu](https://ubuntu.com/about).
 Now that I've joined [Canonical to work on Ubuntu full-time](https://utkarsh2102.com/posts/hello-canonical/), there's a bunch of things I do! \o/
 
-I mostly worked on different things, I guess. But mostly on packaging [keylime](https://github.com/utkarsh2102/python-keylime) and some Google Agents upload(s) and SRU(s). Also did a lot of reviewing, et al.
+I mostly worked on different things, I guess.
 
-I was too lazy to maintain a list of things I worked on so there's no concrete list atm. Maybe I'll get back to this section later or will start to list stuff from next month onward, as I've been doing before. :D
+I was too lazy to maintain a list of things I worked on so there's
+no concrete list atm. Maybe I'll get back to this section later or
+will start to list stuff from next year onward, as I was doing before. :D
 
 ---
 

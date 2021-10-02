@@ -111,13 +111,10 @@ I was assigned 24.75 hours for LTS and 40.00 hours for ELTS and worked on the fo
 [node-tar](https://tracker.debian.org/pkg/node-tar),
 [ruby2.3](https://tracker.debian.org/pkg/ruby2.3),
 [gst-plugins-bad0.10](https://tracker.debian.org/pkg/gst-plugins-bad0.10),
-[]
-- Mark CVE-2021-39240/haproxy as not-affected for stretch and jessie.
-- Mark CVE-2021-39241/haproxy as not-affected for stretch and jessie.
-- Mark CVE-2021-39242/haproxy as not-affected for stretch and jessie.
-- Mark CVE-2021-33582/cyrus-imapd as no-dsa for stretch.
-- Mark CVE-2020-18771/exiv2 as no-dsa for exiv2 for stretch.
-- Mark CVE-2020-18899/exiv2 as no-dsa for exiv2 for stretch.
+[ntfs-3g](https://tracker.debian.org/pkg/ntfs-3g),
+[tiff](https://tracker.debian.org/pkg/tiff),
+[wordpress](https://tracker.debian.org/pkg/wordpress), and
+[openssh](https://tracker.debian.org/pkg/openssh).
 - Mark CVE-2021-38171/ffmpeg as postponed for stretch.
 - Mark CVE-2021-40330/git as no-dsa for stretch and jessie.
 - Mark CVE-2020-19481/gpac as ignored for stretch.
@@ -129,14 +126,15 @@ I was assigned 24.75 hours for LTS and 40.00 hours for ELTS and worked on the fo
 - Mark CVE-2017-9525/systemd-cron as no-dsa for stretch.
 - Mark CVE-2021-37701/node-tar as end-of-life for stretch.
 - Mark CVE-2021-37712/node-tar as end-of-life in stretch.
-- Mark CVE-2021-3750/qemu as postponsed for jessie.
-- Mark CVE-2021-27511/prototypejs as postponsed for jessie.
-- Mark CVE-2021-23437/pillow as postponed for stretch and jessie.
-- Auto EOL'ed gpac, cacti, openscad, cgal, cyrus-imapd-2.4, libsolv, mosquitto, atomicparsley, gtkpod, node-tar, libapache2-mod-auth-openidc, neutron, inetutils and linux for jessie.
-- Drop cpio from ela-needed; open issues don't warrant an ELA.
+- Mark CVE-2021-39201/wordpress as not-affected for jessie.
+- Mark CVE-2020-19143/tiff as not-affected for stretch and jessie.
+- Auto EOL'ed gpac, nltk, request-tracker4, and linux for jessie.
+- Drop wordpress from {d,e}la-needed for stretch and jessie. No update needed.
+- Drop qtbase-opensource-src from dla-needed for stretch. CVE-2020-24742 has the same fix as CVE-2020-0569.
+- A backporting error for CVE-2018-15473 was reported in Ubuntu (and can see the same code differences here). This needs further deeper investigation w/ Ubuntu and Debian security teams involved.
 - Attended monthly Debian LTS meeting.
 - Answered questions (& discussions) on IRC (#debian-lts and #debian-elts).
-- General and other discussions on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2021/08/threads.html).
+- General and other discussions on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2021/09/threads.html).
 
 ---
 

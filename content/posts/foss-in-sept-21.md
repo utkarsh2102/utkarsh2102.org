@@ -69,24 +69,36 @@ I was assigned 24.75 hours for LTS and 40.00 hours for ELTS and worked on the fo
 
 #### LTS CVE Fixes and Announcements:
 
-- Issued [DLA 2743-1](https://lists.debian.org/debian-lts-announce/2021/08/msg00019.html), fixing [CVE-2017-5715](https://security-tracker.debian.org/tracker/CVE-2017-5715), for [amd64-microcode](https://tracker.debian.org/pkg/amd64-microcode).  
-  For Debian 9 stretch, these problems have been fixed in version 3.20181128.1~deb9u1.
-- Issued [DLA 2744-1](https://lists.debian.org/debian-lts-announce/2021/08/msg00021.html), fixing the [versioning issue](https://bugs.debian.org/991808), for [usermode](https://tracker.debian.org/pkg/usermode).  
-  For Debian 9 stretch, these problems have been fixed in version 1.109-1+deb9u1.
-- Issued [DLA 2750-1](https://lists.debian.org/debian-lts-announce/2021/08/msg00028.html), fixing [CVE-2019-20421](https://security-tracker.debian.org/tracker/CVE-2019-20421), [CVE-2021-3482](https://security-tracker.debian.org/tracker/CVE-2021-3482), [CVE-2021-29457](https://security-tracker.debian.org/tracker/CVE-2021-29457), [CVE-2021-29473](https://security-tracker.debian.org/tracker/CVE-2021-29473), [CVE-2021-31291](https://security-tracker.debian.org/tracker/CVE-2021-31291), and [CVE-2021-31292](https://security-tracker.debian.org/tracker/CVE-2021-31292), for [exiv2](https://tracker.debian.org/pkg/exiv2).  
-  For Debian 9 stretch, these problems have been fixed in version 0.25-3.1+deb9u3.
+- Issued [DLA 2751-1](), fixing [CVE-2021-3449](https://security-tracker.debian.org/tracker/CVE-2021-3449), for [postgresql-9.6](https://tracker.debian.org/pkg/postgresql-9.6).  
+  For Debian 9 stretch, these problems have been fixed in version 3.20181128.1~deb9u1.  
+  However, please note that the update was prepped by the maintainer, Christoph Berg. \o/
+- Issued [DLA 2777-1](), fixing [CVE-2020-19131](https://security-tracker.debian.org/tracker/CVE-2020-19131) and [CVE-2020-19144](https://security-tracker.debian.org/tracker/CVE-2020-19144), for [tiff](https://tracker.debian.org/pkg/tiff).  
+  For Debian 9 stretch, these problems have been fixed in version 4.0.8-2+deb9u7.
+- Still discussing salt DLA/DSA uploads with Fredrico, Damien, and the maintainer.  
+  I reviewed the patch and it looks good but we've been having build issues on buster, so have postponed the update/upload for a bit. Will need a fresh look.
+- Philipp Hann raised the issue for incomplete uploads of amd64-microcode, where the binaries haven't been pusblished yet.  
+  I took a look and that seems to be a valid bug/report, I've further discussed with the buildd admins and the security team to see what we can do here.
+- Raphael Hertzog raised a bug for debian-archive-keyring, which needs an update prepped for stretch.  
+  I've been looking at the same and mildly prepped the update, but still work-in-progress.
 
 #### ELTS CVE Fixes and Announcements:
 
-- Issued [ELA 479-1](https://deb.freexian.com/extended-lts/updates/ela-479-1-exiv2/), fixing [CVE-2019-20421](https://security-tracker.debian.org/tracker/CVE-2019-20421), [CVE-2021-3482](https://security-tracker.debian.org/tracker/CVE-2021-3482), [CVE-2021-29457](https://security-tracker.debian.org/tracker/CVE-2021-29457), [CVE-2021-29473](https://security-tracker.debian.org/tracker/CVE-2021-29473), [CVE-2021-31291](https://security-tracker.debian.org/tracker/CVE-2021-31291), and [CVE-2021-31292](https://security-tracker.debian.org/tracker/CVE-2021-31292), for [exiv2](https://tracker.debian.org/pkg/exiv2).  
-  For Debian 8 jessie, these problems have been fixed in version 0.24-4.1+deb8u6.
-- Noticed that there's a fallout of CVE-2021-3185, where an update was issued for gst-plugins-bad1.0, however, not for gst-plugins-bad0.10.  
-  Thanks to Sylvain's script, this came up and I prepped an update for that.
-- Started to work on libjdom1-java's regression.
+- Issued [ELA 486-1](), fixing [CVE-2021-3185](https://security-tracker.debian.org/tracker/CVE-2021-3185), for [gst-plugins-bad0.10](https://tracker.debian.org/pkg/gst-plugins-bad0.10).  
+  For Debian 8 jessie, these problems have been fixed in version 0.10.23-7.4+deb8u5.
+- Issued [ELA 492-1](), fixing [CVE-2020-19131](https://security-tracker.debian.org/tracker/CVE-2020-19131) and [CVE-2020-19144](https://security-tracker.debian.org/tracker/CVE-2020-19144), for [tiff](https://tracker.debian.org/pkg/tiff).  
+  For Debian 8 jessie, these problems have been fixed in version 4.0.3-12.3+deb8u12.
+- Issued [ELA 495-1](), fixing [CVE-2021-31799](https://security-tracker.debian.org/tracker/CVE-2021-31799), [CVE-2021-31810](https://security-tracker.debian.org/tracker/CVE-2021-31810), and [CVE-2021-32066](https://security-tracker.debian.org/tracker/CVE-2021-32066), for [ruby2.1](https://tracker.debian.org/pkg/ruby2.1).  
+  For Debian 8 jessie, these problems have been fixed in version 2.1.5-2+deb8u12.
+- Discussed the libjdom1-java regression plausiblity with the security team, where the last uploader forgot to include a regression fix and thus warrants a regression upload now.  
+  Working on checking the severity w/ upstream to see how urgent it is.
+- Worked on jsoup intensively. Discussed w/ upstream via [issue #1627](https://github.com/jhy/jsoup/issues/1627).  
+  Further checked how plausible this is and discussed this on the internal list w/ Markus and Raphael.
+- Whilst a separate section (below), it's also worth noting here that this time's front-desk triages had to be precise as there were really close calls to be made w.r.t. to the decisions made by the Debian's security and Ubuntu's security team.  
+  More on that below.
 
 #### Other (E)LTS Work:
 
-- Front-desk duty from 26-07 until 01-08 and from 30-08 until 05-09 for both LTS and ELTS.
+- Front-desk duty from 30-08 until 05-09 and 27-09 to 03-10 for both LTS and ELTS.
 - Triaged [ffmpeg](https://tracker.debian.org/pkg/ffmpeg),
 [git](https://tracker.debian.org/pkg/git),
 [gpac](https://tracker.debian.org/pkg/gpac),

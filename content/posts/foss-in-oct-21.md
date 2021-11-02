@@ -24,10 +24,10 @@ Here's my (twenty-fifth) monthly but brief update about the activities I've done
 ## Debian
 {{< figure src="/images/debian-logo-small.png" >}}
 
-This was my 33rd month of actively contributing to [Debian](https://www.debian.org/).
+This was my 34th month of actively contributing to [Debian](https://www.debian.org/).
 I became a [DM](https://wiki.debian.org/DebianMaintainer) in late March 2019 and a [DD](https://wiki.debian.org/DebianDeveloper) on Christmas '19! \o/
 
-Just churning through the backlog this month. Ugh.
+Just churning through the backlog again this month. Ugh.
 
 Anyway, I did the following stuff in Debian:
 

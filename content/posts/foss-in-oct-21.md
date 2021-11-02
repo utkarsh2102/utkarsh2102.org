@@ -45,7 +45,7 @@ Hah, as a surprise, I did no uploads or bug fixes this month. :(
 ## Ubuntu
 {{< figure src="/images/ubuntu-logo-small.png" >}}
 
-This was my 8th month of actively contributing to [Ubuntu](https://ubuntu.com/about).
+This was my 9th month of actively contributing to [Ubuntu](https://ubuntu.com/about).
 Now that I've joined [Canonical to work on Ubuntu full-time](https://utkarsh2102.com/posts/hello-canonical/), there's a bunch of things I do! \o/
 
 I mostly worked on different things, I guess.

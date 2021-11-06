@@ -81,18 +81,15 @@ I was assigned 28.50 hours for LTS and 40.00 hours for ELTS and worked on the fo
 
 #### ELTS CVE Fixes and Announcements:
 
-- Issued [ELA 486-1](), fixing [CVE-2021-3185](https://security-tracker.debian.org/tracker/CVE-2021-3185), for [gst-plugins-bad0.10](https://tracker.debian.org/pkg/gst-plugins-bad0.10).  
-  For Debian 8 jessie, these problems have been fixed in version 0.10.23-7.4+deb8u5.
-- Issued [ELA 492-1](), fixing [CVE-2020-19131](https://security-tracker.debian.org/tracker/CVE-2020-19131) and [CVE-2020-19144](https://security-tracker.debian.org/tracker/CVE-2020-19144), for [tiff](https://tracker.debian.org/pkg/tiff).  
-  For Debian 8 jessie, these problems have been fixed in version 4.0.3-12.3+deb8u12.
-- Issued [ELA 495-1](), fixing [CVE-2021-31799](https://security-tracker.debian.org/tracker/CVE-2021-31799), [CVE-2021-31810](https://security-tracker.debian.org/tracker/CVE-2021-31810), and [CVE-2021-32066](https://security-tracker.debian.org/tracker/CVE-2021-32066), for [ruby2.1](https://tracker.debian.org/pkg/ruby2.1).  
-  For Debian 8 jessie, these problems have been fixed in version 2.1.5-2+deb8u12.
-- Discussed the libjdom1-java regression plausiblity with the security team, where the last uploader forgot to include a regression fix and thus warrants a regression upload now.  
-  Working on checking the severity w/ upstream to see how urgent it is.
-- Worked on jsoup intensively. Discussed w/ upstream via [issue #1627](https://github.com/jhy/jsoup/issues/1627).  
-  Further checked how plausible this is and discussed this on the internal list w/ Markus and Raphael.
-- Whilst a separate section (below), it's also worth noting here that this time's front-desk triages had to be precise as there were really close calls to be made w.r.t. to the decisions made by the Debian's security and Ubuntu's security team.  
-  More on that below.
+- Issued [ELA 510-1](), fixing [CVE-2021-3426](https://security-tracker.debian.org/tracker/CVE-2021-3426), [CVE-2021-3733](https://security-tracker.debian.org/tracker/CVE-2021-3733), and [CVE-2021-3737](https://security-tracker.debian.org/tracker/CVE-2021-3737), for [python3.4](https://tracker.debian.org/pkg/python3.4).  
+  For Debian 8 jessie, these problems have been fixed in version 3.4.2-1+deb8u11.
+- Issued [ELA 513-1](), fixing [CVE-2021-33829](https://security-tracker.debian.org/tracker/CVE-2021-33829) and [CVE-2021-37695](https://security-tracker.debian.org/tracker/CVE-2021-37695), for [ckeditor](https://tracker.debian.org/pkg/ckeditor).  
+  For Debian 8 jessie, these problems have been fixed in version 4.4.4+dfsg1-3+deb8u1.
+- Took a look at jsoup again. Post-discussion, the customer did not revert, so we decided to ignore the CVEs.
+- Worked on openssh's reported regression ([via LP: #1934501](https://bugs.launchpad.net/ubuntu/+source/openssh/+bug/1934501)) and found that Debian
+  jessie, stretch, buster, and bullseye aren't affected. Informed the security team as well (whom I woked along with). Given that all seemed in order,
+  we decided to postpone the new CVE since that was a minor issue which can be piggy-backed later with a more severe issue.
+- Co-ordinated with Abhijith who unclaimed ntfs-3g and started working on the update. A high number of CVEs are open. Work still in progress.
 
 #### Other (E)LTS Work:
 

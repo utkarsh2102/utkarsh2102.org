@@ -93,43 +93,35 @@ I was assigned 28.50 hours for LTS and 40.00 hours for ELTS and worked on the fo
 
 #### Other (E)LTS Work:
 
-- Front-desk duty from 30-08 until 05-09 and 27-09 to 03-10 for both LTS and ELTS.
-- Triaged [ffmpeg](https://tracker.debian.org/pkg/ffmpeg),
-[git](https://tracker.debian.org/pkg/git),
-[gpac](https://tracker.debian.org/pkg/gpac),
-[inetutils](https://tracker.debian.org/pkg/inetutils),
-[mc](https://tracker.debian.org/pkg/mc),
-[modsecurity-crs](https://tracker.debian.org/pkg/modsecurity-crs),
-[node-object-path](https://tracker.debian.org/pkg/node-object-path),
-[php-pear](https://tracker.debian.org/pkg/php-pear),
-[systemd-cron](https://tracker.debian.org/pkg/systemd-cron),
-[node-tar](https://tracker.debian.org/pkg/node-tar),
-[ruby2.3](https://tracker.debian.org/pkg/ruby2.3),
-[gst-plugins-bad0.10](https://tracker.debian.org/pkg/gst-plugins-bad0.10),
+- Front-desk duty from 27-09 to 03-10 and 25-10 to 31-10 for both LTS and ELTS.
+- Triaged [rpm](https://tracker.debian.org/pkg/rpm),
+[npm](https://tracker.debian.org/pkg/npm),
+[nltk](https://tracker.debian.org/pkg/nltk),
+[request-tracker4](https://tracker.debian.org/pkg/request-tracker4),
+[ros-ros-comm](https://tracker.debian.org/pkg/ros-ros-comm),
+[mediawiki](https://tracker.debian.org/pkg/mediawiki),
+[ruby2.1](https://tracker.debian.org/pkg/ruby2.1),
+[ckeditor](https://tracker.debian.org/pkg/ckeditor),
 [ntfs-3g](https://tracker.debian.org/pkg/ntfs-3g),
-[tiff](https://tracker.debian.org/pkg/tiff),
-[wordpress](https://tracker.debian.org/pkg/wordpress), and
+[jsoup](https://tracker.debian.org/pkg/jsoup),
+[udisks2](https://tracker.debian.org/pkg/udisks2),
+[libgit2](https://tracker.debian.org/pkg/libgit2),
+[python3.5](https://tracker.debian.org/pkg/python3.5),
+[python3.4](https://tracker.debian.org/pkg/python3.4), and
 [openssh](https://tracker.debian.org/pkg/openssh).
-- Mark CVE-2021-38171/ffmpeg as postponed for stretch.
-- Mark CVE-2021-40330/git as no-dsa for stretch and jessie.
-- Mark CVE-2020-19481/gpac as ignored for stretch.
-- Mark CVE-2021-40491/inetutils as no-dsa for stretch.
-- Mark CVE-2021-36370/mc as no-dsa for stretch and jessie.
-- Mark CVE-2021-35368/modsecurity-crs as no-dsa for stretch.
-- Mark CVE-2021-23434/node-object-path as end-of-life for stretch.
-- Mark CVE-2021-32610/php-pear as no-dsa for stretch.
-- Mark CVE-2017-9525/systemd-cron as no-dsa for stretch.
-- Mark CVE-2021-37701/node-tar as end-of-life for stretch.
-- Mark CVE-2021-37712/node-tar as end-of-life in stretch.
-- Mark CVE-2021-39201/wordpress as not-affected for jessie.
-- Mark CVE-2020-19143/tiff as not-affected for stretch and jessie.
-- Auto EOL'ed gpac, nltk, request-tracker4, and linux for jessie.
-- Drop wordpress from {d,e}la-needed for stretch and jessie. No update needed.
-- Drop qtbase-opensource-src from dla-needed for stretch. CVE-2020-24742 has the same fix as CVE-2020-0569.
-- A backporting error for CVE-2018-15473 was reported in Ubuntu (and can see the same code differences here). This needs further deeper investigation w/ Ubuntu and Debian security teams involved.
+- Mark CVE-2021-3521/rpm as postponed for stretch and jessie.
+- Mark CVE-2021-3913{4,5}/npm as no-dsa.
+- Mark CVE-2021-3828/nltk as no-dsa for stretch.
+- Mark CVE-2021-38562/request-tracker4 as no-dsa for stretch.
+- Mark CVE-2021-37146/ros-ros-comm as no-dsa for stretch.
+- Mark CVE-2021-28965/ruby2.1 as ignored for jessie.
+- Mark CVE-2021-37714/jsoup as ignored for jessie.
+- Mark CVE-2021-41617/openssh as no-dsa for jessie.
+- Auto EOL'ed ardour, nltk, request-tracker4, python-scrapy, webkit2gtk, and linux for jessie.
+- Drop wordpress from dla-needed for stretch and jessie. No update needed.
 - Attended monthly Debian LTS meeting.
 - Answered questions (& discussions) on IRC (#debian-lts and #debian-elts).
-- General and other discussions on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2021/09/threads.html).
+- General and other discussions on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2021/10/threads.html).
 
 ---
 

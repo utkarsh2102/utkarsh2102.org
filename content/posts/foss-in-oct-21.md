@@ -69,17 +69,15 @@ I was assigned 28.50 hours for LTS and 40.00 hours for ELTS and worked on the fo
 
 #### LTS CVE Fixes and Announcements:
 
-- Issued [DLA 2751-1](), fixing [CVE-2021-3449](https://security-tracker.debian.org/tracker/CVE-2021-3449), for [postgresql-9.6](https://tracker.debian.org/pkg/postgresql-9.6).  
-  For Debian 9 stretch, these problems have been fixed in version 3.20181128.1~deb9u1.  
-  However, please note that the update was prepped by the maintainer, Christoph Berg. \o/
-- Issued [DLA 2777-1](), fixing [CVE-2020-19131](https://security-tracker.debian.org/tracker/CVE-2020-19131) and [CVE-2020-19144](https://security-tracker.debian.org/tracker/CVE-2020-19144), for [tiff](https://tracker.debian.org/pkg/tiff).  
-  For Debian 9 stretch, these problems have been fixed in version 4.0.8-2+deb9u7.
-- Still discussing salt DLA/DSA uploads with Fredrico, Damien, and the maintainer.  
-  I reviewed the patch and it looks good but we've been having build issues on buster, so have postponed the update/upload for a bit. Will need a fresh look.
-- Philipp Hann raised the issue for incomplete uploads of amd64-microcode, where the binaries haven't been pusblished yet.  
-  I took a look and that seems to be a valid bug/report, I've further discussed with the buildd admins and the security team to see what we can do here.
-- Raphael Hertzog raised a bug for debian-archive-keyring, which needs an update prepped for stretch.  
-  I've been looking at the same and mildly prepped the update, but still work-in-progress.
+- Issued [DLA 2780-1](), fixing [CVE-2021-31799](https://security-tracker.debian.org/tracker/CVE-2021-31799), [CVE-2021-31810](https://security-tracker.debian.org/tracker/CVE-2021-31810), and [CVE-2021-32066](https://security-tracker.debian.org/tracker/CVE-2021-32066), for [ruby2.3](https://tracker.debian.org/pkg/ruby2.3).  
+  For Debian 9 stretch, these problems have been fixed in version 2.3.3-1+deb9u10.
+- Issued [DLA 2743-2](), fixing [CVE-2017-5715](https://security-tracker.debian.org/tracker/CVE-2017-5715), for [amd64-microcode](https://tracker.debian.org/pkg/amd64-microcode).  
+  For Debian 9 stretch, these problems have been fixed in version 3.20181128.1~deb9u2.  
+  This update took the most time as this had to be co-ordinated w/ multiple people and teams. But finally got this sorted! \o/
+- Issued [DLA 2808-1](), fixing [CVE-2021-3733](https://security-tracker.debian.org/tracker/CVE-2021-3733) and [CVE-2021-3737](https://security-tracker.debian.org/tracker/CVE-2021-3737), for [python3.5](https://tracker.debian.org/pkg/python3.5).  
+  For Debian 9 stretch, these problems have been fixed in version 3.5.3-1+deb9u5.
+- Prepped the debian-archive-keyring update, however the build fails because of Jonathan's GPG keys.
+  Wrote to the list and Jonathan replied that they'll prep a branch that I can land later. So waiting on that.
 
 #### ELTS CVE Fixes and Announcements:
 

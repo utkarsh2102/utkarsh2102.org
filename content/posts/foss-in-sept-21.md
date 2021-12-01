@@ -69,25 +69,25 @@ I was assigned 24.75 hours for LTS and 40.00 hours for ELTS and worked on the fo
 
 #### LTS CVE Fixes and Announcements:
 
-- Issued [DLA 2751-1](), fixing [CVE-2021-3449](https://security-tracker.debian.org/tracker/CVE-2021-3449), for [postgresql-9.6](https://tracker.debian.org/pkg/postgresql-9.6).  
+- Issued [DLA 2751-1](https://lists.debian.org/debian-lts-announce/2021/08/msg00029.html), fixing [CVE-2021-3449](https://security-tracker.debian.org/tracker/CVE-2021-3449), for [postgresql-9.6](https://tracker.debian.org/pkg/postgresql-9.6).  
   For Debian 9 stretch, these problems have been fixed in version 3.20181128.1~deb9u1.  
   However, please note that the update was prepped by the maintainer, Christoph Berg. \o/
-- Issued [DLA 2777-1](), fixing [CVE-2020-19131](https://security-tracker.debian.org/tracker/CVE-2020-19131) and [CVE-2020-19144](https://security-tracker.debian.org/tracker/CVE-2020-19144), for [tiff](https://tracker.debian.org/pkg/tiff).  
+- Issued [DLA 2777-1](https://lists.debian.org/debian-lts-announce/2021/10/msg00004.html), fixing [CVE-2020-19131](https://security-tracker.debian.org/tracker/CVE-2020-19131) and [CVE-2020-19144](https://security-tracker.debian.org/tracker/CVE-2020-19144), for [tiff](https://tracker.debian.org/pkg/tiff).  
   For Debian 9 stretch, these problems have been fixed in version 4.0.8-2+deb9u7.
 - Still discussing salt DLA/DSA uploads with Fredrico, Damien, and the maintainer.  
   I reviewed the patch and it looks good but we've been having build issues on buster, so have postponed the update/upload for a bit. Will need a fresh look.
-- Philipp Hann raised the issue for incomplete uploads of amd64-microcode, where the binaries haven't been pusblished yet.  
+- Philipp Hann raised [the issue](https://lists.debian.org/debian-lts/2021/08/msg00033.html) for incomplete uploads of amd64-microcode, where the binaries haven't been pusblished yet.  
   I took a look and that seems to be a valid bug/report, I've further discussed with the buildd admins and the security team to see what we can do here.
-- Raphael Hertzog raised a bug for debian-archive-keyring, which needs an update prepped for stretch.  
+- Raphael Hertzog raised a [bug](https://bugs.debian.org/992966) for debian-archive-keyring, which needs an update prepped for stretch.  
   I've been looking at the same and mildly prepped the update, but still work-in-progress.
 
 #### ELTS CVE Fixes and Announcements:
 
-- Issued [ELA 486-1](), fixing [CVE-2021-3185](https://security-tracker.debian.org/tracker/CVE-2021-3185), for [gst-plugins-bad0.10](https://tracker.debian.org/pkg/gst-plugins-bad0.10).  
+- Issued [ELA 486-1](https://deb.freexian.com/extended-lts/updates/ela-486-1-gst-plugins-bad0.10/), fixing [CVE-2021-3185](https://security-tracker.debian.org/tracker/CVE-2021-3185), for [gst-plugins-bad0.10](https://tracker.debian.org/pkg/gst-plugins-bad0.10).  
   For Debian 8 jessie, these problems have been fixed in version 0.10.23-7.4+deb8u5.
-- Issued [ELA 492-1](), fixing [CVE-2020-19131](https://security-tracker.debian.org/tracker/CVE-2020-19131) and [CVE-2020-19144](https://security-tracker.debian.org/tracker/CVE-2020-19144), for [tiff](https://tracker.debian.org/pkg/tiff).  
+- Issued [ELA 492-1](https://deb.freexian.com/extended-lts/updates/ela-492-1-tiff/), fixing [CVE-2020-19131](https://security-tracker.debian.org/tracker/CVE-2020-19131) and [CVE-2020-19144](https://security-tracker.debian.org/tracker/CVE-2020-19144), for [tiff](https://tracker.debian.org/pkg/tiff).  
   For Debian 8 jessie, these problems have been fixed in version 4.0.3-12.3+deb8u12.
-- Issued [ELA 495-1](), fixing [CVE-2021-31799](https://security-tracker.debian.org/tracker/CVE-2021-31799), [CVE-2021-31810](https://security-tracker.debian.org/tracker/CVE-2021-31810), and [CVE-2021-32066](https://security-tracker.debian.org/tracker/CVE-2021-32066), for [ruby2.1](https://tracker.debian.org/pkg/ruby2.1).  
+- Issued [ELA 495-1](https://deb.freexian.com/extended-lts/updates/ela-495-1-ruby2.1/), fixing [CVE-2021-31799](https://security-tracker.debian.org/tracker/CVE-2021-31799), [CVE-2021-31810](https://security-tracker.debian.org/tracker/CVE-2021-31810), and [CVE-2021-32066](https://security-tracker.debian.org/tracker/CVE-2021-32066), for [ruby2.1](https://tracker.debian.org/pkg/ruby2.1).  
   For Debian 8 jessie, these problems have been fixed in version 2.1.5-2+deb8u12.
 - Discussed the libjdom1-java regression plausiblity with the security team, where the last uploader forgot to include a regression fix and thus warrants a regression upload now.  
   Working on checking the severity w/ upstream to see how urgent it is.

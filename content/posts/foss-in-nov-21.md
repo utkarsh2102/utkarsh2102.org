@@ -19,12 +19,12 @@ categories = [
 ]
 +++
 
-Here's my (twenty-fifth) monthly but brief update about the activities I've done in the F/L/OSS world.
+Here's my (twenty-sixth) monthly but brief update about the activities I've done in the F/L/OSS world.
 
 ## Debian
 {{< figure src="/images/debian-logo-small.png" >}}
 
-This was my 34th month of actively contributing to [Debian](https://www.debian.org/).
+This was my 35th month of actively contributing to [Debian](https://www.debian.org/).
 I became a [DM](https://wiki.debian.org/DebianMaintainer) in late March 2019 and a [DD](https://wiki.debian.org/DebianDeveloper) on Christmas '19! \o/
 
 Just churning through the backlog again this month. Ugh.
@@ -33,7 +33,7 @@ Anyway, I did the following stuff in Debian:
 
 #### Uploads and bug fixes:
 
-Hah, as a surprise, I did no uploads or bug fixes this month. :(
+- [rails](https://tracker.debian.org/pkg/rails) (2:6.1.4.1+dfsg-3) - No-change rebuild for unstable.
 
 #### Other $things:
 

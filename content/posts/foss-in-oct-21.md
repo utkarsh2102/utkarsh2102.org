@@ -69,21 +69,21 @@ I was assigned 28.50 hours for LTS and 40.00 hours for ELTS and worked on the fo
 
 #### LTS CVE Fixes and Announcements:
 
-- Issued [DLA 2780-1](), fixing [CVE-2021-31799](https://security-tracker.debian.org/tracker/CVE-2021-31799), [CVE-2021-31810](https://security-tracker.debian.org/tracker/CVE-2021-31810), and [CVE-2021-32066](https://security-tracker.debian.org/tracker/CVE-2021-32066), for [ruby2.3](https://tracker.debian.org/pkg/ruby2.3).  
+- Issued [DLA 2780-1](https://lists.debian.org/debian-lts-announce/2021/10/msg00009.html), fixing [CVE-2021-31799](https://security-tracker.debian.org/tracker/CVE-2021-31799), [CVE-2021-31810](https://security-tracker.debian.org/tracker/CVE-2021-31810), and [CVE-2021-32066](https://security-tracker.debian.org/tracker/CVE-2021-32066), for [ruby2.3](https://tracker.debian.org/pkg/ruby2.3).  
   For Debian 9 stretch, these problems have been fixed in version 2.3.3-1+deb9u10.
-- Issued [DLA 2743-2](), fixing [CVE-2017-5715](https://security-tracker.debian.org/tracker/CVE-2017-5715), for [amd64-microcode](https://tracker.debian.org/pkg/amd64-microcode).  
+- Issued [DLA 2743-2](https://lists.debian.org/debian-lts-announce/2021/10/msg00012.html), fixing [CVE-2017-5715](https://security-tracker.debian.org/tracker/CVE-2017-5715), for [amd64-microcode](https://tracker.debian.org/pkg/amd64-microcode).  
   For Debian 9 stretch, these problems have been fixed in version 3.20181128.1~deb9u2.  
   This update took the most time as this had to be co-ordinated w/ multiple people and teams. But finally got this sorted! \o/
-- Issued [DLA 2808-1](), fixing [CVE-2021-3733](https://security-tracker.debian.org/tracker/CVE-2021-3733) and [CVE-2021-3737](https://security-tracker.debian.org/tracker/CVE-2021-3737), for [python3.5](https://tracker.debian.org/pkg/python3.5).  
+- Issued [DLA 2808-1](https://lists.debian.org/debian-lts-announce/2021/11/msg00003.html), fixing [CVE-2021-3733](https://security-tracker.debian.org/tracker/CVE-2021-3733) and [CVE-2021-3737](https://security-tracker.debian.org/tracker/CVE-2021-3737), for [python3.5](https://tracker.debian.org/pkg/python3.5).  
   For Debian 9 stretch, these problems have been fixed in version 3.5.3-1+deb9u5.
 - Prepped the debian-archive-keyring update, however the build fails because of Jonathan's GPG keys.
-  Wrote to the list and Jonathan replied that they'll prep a branch that I can land later. So waiting on that.
+  Wrote to [the list](https://lists.debian.org/debian-release/2021/10/msg00174.html) and Jonathan replied that they'll prep a branch that I can land later. So waiting on that.
 
 #### ELTS CVE Fixes and Announcements:
 
-- Issued [ELA 510-1](), fixing [CVE-2021-3426](https://security-tracker.debian.org/tracker/CVE-2021-3426), [CVE-2021-3733](https://security-tracker.debian.org/tracker/CVE-2021-3733), and [CVE-2021-3737](https://security-tracker.debian.org/tracker/CVE-2021-3737), for [python3.4](https://tracker.debian.org/pkg/python3.4).  
+- Issued [ELA 510-1](https://deb.freexian.com/extended-lts/updates/ela-510-1-python3.4/), fixing [CVE-2021-3426](https://security-tracker.debian.org/tracker/CVE-2021-3426), [CVE-2021-3733](https://security-tracker.debian.org/tracker/CVE-2021-3733), and [CVE-2021-3737](https://security-tracker.debian.org/tracker/CVE-2021-3737), for [python3.4](https://tracker.debian.org/pkg/python3.4).  
   For Debian 8 jessie, these problems have been fixed in version 3.4.2-1+deb8u11.
-- Issued [ELA 513-1](), fixing [CVE-2021-33829](https://security-tracker.debian.org/tracker/CVE-2021-33829) and [CVE-2021-37695](https://security-tracker.debian.org/tracker/CVE-2021-37695), for [ckeditor](https://tracker.debian.org/pkg/ckeditor).  
+- Issued [ELA 513-1](https://deb.freexian.com/extended-lts/updates/ela-513-1-ckeditor/), fixing [CVE-2021-33829](https://security-tracker.debian.org/tracker/CVE-2021-33829) and [CVE-2021-37695](https://security-tracker.debian.org/tracker/CVE-2021-37695), for [ckeditor](https://tracker.debian.org/pkg/ckeditor).  
   For Debian 8 jessie, these problems have been fixed in version 4.4.4+dfsg1-3+deb8u1.
 - Took a look at jsoup again. Post-discussion, the customer did not revert, so we decided to ignore the CVEs.
 - Worked on openssh's reported regression ([via LP: #1934501](https://bugs.launchpad.net/ubuntu/+source/openssh/+bug/1934501)) and found that Debian

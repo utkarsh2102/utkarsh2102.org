@@ -68,6 +68,17 @@ I was assigned 30.00 hours for LTS and 45.00 hours for ELTS and worked on the fo
 
 #### LTS CVE Fixes and Announcements:
 
+- Issued [DLA 2813-1](), fixing [CVE-2021-33829](https://security-tracker.debian.org/tracker/CVE-2021-33829) and [CVE-2021-37695](https://security-tracker.debian.org/tracker/CVE-2021-37695), for [ckeditor](https://tracker.debian.org/pkg/ckeditor).  
+  For Debian 9 stretch, these problems have been fixed in version 4.5.7+dfsg-2+deb9u1.
+- Issued [DLA 2817-1](), fixing [CVE-2021-23214](https://security-tracker.debian.org/tracker/CVE-2021-23214) and [CVE-2021-23222](https://security-tracker.debian.org/tracker/CVE-2021-23222), for [postgresql-9.6](https://tracker.debian.org/pkg/postgresql-9.6).  
+  For Debian 9 stretch, these problems have been fixed in version 9.6.24-0+deb9u1.
+- Issued [DLA 2836-1](), fixing [CVE-2021-43527](https://security-tracker.debian.org/tracker/CVE-2021-43527), for [nss](https://tracker.debian.org/pkg/nss).  
+  For Debian 9 stretch, these problems have been fixed in version 2:3.26.2-1.1+deb9u3.
+- Started working on src:samba for CVE-2020-25717 to CVE-2020-25722 and CVE-2021-23192 for jessie and stretch, both.  
+  The version difference b/w the suites are a bit too much for the patch(es) to be easily backported. I've talked to Anton to work something out. \o/
+- Found the problem w/ libjdom1-java. Will have to roll the regression upload.  
+  I've prepared the patch but needs some testing to be finally rolled out. Same for jessie.
+- Started working on libgit2.
 
 #### ELTS CVE Fixes and Announcements:
 
@@ -80,7 +91,7 @@ I was assigned 30.00 hours for LTS and 45.00 hours for ELTS and worked on the fo
 - Started working on src:samba for CVE-2020-25717 to CVE-2020-25722 and CVE-2021-23192 for jessie and stretch, both.  
   The version difference b/w the suites are a bit too much for the patch(es) to be easily backported. I've talked to Anton to work something out. \o/
 - Found the problem w/ libjdom1-java. Will have to roll the regression upload.  
-  I've prepared the patch but needs some testing to be finally rolled out.
+  I've prepared the patch but needs some testing to be finally rolled out. Same for stretch.
 
 #### Other (E)LTS Work:
 

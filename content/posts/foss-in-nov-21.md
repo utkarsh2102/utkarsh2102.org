@@ -96,10 +96,15 @@ I was assigned 30.00 hours for LTS and 45.00 hours for ELTS and worked on the fo
 #### Other (E)LTS Work:
 
 - Front-desk duty from 29-11 to 05-12 for both LTS and ELTS.
-- Triaged [rpm](https://tracker.debian.org/pkg/rpm),
-[python3.4](https://tracker.debian.org/pkg/python3.4), and
+- Triaged [udisk2](https://tracker.debian.org/pkg/udisks2),
+[wordpress](https://tracker.debian.org/pkg/wordpress),
+[samba](https://tracker.debian.org/pkg/samba),
+[gmp](https://tracker.debian.org/pkg/gmp),
+[nss](https://tracker.debian.org/pkg/nss),
+[ntfs-3g](https://tracker.debian.org/pkg/ntfs-3g), and
 [openssh](https://tracker.debian.org/pkg/openssh).
-- Auto EOL'ed linux for jessie.
+- Auto EOL'ed dwarfutils, radare2, mongodb, linux for jessie.
+- As FD, did a deep dive into the no-pu-update issue. Will write to list shortly.
 - Attended monthly Debian LTS meeting.
 - Answered questions (& discussions) on IRC (#debian-lts and #debian-elts).
 - General and other discussions on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2021/11/threads.html).

@@ -71,6 +71,16 @@ I was assigned 30.00 hours for LTS and 45.00 hours for ELTS and worked on the fo
 
 #### ELTS CVE Fixes and Announcements:
 
+- Issued [ELA 523-1](), fixing [CVE-2021-33285](https://security-tracker.debian.org/tracker/CVE-2021-33285), [CVE-2021-33286](https://security-tracker.debian.org/tracker/CVE-2021-33286), [CVE-2021-33287](https://security-tracker.debian.org/tracker/CVE-2021-33287), [CVE-2021-33289](https://security-tracker.debian.org/tracker/CVE-2021-33289), [CVE-2021-35266](https://security-tracker.debian.org/tracker/CVE-2021-35266), [CVE-2021-35267](https://security-tracker.debian.org/tracker/CVE-2021-35267), [CVE-2021-35268](https://security-tracker.debian.org/tracker/CVE-2021-35268), [CVE-2021-35269](https://security-tracker.debian.org/tracker/CVE-2021-35269), [CVE-2021-39251](https://security-tracker.debian.org/tracker/CVE-2021-39251), [CVE-2021-39252](https://security-tracker.debian.org/tracker/CVE-2021-39252), [CVE-2021-39253](https://security-tracker.debian.org/tracker/CVE-2021-39253), [CVE-2021-39254](https://security-tracker.debian.org/tracker/CVE-2021-39254), [CVE-2021-39255](https://security-tracker.debian.org/tracker/CVE-2021-39255), [CVE-2021-39256](https://security-tracker.debian.org/tracker/CVE-2021-39256), [CVE-2021-39257](https://security-tracker.debian.org/tracker/CVE-2021-39257), [CVE-2021-39258](https://security-tracker.debian.org/tracker/CVE-2021-39258), [CVE-2021-39259](https://security-tracker.debian.org/tracker/CVE-2021-39259), [CVE-2021-39260](https://security-tracker.debian.org/tracker/CVE-2021-39260), [CVE-2021-39261](https://security-tracker.debian.org/tracker/CVE-2021-39261), [CVE-2021-39262](https://security-tracker.debian.org/tracker/CVE-2021-39262), and [CVE-2021-39263](https://security-tracker.debian.org/tracker/CVE-2021-39263), for [ntfs-3g](https://tracker.debian.org/pkg/ntfs-3g).  
+  For Debian 8 jessie, these problems have been fixed in version 1:2014.2.15AR.2-1+deb8u5.
+- Issued [ELA 524-1](), fixing [CVE-2021-43618](https://security-tracker.debian.org/tracker/CVE-2021-43618), for [gmp](https://tracker.debian.org/pkg/gmp).  
+  For Debian 8 jessie, these problems have been fixed in version 2:6.0.0+dfsg-6+deb8u1.
+- Issued [ELA 525-1](), fixing [CVE-2021-43527](https://security-tracker.debian.org/tracker/CVE-2021-43527), for [nss](https://tracker.debian.org/pkg/nss).  
+  For Debian 8 jessie, these problems have been fixed in version 2:3.26-1+debu8u14.
+- Started working on src:samba for CVE-2020-25717 to CVE-2020-25722 and CVE-2021-23192 for jessie and stretch, both.  
+  The version difference b/w the suites are a bit too much for the patch(es) to be easily backported. I've talked to Anton to work something out. \o/
+- Found the problem w/ libjdom1-java. Will have to roll the regression upload.  
+  I've prepared the patch but needs some testing to be finally rolled out.
 
 #### Other (E)LTS Work:
 

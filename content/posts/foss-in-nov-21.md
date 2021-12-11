@@ -109,6 +109,15 @@ I was assigned 30.00 hours for LTS and 45.00 hours for ELTS and worked on the fo
 - Answered questions (& discussions) on IRC (#debian-lts and #debian-elts).
 - General and other discussions on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2021/11/threads.html).
 
+#### Debian LTS Survey
+
+I've spent 3 hours on the LTS survey on the following bits:
+- Talking to Laura to revive the old a/c on survey.d.net.
+- Setting up stuff there.
+- Discussing the survey questions and other bits w/ Jeremiah.
+- Partly reviewing the questions of the survey.
+- Doing a walkthru of the LimeSurvey instance we have to make sure there are no "changes".
+
 ---
 
 Until next time.  

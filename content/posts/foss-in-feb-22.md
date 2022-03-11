@@ -70,23 +70,23 @@ I spent 15.75 hours on LTS and 9.25 hours on ELTS and worked on the following th
 
 #### LTS CVE Fixes and Announcements:
 
-- Issued [DLA 2909-1](), fixing [CVE-2021-45079](https://security-tracker.debian.org/tracker/CVE-2021-45079), for [strongswan](https://tracker.debian.org/pkg/strongswan).  
+- Issued [DLA 2909-1](https://lists.debian.org/debian-lts-announce/2022/02/msg00003.html), fixing [CVE-2021-45079](https://security-tracker.debian.org/tracker/CVE-2021-45079), for [strongswan](https://tracker.debian.org/pkg/strongswan).  
   For Debian 9 stretch, these problems have been fixed in version 5.5.1-4+deb9u6.
-- Issued [DLA 2912-1](), fixing [CVE-2021-3850](https://security-tracker.debian.org/tracker/CVE-2021-3850), for [libphp-adodb](https://tracker.debian.org/pkg/libphp-adodb).  
+- Issued [DLA 2912-1](https://lists.debian.org/debian-lts-announce/2022/02/msg00006.html), fixing [CVE-2021-3850](https://security-tracker.debian.org/tracker/CVE-2021-3850), for [libphp-adodb](https://tracker.debian.org/pkg/libphp-adodb).  
   For Debian 9 stretch, these problems have been fixed in version 5.20.9-1+deb9u1.
-- Issued [DLA 2913-1](), fixing [CVE-2022-24130](https://security-tracker.debian.org/tracker/CVE-2022-24130), for [xterm](https://tracker.debian.org/pkg/xterm).  
+- Issued [DLA 2913-1](https://lists.debian.org/debian-lts-announce/2022/02/msg00007.html), fixing [CVE-2022-24130](https://security-tracker.debian.org/tracker/CVE-2022-24130), for [xterm](https://tracker.debian.org/pkg/xterm).  
   For Debian 9 stretch, these problems have been fixed in version 327-2+deb9u2.
-- Issued [DLA 2918-1](), fixing [CVE-2021-20001](https://security-tracker.debian.org/tracker/CVE-2021-20001), for [debian-edu-config](https://tracker.debian.org/pkg/debian-edu-config).  
+- Issued [DLA 2918-1](https://lists.debian.org/debian-lts-announce/2022/02/msg00012.html), fixing [CVE-2021-20001](https://security-tracker.debian.org/tracker/CVE-2021-20001), for [debian-edu-config](https://tracker.debian.org/pkg/debian-edu-config).  
   For Debian 9 stretch, these problems have been fixed in version 1.929+deb9u5.
 - Simultaneously, I've been working on the python* update but couldn't complete due to illness.
 
 #### ELTS CVE Fixes and Announcements:
 
-- Issued [ELA 559-1](), fixing [CVE-2018-6561](https://security-tracker.debian.org/tracker/CVE-2018-6561), [CVE-2020-4051](https://security-tracker.debian.org/tracker/CVE-2020-4051), and [CVE-2021-23450](https://security-tracker.debian.org/tracker/CVE-2021-23450), for [dojo](https://tracker.debian.org/pkg/dojo).  
+- Issued [ELA 559-1](https://deb.freexian.com/extended-lts/updates/ela-559-1-dojo/), fixing [CVE-2018-6561](https://security-tracker.debian.org/tracker/CVE-2018-6561), [CVE-2020-4051](https://security-tracker.debian.org/tracker/CVE-2020-4051), and [CVE-2021-23450](https://security-tracker.debian.org/tracker/CVE-2021-23450), for [dojo](https://tracker.debian.org/pkg/dojo).  
   For Debian 8 jessie, these problems have been fixed in version 1.10.2+dfsg-1+deb8u4.
-- Issued [ELA 560-1](), fixing [CVE-2021-3850](https://security-tracker.debian.org/tracker/CVE-2021-3850), for [libphp-adodb](https://tracker.debian.org/pkg/libphp-adodb).  
+- Issued [ELA 560-1](https://deb.freexian.com/extended-lts/updates/ela-560-1-libphp-adodb/), fixing [CVE-2021-3850](https://security-tracker.debian.org/tracker/CVE-2021-3850), for [libphp-adodb](https://tracker.debian.org/pkg/libphp-adodb).  
   For Debian 8 jessie, these problems have been fixed in version 5.15-1+deb8u2.
-- Issued [ELA 561-1](), fixing [CVE-2022-24130](https://security-tracker.debian.org/tracker/CVE-2022-24130), for [xterm](https://tracker.debian.org/pkg/xterm).  
+- Issued [ELA 561-1](https://deb.freexian.com/extended-lts/updates/ela-561-1-xterm/), fixing [CVE-2022-24130](https://security-tracker.debian.org/tracker/CVE-2022-24130), for [xterm](https://tracker.debian.org/pkg/xterm).  
   For Debian 8 jessie, these problems have been fixed in version 312-2+deb8u4.
 - Also looking at python2.7 and python3.4 updates for jessie but couldn't complete due to illness.
 

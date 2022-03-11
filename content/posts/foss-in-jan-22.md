@@ -82,6 +82,8 @@ I was assigned 58.25 hours for LTS and 60.00 hours for ELTS and worked on the fo
   For Debian 9 stretch, these problems have been fixed in version 4:4.8.7+dfsg-11+deb9u3.
 - Issued [DLA 2894-1](), fixing [CVE-2021-45417](https://security-tracker.debian.org/tracker/CVE-2021-45417), for [aide](https://tracker.debian.org/pkg/aide).  
   For Debian 9 stretch, these problems have been fixed in version 0.16-1+deb9u1.
+- Issued [DSA 5067-1](), fixing [CVE-2021-41816](https://security-tracker.debian.org/tracker/CVE-2021-41816), [CVE-2021-41817](https://security-tracker.debian.org/tracker/CVE-2021-41817), and [CVE-2021-41819](https://security-tracker.debian.org/tracker/CVE-2021-41819), for [ruby2.7](https://tracker.debian.org/pkg/ruby2.7).  
+  For Debian 11 bullseye, these problems have been fixed in version 2.7.4-1+deb11u1.
 - Also worked on the policykit-1 security update, rolled out by Salvatore.
 - Simultaneously, I've been working on the samba and python* update.
 
@@ -97,6 +99,8 @@ I was assigned 58.25 hours for LTS and 60.00 hours for ELTS and worked on the fo
   For Debian 8 jessie, these problems have been fixed in version 4:4.8.6+git64-g5dc8b2b+dfsg-3+deb8u4.
 - Issued [ELA 555-1](), fixing [CVE-2017-12424](https://security-tracker.debian.org/tracker/CVE-2017-12424) and [CVE-2018-7169](https://security-tracker.debian.org/tracker/CVE-2018-7169), for [shadow](https://tracker.debian.org/pkg/shadow).  
   For Debian 8 jessie, these problems have been fixed in version 1:4.2-3+deb8u5.
+- Issued [DSA 5066-1](), fixing [CVE-2021-28965](https://security-tracker.debian.org/tracker/CVE-2021-28965), [CVE-2021-31799](https://security-tracker.debian.org/tracker/CVE-2021-31799), [CVE-2021-31810](https://security-tracker.debian.org/tracker/CVE-2021-31810), [CVE-2021-41817](https://security-tracker.debian.org/tracker/CVE-2021-41817), [CVE-2021-41819](https://security-tracker.debian.org/tracker/CVE-2021-41819), and [CVE-2021-32066](https://security-tracker.debian.org/tracker/CVE-2021-32066), for [ruby2.5](https://tracker.debian.org/pkg/ruby2.5).  
+  For Debian 10 buster, these problems have been fixed in version 2.5.5-3+deb10u4.
 - Worked on the policykit-1 security update for jessie, fixing CVE-2021-4034, but was rolled out by Emilio due to a slight clash, but all good. :)  
 - Been working on src:samba for CVE-2020-25717 to CVE-2020-25722 and CVE-2021-23192 for jessie and stretch, both.  
   The version difference b/w the suites are a bit too much for the patch(es) to be easily backported. Might need to unclaim, I think.

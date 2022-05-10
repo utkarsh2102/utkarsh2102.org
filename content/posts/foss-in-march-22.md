@@ -63,7 +63,7 @@ will start to list stuff from the fall, as I was doing before. :D
 
 And [Debian Extended LTS (ELTS)](https://deb.freexian.com/extended-lts) is its sister project, extending support to the Jessie release (+2 years after LTS support).
 
-This was my twenty-ninth month as a Debian LTS and eighteenth month as a Debian ELTS paid contributor.  
+This was my thirtieth month as a Debian LTS and nineteenth month as a Debian ELTS paid contributor.  
 I worked for 57.75 out of 59.50 hours for LTS and 42.25 out of 60.00 hours for ELTS.
 
 #### LTS CVE Fixes and Announcements:
@@ -83,9 +83,9 @@ I worked for 57.75 out of 59.50 hours for LTS and 42.25 out of 60.00 hours for E
 
 #### ELTS CVE Fixes and Announcements:
 
-- Issued [ELA 578-1](), fixing [CVE-2021-0561](https://security-tracker.debian.org/tracker/CVE-2021-0561), for [flac](https://tracker.debian.org/pkg/flac).  
+- Issued [ELA 578-1](https://deb.freexian.com/extended-lts/updates/ela-578-1-flac/), fixing [CVE-2021-0561](https://security-tracker.debian.org/tracker/CVE-2021-0561), for [flac](https://tracker.debian.org/pkg/flac).  
   For Debian 8 jessie, these problems have been fixed in version 1.3.0-3+deb8u2.
-- Issued [ELA 582-1](), fixing some vulnerabilties which haven't a CVE ID assigned yet, for [wordpress](https://tracker.debian.org/pkg/wordpress).  
+- Issued [ELA 582-1](https://deb.freexian.com/extended-lts/updates/ela-582-1-wordpress/), fixing some vulnerabilties which haven't a CVE ID assigned yet, for [wordpress](https://tracker.debian.org/pkg/wordpress).  
   For Debian 8 jessie, these problems have been fixed in version 4.1.35+dfsg-0+deb8u1.
 - Worked on readying up python2.7 update. But the tests fails with a segfault but only on jessie. The very same works fine on stretch.  
   Been trying to workthru the tests but it looks that it's a test-only thing. But I'll double-check to be sure. :)
@@ -112,6 +112,7 @@ I worked for 57.75 out of 59.50 hours for LTS and 42.25 out of 60.00 hours for E
 - Helped answer Markus' question on src:bind9 security/regression updates.
 - Answered questions (& discussions) on IRC (#debian-lts and #debian-elts).
 - General and other discussions on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2022/03/threads.html).
+- Attended the monthly LTS meeting. Happened on #debian-lts this month.
 
 #### Debian LTS Survey
 

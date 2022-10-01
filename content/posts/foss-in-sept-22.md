@@ -31,9 +31,20 @@ There's a bunch of things I do, both, technical and non-technical. Here are the 
 
 #### Debian Uploads
 
+- [rails](https://tracker.debian.org/pkg/rails) (2:6.1.6.1+dfsg-2) - Add patch to allow Symbols in YAML columns, fixes [#1018934](https://bugs.debian.org/1018934).
+- [rails](https://tracker.debian.org/pkg/rails) (2:6.1.6.1+dfsg-3) - Add patch to remove active_record.yaml initializers.
+- [rails](https://tracker.debian.org/pkg/rails) (2:6.1.6.1+dfsg-4) - Add patch to allow Date, Time, ActiveSupport::HashWithIndifferentAccess in YAML columns.
+- [ruby-arbre](https://tracker.debian.org/pkg/ruby-arbre) (1.4.0-2) - Add patch to use selector to detect authenticity token input.
+- [ruby-net-http-digest-auth](https://tracker.debian.org/pkg/ruby-net-http-digest-auth) (1.4.1-1) - New upstream version, v1.4.1 to fix the FTBFS w/ rails.
+- [rails](https://tracker.debian.org/pkg/rails) (2:6.1.7+dfsg-1) - New upstream version, v6.1.7+dfsg.
+- [redmine](https://tracker.debian.org/pkg/redmine) (5.0.2-1) - New upstream version, v5.0.2 + fixes for [#1017525](https://bugs.debian.org/1017525), [#1019607](https://bugs.debian.org/1019607), [#1019238](https://bugs.debian.org/1019238), and [#1014813](https://bugs.debian.org/1014813).
+- [redmine](https://tracker.debian.org/pkg/redmine) (5.0.2-2) - Add patch to relax pg's version for autopkgtest.
+- [ruby-json-jwt](https://tracker.debian.org/pkg/ruby-json-jwt) (1.14.0-2) - No-change rebuild for unstable to fix [#1011682](https://bugs.debian.org/1011682).
+- [libexporter-tiny-perl](https://tracker.debian.org/pkg/libexporter-tiny-perl) (1.004002-1) - New upstream version, v1.004002.
 
 #### Other $things:
 
+- Sponsored php-nikic-fast-route/1.3.0-4~bpo11+1 for William.
 - Being an AM for [Arun Kumar, process #1024](https://nm.debian.org/process/1024/).
 - Sponsoring stuff for non-DDs.
 - Mentoring for newcomers.

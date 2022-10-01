@@ -84,15 +84,19 @@ I worked for 38.00 hours for LTS and 27.00 hours for ELTS.
 
 #### Other (E)LTS Work:
 
-- Triaged [cifs-utils](https://tracker.debian.org/pkg/cifs-utils),
-[lrzip](https://tracker.debian.org/pkg/lrzip), and
-[mutt](https://tracker.debian.org/pkg/mutt).
+- Triaged [rails](https://tracker.debian.org/pkg/rails),
+[node-thenify](https://tracker.debian.org/pkg/node-thenify),
+[exim4](https://tracker.debian.org/pkg/exim4),
+[wkhtmltopdf](https://tracker.debian.org/pkg/wkhtmltopdf),
+[gdal](https://tracker.debian.org/pkg/gdal), and
+[mbedtls](https://tracker.debian.org/pkg/mbedtls).
+- Marked CVE-2019-25050/gdal as not-affected for buster.
+- Marked CVE-2022-37451/exim4 as not-affected for stretch and jessie; following buster and bullseye.
 - Helped and assisted new contributors joining Freexian (LTS/ELTS).
 - Answered questions (& discussions) on IRC (#debian-lts and #debian-elts) and Matrix.
 - Participated and helped fellow members with their queries via private mail and chat.
 - General and other discussions on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2022/09/threads.html).
 - Attended the monthly public meeting held on #debian-lts on September 29th.
-
 
 ---
 

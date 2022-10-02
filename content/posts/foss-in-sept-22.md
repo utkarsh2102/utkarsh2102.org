@@ -78,6 +78,18 @@ I worked for 38.00 hours for LTS and 27.00 hours for ELTS.
 
 #### LTS CVE Fixes and Announcements:
 
+- Rolled out announcement for src:flac.
+- Rolled out announcement for src:ruby-rack.
+- Issued [DLA 3128-1](https://lists.debian.org/debian-lts-announce/2022/09/msg00039.html), fixing [CVE-2020-7677](https://security-tracker.debian.org/tracker/CVE-2020-7677), for [node-thenify](https://tracker.debian.org/pkg/node-thenify).  
+  For Debian 10 buster, these problems have been fixed in version 3.3.0-1+deb10u1.
+- Issued [DLA 3129-1](https://lists.debian.org/debian-lts-announce/2022/09/msg00040.html), fixing [CVE-2019-17545](https://security-tracker.debian.org/tracker/CVE-2019-17545) and [CVE-2021-45943](https://security-tracker.debian.org/tracker/CVE-2021-45943), for [gdal](https://tracker.debian.org/pkg/gdal).  
+  For Debian 10 buster, these problems have been fixed in version 2.4.0+dfsg-1+deb10u1.
+- Looked at src:mbedtls which has about 18 CVEs opened in buster (including no-dsa).  
+  Also, spoke to the maintainer - they said they'd be uncomfortable doing or reviewing the backport (although they initially said they'd be happy to help).
+- Fixed src:rails regression via 2:6.1.6.1+dfsg-2, 2:6.1.6.1+dfsg-3, and 2:6.1.6.1+dfsg-4 for sid.  
+  CVE-2022-32224 broke the entire world. :)
+- Helped Abhijith figure out the regression fix for CVE-2022-32224.  
+  Also got that verified by the people who reported regression, [Raphael](https://lists.debian.org/debian-lts/2022/09/msg00024.html), [Sven](https://lists.debian.org/debian-lts/2022/09/msg00037.html), and [Jude](https://lists.debian.org/debian-lts/2022/09/msg00045.html). The whole thread is on debian-lts@.
 
 #### ELTS CVE Fixes and Announcements:
 

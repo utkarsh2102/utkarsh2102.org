@@ -81,6 +81,17 @@ I worked for 38.00 hours for LTS and 27.00 hours for ELTS.
 
 #### ELTS CVE Fixes and Announcements:
 
+- Rolled out announcemnet for src:ruby-tzinfo.
+- Rolled out announcemnet for src:grubt.
+- Issued [ELA 682-1](https://www.freexian.com/lts/extended/updates/ela-682-1-open-vm-tools/), fixing [CVE-2022-31676](https://security-tracker.debian.org/tracker/CVE-2022-31676), for [open-vm-tools](https://tracker.debian.org/pkg/open-vm-tools).  
+  For Debian 9 stretch, these problems have been fixed in version 2:10.1.5-5055683-4+deb9u3.
+- Issued [ELA 691-1](https://www.freexian.com/lts/extended/updates/ela-691-1-wkhtmltopdf/), fixing [CVE-2020-21365](https://security-tracker.debian.org/tracker/CVE-2020-21365), for [wkhtmltopdf](https://tracker.debian.org/pkg/wkhtmltopdf).  
+  For Debian 8 jessie, these problems have been fixed in version 0.12.1-2+deb8u1.  
+  For Debian 9 stretch, these problems have been fixed in version 0.12.3.2-3+deb9u1.
+- Issued [ELA 692-1](), fixing [CVE-2022-37452](https://security-tracker.debian.org/tracker/CVE-2022-37452), for [exim4](https://tracker.debian.org/pkg/exim4).  
+  For Debian 8 jessie, these problems have been fixed in version 4.84.2-2+deb8u9.  
+  For Debian 9 stretch, these problems have been fixed in version 4.89-2+deb9u9.
+- Started to look at src:tiff again. Has a lot of open issues. Haven't claimed the package officially yet, though. :)
 
 #### Other (E)LTS Work:
 

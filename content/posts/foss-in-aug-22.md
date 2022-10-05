@@ -72,6 +72,13 @@ I worked for 14.00 hours for LTS and 19.00 hours for ELTS.
 
 #### ELTS CVE Fixes and Announcements:
 
+- Issued [ELA 671-1](https://www.freexian.com/lts/extended/updates/ela-671-1-ruby-tzinfo/), fixing [CVE-2022-31163](https://security-tracker.debian.org/tracker/CVE-2022-31163), for [ruby-tzinfo](https://tracker.debian.org/pkg/ruby-tzinfo).  
+  For Debian 9 stretch, these problems have been fixed in version 1.2.2-2+deb9u1.
+- Issued [ELA 672-1](https://www.freexian.com/lts/extended/updates/ela-672-1-grunt/), fixing [CVE-2022-0436](https://security-tracker.debian.org/tracker/CVE-2022-0436), for [grunt](https://tracker.debian.org/pkg/grunt).  
+  For Debian 9 stretch, these problems have been fixed in version 1.0.1-5+deb9u2.
+- Started to look at src:tiff again. There are a lot of open CVEs piled up now. Drafted some fixes but halted the process to look at src:tiff in buster first - which I'll do next month.  
+  I might do the update in two cycles. But more on that later.
+- Also looked at src:samba and how Ubuntu is looking at it. It's a mess, really. Probably should write to the list. :/
 
 #### Other (E)LTS Work:
 

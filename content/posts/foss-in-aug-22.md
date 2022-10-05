@@ -31,6 +31,8 @@ There's a bunch of things I do, both, technical and non-technical. Here are the 
 
 #### Debian Uploads
 
+- [rails](https://tracker.debian.org/pkg/rails) (2:6.1.6.1+dfsg-1) - New upstream version, v6.1.6.1+dfsg to fix [CVE-2022-22577](https://security-tracker.debian.org/tracker/CVE-2022-22577), [CVE-2022-27777](https://security-tracker.debian.org/tracker/CVE-2022-27777), and [CVE-2022-32224](https://security-tracker.debian.org/tracker/CVE-2022-32224) and thereby, bug [#1011941](https://bugs.debian.org/1011941), [#1016982](https://bugs.debian.org/1016982), and [#1016140](https://bugs.debian.org/1016140).
+- [python-pbcommand](https://tracker.debian.org/pkg/python-pbcommand) (2.1.1+git20220616.3f2e6c2-2) - Add python3-avro to Depends to fix autopkgtest.
 
 #### Other $things:
 

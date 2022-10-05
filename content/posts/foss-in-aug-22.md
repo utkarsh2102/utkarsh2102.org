@@ -75,8 +75,10 @@ I worked for 14.00 hours for LTS and 19.00 hours for ELTS.
 
 #### Other (E)LTS Work:
 
-- Triaged [rails](https://tracker.debian.org/pkg/rails),
-[gdal](https://tracker.debian.org/pkg/gdal), and
+- Triaged [grunt](https://tracker.debian.org/pkg/grunt),
+[flac](https://tracker.debian.org/pkg/flac),
+[ruby-rack](https://tracker.debian.org/pkg/ruby-rack),
+[ruby-tzinfo](https://tracker.debian.org/pkg/ruby-tzinfo), and
 [mbedtls](https://tracker.debian.org/pkg/mbedtls).
 - Helped and assisted new (and fellow) contributors joining Freexian (LTS/ELTS).
 - Answered questions (& discussions) on IRC (#debian-lts and #debian-elts) and Matrix.

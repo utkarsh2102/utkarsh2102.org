@@ -69,6 +69,12 @@ I worked for 14.00 hours for LTS and 19.00 hours for ELTS.
 
 #### LTS CVE Fixes and Announcements:
 
+- Issued [DLA 3094-1](https://lists.debian.org/debian-lts-announce/2022/09/msg00003.html), fixing [CVE-2021-0561](https://security-tracker.debian.org/tracker/CVE-2021-0561), for [flac](https://tracker.debian.org/pkg/flac).  
+  For Debian 10 buster, these problems have been fixed in version 1.3.2-3+deb10u2.
+- Issued [DLA 3095-1](https://lists.debian.org/debian-lts-announce/2022/09/msg00004.html), fixing [CVE-2022-30122](https://security-tracker.debian.org/tracker/CVE-2022-30122) and [CVE-2022-30123](https://security-tracker.debian.org/tracker/CVE-2022-30123), for [ruby-rack](https://tracker.debian.org/pkg/ruby-rack).  
+  For Debian 10 buster, these problems have been fixed in version 2.0.6-3+deb10u1.
+- Uploaded [rails/2:6.1.6.1+dfsg-1](https://tracker.debian.org/news/1356946/accepted-rails-26161dfsg-1-source-into-unstable/) to unstable for fixing [CVE-2022-22577](https://security-tracker.debian.org/tracker/CVE-2022-22577), [CVE-2022-27777](https://security-tracker.debian.org/tracker/CVE-2022-27777), and [CVE-2022-32224](https://security-tracker.debian.org/tracker/CVE-2022-32224) and thereby, bug [#1011941](https://bugs.debian.org/1011941), [#1016982](https://bugs.debian.org/1016982), and [#1016140](https://bugs.debian.org/1016140).
+- Also looked at src:samba and how Ubuntu is looking at it. It's a mess, really. And it's different for both, LTS and ELTS. Worse for LTS with 36 opened issues. :)
 
 #### ELTS CVE Fixes and Announcements:
 

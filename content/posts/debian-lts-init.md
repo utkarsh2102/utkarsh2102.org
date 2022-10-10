@@ -1,6 +1,6 @@
 +++
-date = "2019-10-01"
-title = "debianLTS.init(₵ꪜɆ)"
+date = "2019-09-30"
+title = "debianLTS.init(CVE)"
 slug = "debian-LTS-init"
 images = ["/images/deblts-commit.png"]
 tags = [

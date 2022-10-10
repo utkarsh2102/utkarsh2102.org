@@ -1,5 +1,5 @@
 +++
-date = "2020-05-01"
+date = "2020-04-30"
 title = "FOSS Activites in April 2020"
 slug = "foss-in-april-20"
 images = ["/images/debian-lts-small.png", "/images/debian-logo-small.png", "/images/ruby-logo-small.png", "/images/vendetta.jpg"]

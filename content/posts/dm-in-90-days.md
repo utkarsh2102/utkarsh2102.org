@@ -1,5 +1,5 @@
 +++
-date = "2019-04-01"
+date = "2019-04-15"
 title = "Becoming a Debian Maintainer in 90 days!"
 slug = "becoming-a-DM-in-90-days"
 tags = [

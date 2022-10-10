@@ -1,5 +1,5 @@
 +++
-date = "2020-03-30"
+date = "2020-03-30 11:11:11 +0530"
 title = "FOSS Activites in March 2020"
 slug = "foss-in-march-20"
 tags = [

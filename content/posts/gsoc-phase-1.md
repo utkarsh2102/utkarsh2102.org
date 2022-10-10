@@ -1,5 +1,5 @@
 +++
-date = "2020-06-15 22:30:00 +0530"
+date = "2020-06-15 11:11:11 +0530"
 title = "GSoC Phase 1"
 slug = "gsoc-phase-1"
 tags = [

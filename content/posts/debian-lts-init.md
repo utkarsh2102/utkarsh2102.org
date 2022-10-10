@@ -1,5 +1,5 @@
 +++
-date = "2019-09-30"
+date = "2019-09-30 11:11:11 +0530"
 title = "debianLTS.init(CVE)"
 slug = "debian-LTS-init"
 images = ["/images/deblts-commit.png"]

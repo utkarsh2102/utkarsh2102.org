@@ -80,6 +80,14 @@ I worked for 35.00 hours for LTS and 25.00 hours for ELTS.
 
 #### ELTS CVE Fixes and Announcements:
 
+- Issued [ELA 715-1](https://www.freexian.com/lts/extended/updates/ela-715-1-expat/), fixing [CVE-2022-43680](https://security-tracker.debian.org/tracker/CVE-2022-43680), for [expat](https://tracker.debian.org/pkg/expat).  
+  For Debian 9 stretch, these problems have been fixed in version 2.2.0-2+deb9u7.  
+  For Debian 8 jessie, these problems have been fixed in version 2.1.0-6+deb8u10.
+- Issued [ELA 716-1](https://www.freexian.com/lts/extended/updates/ela-716-1-djangorestframework/), fixing [CVE-2018-25045](https://security-tracker.debian.org/tracker/CVE-2018-25045) and [CVE-2020-25626](https://security-tracker.debian.org/tracker/CVE-2020-25626), for [djangorestframework](https://tracker.debian.org/pkg/djangorestframework).  
+  For Debian 9 stretch, these problems have been fixed in version 3.4.0-2+deb9u1.
+- Uploaded dropbear to fix CVE-2021-36369 in buster. Waiting for ELTS upload, too. But some backporting problems. :/
+- src:joblib is a bit painful - having to backport patches to Py2. :/
+- Started to look at other set of packages.
 
 #### Other (E)LTS Work:
 

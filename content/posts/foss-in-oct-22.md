@@ -68,6 +68,15 @@ I worked for 35.00 hours for LTS and 25.00 hours for ELTS.
 
 #### LTS CVE Fixes and Announcements:
 
+- Issued [DLA 3146-1](https://lists.debian.org/debian-lts-announce/2022/10/msg00015.html), fixing [CVE-2022-2928](https://security-tracker.debian.org/tracker/CVE-2022-2928) and [CVE-2022-2929](https://security-tracker.debian.org/tracker/CVE-2022-2929), for [isc-dhcp](https://tracker.debian.org/pkg/isc-dhcp).  
+  For Debian 10 buster, these problems have been fixed in version 4.4.1-2+deb10u2.
+- Issued [DLA 3165-1](https://lists.debian.org/debian-lts-announce/2022/10/msg00033.html), fixing [CVE-2022-43680](https://security-tracker.debian.org/tracker/CVE-2022-43680), for [expat](https://tracker.debian.org/pkg/expat).  
+  For Debian 10 buster, these problems have been fixed in version 2.2.6-2+deb10u6.
+- Issued [DLA 3166-1](), fixing [CVE-2022-29970](https://security-tracker.debian.org/tracker/CVE-2022-29970), for [ruby-sinatra](https://tracker.debian.org/pkg/ruby-sinatra).  
+  For Debian 10 buster, these problems have been fixed in version 2.0.5-4+deb10u1.
+- Uploaded dropbear to fix CVE-2021-36369 in buster. Waiting for ELTS upload to issue the DLA. But will do soon now.
+- src:joblib is a bit painful - having to backport patches to Py2. :/
+- Started to look at other set of packages.
 
 #### ELTS CVE Fixes and Announcements:
 

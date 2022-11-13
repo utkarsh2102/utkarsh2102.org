@@ -31,6 +31,7 @@ There's a bunch of things I do, both, technical and non-technical. Here are the 
 
 #### Debian Uploads
 
+- [ruby-espeak](https://tracker.debian.org/pkg/ruby-espeak) (1.1.0-1) - New upstream version, v1.1.0.
 
 #### Other $things:
 

@@ -91,9 +91,13 @@ I worked for 35.00 hours for LTS and 25.00 hours for ELTS.
 
 #### Other (E)LTS Work:
 
-- Triaged [rails](https://tracker.debian.org/pkg/rails),
-[gdal](https://tracker.debian.org/pkg/gdal), and
-[mbedtls](https://tracker.debian.org/pkg/mbedtls).
+- Triaged [joblib](https://tracker.debian.org/pkg/joblib),
+[dropbear](https://tracker.debian.org/pkg/dropbear),
+[ruby-sinatra](https://tracker.debian.org/pkg/ruby-sinatra),
+[djangorestframework](https://tracker.debian.org/pkg/djangorestframework),
+[isc-dhcp](https://tracker.debian.org/pkg/isc-dhcp), and
+[expat](https://tracker.debian.org/pkg/expat).
+- Reverted "Mark freerdp CVEs wrongly affecting freerdp <2.0.0" in the ELTS tracker.
 - Helped and assisted new contributors joining Freexian (LTS/ELTS).
 - Answered questions (& discussions) on IRC (#debian-lts and #debian-elts) and Matrix.
 - Participated and helped fellow members with their queries via private mail and chat.

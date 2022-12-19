@@ -60,48 +60,31 @@ will start to list stuff from the fall, as I was doing before. :D
 
 [Debian Long Term Support (LTS)](https://www.freexian.com/en/services/debian-lts.html) is a project to extend the lifetime of all Debian stable releases to (at least) 5 years. Debian LTS is not handled by the Debian security team, but by a separate group of volunteers and companies interested in making it a success.  
 
-And [Debian Extended LTS (ELTS)](https://deb.freexian.com/extended-lts) is its sister project, extending support to the Jessie release (+2 years after LTS support).
+And [Debian Extended LTS (ELTS)](https://deb.freexian.com/extended-lts) is its sister project, extending support to the stretch and jessie release (+2 years after LTS support).
 
-This was my thirty-seventh month as a Debian LTS and twenty-eighth month as a Debian ELTS paid contributor.  
-I worked for 35.00 hours for LTS and 25.00 hours for ELTS.
+This was my thirty-eighth month as a Debian LTS and twenty-nine month as a Debian ELTS paid contributor.  
+I worked for 41.00 hours for LTS and 30.25 hours for ELTS.
 
 #### LTS CVE Fixes and Announcements:
 
-- Issued [DLA 3146-1](https://lists.debian.org/debian-lts-announce/2022/10/msg00015.html), fixing [CVE-2022-2928](https://security-tracker.debian.org/tracker/CVE-2022-2928) and [CVE-2022-2929](https://security-tracker.debian.org/tracker/CVE-2022-2929), for [isc-dhcp](https://tracker.debian.org/pkg/isc-dhcp).  
-  For Debian 10 buster, these problems have been fixed in version 4.4.1-2+deb10u2.
-- Issued [DLA 3165-1](https://lists.debian.org/debian-lts-announce/2022/10/msg00033.html), fixing [CVE-2022-43680](https://security-tracker.debian.org/tracker/CVE-2022-43680), for [expat](https://tracker.debian.org/pkg/expat).  
-  For Debian 10 buster, these problems have been fixed in version 2.2.6-2+deb10u6.
-- Issued [DLA 3166-1](), fixing [CVE-2022-29970](https://security-tracker.debian.org/tracker/CVE-2022-29970), for [ruby-sinatra](https://tracker.debian.org/pkg/ruby-sinatra).  
-  For Debian 10 buster, these problems have been fixed in version 2.0.5-4+deb10u1.
-- Uploaded dropbear to fix CVE-2021-36369 in buster. Waiting for ELTS upload to issue the DLA. But will do soon now.
-- src:joblib is a bit painful - having to backport patches to Py2. :/
+
 - Started to look at other set of packages.
 
 #### ELTS CVE Fixes and Announcements:
 
-- Issued [ELA 715-1](https://www.freexian.com/lts/extended/updates/ela-715-1-expat/), fixing [CVE-2022-43680](https://security-tracker.debian.org/tracker/CVE-2022-43680), for [expat](https://tracker.debian.org/pkg/expat).  
-  For Debian 9 stretch, these problems have been fixed in version 2.2.0-2+deb9u7.  
-  For Debian 8 jessie, these problems have been fixed in version 2.1.0-6+deb8u10.
-- Issued [ELA 716-1](https://www.freexian.com/lts/extended/updates/ela-716-1-djangorestframework/), fixing [CVE-2018-25045](https://security-tracker.debian.org/tracker/CVE-2018-25045) and [CVE-2020-25626](https://security-tracker.debian.org/tracker/CVE-2020-25626), for [djangorestframework](https://tracker.debian.org/pkg/djangorestframework).  
-  For Debian 9 stretch, these problems have been fixed in version 3.4.0-2+deb9u1.
-- Uploaded dropbear to fix CVE-2021-36369 in buster. Waiting for ELTS upload, too. But some backporting problems. :/
-- src:joblib is a bit painful - having to backport patches to Py2. :/
+
 - Started to look at other set of packages.
 
 #### Other (E)LTS Work:
 
-- Triaged [joblib](https://tracker.debian.org/pkg/joblib),
-[dropbear](https://tracker.debian.org/pkg/dropbear),
-[ruby-sinatra](https://tracker.debian.org/pkg/ruby-sinatra),
-[djangorestframework](https://tracker.debian.org/pkg/djangorestframework),
-[isc-dhcp](https://tracker.debian.org/pkg/isc-dhcp), and
-[expat](https://tracker.debian.org/pkg/expat).
-- Reverted "Mark freerdp CVEs wrongly affecting freerdp <2.0.0" in the ELTS tracker.
-- Helped and assisted new contributors joining Freexian (LTS/ELTS).
+- Triaged [](https://tracker.debian.org/pkg/),
+[](https://tracker.debian.org/pkg/), and
+[](https://tracker.debian.org/pkg/).
+- Helped and assisted new contributors joining Freexian (LTS/ELTS/internally).
 - Answered questions (& discussions) on IRC (#debian-lts and #debian-elts) and Matrix.
 - Participated and helped fellow members with their queries via private mail and chat.
-- General and other discussions on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2022/10/threads.html).
-- Attended the monthly meeting held on Jitsi on October 27th.
+- General and other discussions on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2022/11/threads.html).
+- Attended the monthly meeting held on IRC on November 24th.
 
 ---
 

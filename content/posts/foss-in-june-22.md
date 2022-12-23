@@ -93,6 +93,15 @@ I worked for 6.50 hours for LTS and 4.75 hours for ELTS.
 - Participated and helped fellow members with theie queries via private mail and chat.
 - General and other discussions on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2022/06/threads.html).
 
+#### Debian LTS Survey
+
+I've spent 9 hours on the LTS survey on the following bits:
+- Importing the "useful" data and sorting it out and downloading the available graphs on the LS instance.
+- Figured that the LS data is not very clear and in some cases, pretty useless. Sigh.
+- Started writing the final document in LaTeX.
+- Screenshotted the graphs (neatly) and arranged them in the LaTeX docuement.
+- Readied it up to present in DebConf, during the LTS BoF. \o/
+
 ---
 
 Until next time.  

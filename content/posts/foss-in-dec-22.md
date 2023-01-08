@@ -90,36 +90,26 @@ I worked for 51.50 hours for LTS and 22.50 hours for ELTS.
 
 #### Other (E)LTS Work:
 
-- Front desk duty from 21-11 until 27-11 for both, LTS and ELTS.
 - Triaged [jqueryui](https://tracker.debian.org/pkg/jqueryui),
-[open-vm-tools](https://tracker.debian.org/pkg/open-vm-tools),
-[systemd](https://tracker.debian.org/pkg/systemd),
-[ffmpeg](https://tracker.debian.org/pkg/ffmpeg),
-[lava](https://tracker.debian.org/pkg/lava),
-[pngcheck](https://tracker.debian.org/pkg/pngcheck),
-[snapd](https://tracker.debian.org/pkg/snapd),
-[vlc](https://tracker.debian.org/pkg/vlc),
-[g810-led](https://tracker.debian.org/pkg/g810-led),
-[libpgjava](https://tracker.debian.org/pkg/libpgjava),
+[http-parser](https://tracker.debian.org/pkg/http-parser),
+[awstats](https://tracker.debian.org/pkg/awstats),
+[ruby-rails-html-sanitizer](https://tracker.debian.org/pkg/ruby-rails-html-sanitizer),
+[node-json-schema](https://tracker.debian.org/pkg/node-json-schema),
+[node-log4js](https://tracker.debian.org/pkg/node-log4js),
+[dlt-daemon](https://tracker.debian.org/pkg/dlt-daemon),
+[joblib](https://tracker.debian.org/pkg/joblib),
+[tiff](https://tracker.debian.org/pkg/tiff),
 [dropbear](https://tracker.debian.org/pkg/dropbear),
 [python3.5](https://tracker.debian.org/pkg/python3.5),
 [python3.4](https://tracker.debian.org/pkg/python3.4),
-[clamav](https://tracker.debian.org/pkg/clamav),
-[systat](https://tracker.debian.org/pkg/systat),
-[postgresql-11](https://tracker.debian.org/pkg/postgresql-11), and
-[mariadb-10.1](https://tracker.debian.org/pkg/mariadb-10.1).
-- Marked CVE-2009-1143/open-vm-tools as postponed for buster, stretch and jessie.
-- Marked CVE-2022-45873/systemd as not-affected in stretch and jessie.
-- Marked CVE-2022-396{4,5}/ffmpeg as postponed for buster and stretch.
-- Marked CVE-2022-45061/python3.{4,5} as postponed for stretch and jessie.
-- Marked CVE-2022-31160/jqueryui as not-affected for jessie instead.
-- Noted CVE-2022-45061/python3.4 to be marked as postponed; only things to fix is the armhf FTBFS.
-- Auto EOL'd linux, libpgjava, nvidia-graphics-drivers, maradns, chromium, and glance for ELTS.
+[ruby-sinatra](https://tracker.debian.org/pkg/ruby-sinatra),
+[erlang](https://tracker.debian.org/pkg/erlang), and
+[rabbitmq-server](https://tracker.debian.org/pkg/rabbitmq-server).
 - Helped and assisted new contributors joining Freexian (LTS/ELTS/internally).
 - Answered questions (& discussions) on IRC (#debian-lts and #debian-elts) and Matrix.
 - Participated and helped fellow members with their queries via private mail and chat.
-- General and other discussions on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2022/11/threads.html).
-- Attended the monthly meeting held on IRC on November 24th.
+- General and other discussions on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2022/12/threads.html).
+- Attended the monthly Freexian meeting.
 
 ---
 

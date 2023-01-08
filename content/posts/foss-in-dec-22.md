@@ -81,15 +81,12 @@ I worked for 51.50 hours for LTS and 22.50 hours for ELTS.
 
 #### ELTS CVE Fixes and Announcements:
 
-- Issued [ELA 731-1](https://www.freexian.com/lts/extended/updates/ela-731-1-sysstat/), fixing [CVE-2022-39377](https://security-tracker.debian.org/tracker/CVE-2022-39377), for [sysstat](https://tracker.debian.org/pkg/sysstat).  
-  For Debian 9 stretch, these problems have been fixed in version 11.4.3-2+deb9u1.  
-  For Debian 8 jessie, these problems have been fixed in version 11.0.1-1+deb8u1.
-- Issued [ELA 749-1](https://www.freexian.com/lts/extended/updates/ela-749-1-vlc/), fixing [CVE-2022-41325](https://security-tracker.debian.org/tracker/CVE-2022-41325), for [vlc](https://tracker.debian.org/pkg/vlc).  
-  For Debian 9 stretch, these problems have been fixed in version 3.0.17.4-0+deb9u2.
-- Issued [ELA 750-1](https://www.freexian.com/lts/extended/updates/ela-750-1-clamav/) for a new upstream version update of [clamav](https://tracker.debian.org/pkg/clamav).  
-  For Debian 9 stretch, the package has been updated to version 0.103.7+dfsg-0+deb9u1.
-  For Debian 8 jessie, the package has been updated to version 0.103.7+dfsg-0+deb8u1.
-- Started to look at other set of packages.
+- Issued [ELA 752-1](https://www.freexian.com/lts/extended/updates/ela-752-1-jqueryui/), fixing [CVE-2021-41182](https://security-tracker.debian.org/tracker/CVE-2021-41182), [CVE-2021-41183](https://security-tracker.debian.org/tracker/CVE-2021-41183), [CVE-2021-41184](https://security-tracker.debian.org/tracker/CVE-2021-41184), and [CVE-2022-31160](https://security-tracker.debian.org/tracker/CVE-2022-31160), for [jqueryui](https://tracker.debian.org/pkg/jqueryui).  
+  For Debian 9 stretch, these problems have been fixed in version 1.12.1+dfsg-4+deb9u1.
+- Helped facilitate Erlang's and RabbitMQ's update; cf: [ELA 754-1](https://www.freexian.com/lts/extended/updates/ela-754-1-erlang/).
+- Looked through python3.4's FTBFS on armhf. Even diff'd with Ubuntu. No luck. Inspected the traces, doesn't give a lot of hint either. Will continue to look later next month or so but it's a rabbit hole. (:
+- Inspected joblib's security update upon Helmut's investigation and see what went wrong there.
+- Started to look at other set of packages: dropbear, tiff, et al.
 
 #### Other (E)LTS Work:
 

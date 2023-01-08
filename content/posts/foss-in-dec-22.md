@@ -62,23 +62,22 @@ I worked for 51.50 hours for LTS and 22.50 hours for ELTS.
 
 #### LTS CVE Fixes and Announcements:
 
-- Issued [DLA 3187-1](https://lists.debian.org/debian-lts-announce/2022/11/msg00015.html), fixing [CVE-2021-36369](https://security-tracker.debian.org/tracker/CVE-2021-36369), for [dropbear](https://tracker.debian.org/pkg/dropbear).  
-  For Debian 10 buster, these problems have been fixed in version 2018.76-5+deb10u2.
-- Issued [DLA 3188-1](https://lists.debian.org/debian-lts-announce/2022/11/msg00014.html), fixing [CVE-2019-16167](https://security-tracker.debian.org/tracker/CVE-2019-16167), [CVE-2019-19725](https://security-tracker.debian.org/tracker/CVE-2019-19725), and [CVE-2022-39377](https://security-tracker.debian.org/tracker/CVE-2022-39377), for [sysstat](https://tracker.debian.org/pkg/sysstat).  
-  For Debian 10 buster, these problems have been fixed in version 12.0.3-2+deb10u1.
-- Issued [DLA 3189-1](https://lists.debian.org/debian-lts-announce/2022/11/msg00017.html) for a minor LTS version update of [postgresql-11](https://tracker.debian.org/pkg/postgresql-11).  
-  For Debian 10 buster, the package has been updated to version 11.18-0+deb10u1.
-- Issued [DLA 3215-1](https://lists.debian.org/debian-lts-announce/2022/12/msg00000.html), fixing [CVE-2022-3328](https://security-tracker.debian.org/tracker/CVE-2022-3328), for [snapd](https://tracker.debian.org/pkg/snapd).  
-  For Debian 10 buster, these problems have been fixed in version 2.37.4-1+deb10u2.
-- Issued [DLA 3216-1](https://lists.debian.org/debian-lts-announce/2022/12/msg00001.html), fixing [CVE-2022-41325](https://security-tracker.debian.org/tracker/CVE-2022-41325), for [vlc](https://tracker.debian.org/pkg/vlc).  
-  For Debian 10 buster, these problems have been fixed in version 3.0.17.4-0+deb10u2.
-- Issued [DLA 3217-1](https://lists.debian.org/debian-lts-announce/2022/12/msg00002.html), fixing [CVE-2022-46338](https://security-tracker.debian.org/tracker/CVE-2022-46338), for [g810-led](https://tracker.debian.org/pkg/g810-led).  
-  For Debian 10 buster, these problems have been fixed in version 0.3.3-2+deb10u1.
-- Issued [DLA 3218-1](https://lists.debian.org/debian-lts-announce/2022/12/msg00003.html), fixing [CVE-2022-41946](https://security-tracker.debian.org/tracker/CVE-2022-41946), for [libpgjava](https://tracker.debian.org/pkg/libpgjava).  
-  For Debian 10 buster, these problems have been fixed in version 42.2.5-2+deb10u3.
-- Issued [DLA 3220-1](https://lists.debian.org/debian-lts-announce/2022/12/msg00005.html) for a new upstream version update of [clamav](https://tracker.debian.org/pkg/clamav).  
-  For Debian 10 buster, the package has been updated to version 0.103.7+dfsg-0+deb10u1.
-- Started to look at other set of packages.
+- Issued [DLA 3224-1](https://lists.debian.org/debian-lts-announce/2022/12/msg00009.html), fixing [CVE-2020-8287](https://security-tracker.debian.org/tracker/CVE-2020-8287), for [http-parser](https://tracker.debian.org/pkg/http-parser).  
+  For Debian 10 buster, these problems have been fixed in version 2.8.1-1+deb10u3.
+- Issued [DLA 3225-1](https://lists.debian.org/debian-lts-announce/2022/12/msg00010.html), fixing [CVE-2022-46391](https://security-tracker.debian.org/tracker/CVE-2022-46391), for [awstats](https://tracker.debian.org/pkg/awstats).  
+  For Debian 10 buster, these problems have been fixed in version 7.6+dfsg-2+deb10u2.
+- Issued [DLA 3227-1](https://lists.debian.org/debian-lts-announce/2022/12/msg00012.html), fixing [CVE-2022-32209](https://security-tracker.debian.org/tracker/CVE-2022-32209), for [ruby-rails-html-sanitizer](https://tracker.debian.org/pkg/ruby-rails-html-sanitizer).  
+  For Debian 10 buster, these problems have been fixed in version 1.0.4-1+deb10u1.
+- Issued [DLA 3228-1](https://lists.debian.org/debian-lts-announce/2022/12/msg00013.html), fixing [CVE-2021-3918](https://security-tracker.debian.org/tracker/CVE-2021-3918), for [node-json-schema](https://tracker.debian.org/pkg/node-json-schema).  
+  For Debian 10 buster, these problems have been fixed in version 0.2.3-1+deb10u1.
+- Issued [DLA 3229-1](https://lists.debian.org/debian-lts-announce/2022/12/msg00014.html), fixing [CVE-2022-21704](https://security-tracker.debian.org/tracker/CVE-2022-21704), for [node-log4js](https://tracker.debian.org/pkg/node-log4js).  
+  For Debian 10 buster, these problems have been fixed in version 4.0.2-2+deb10u1.
+- Issued [DLA 3230-1](https://lists.debian.org/debian-lts-announce/2022/12/msg00015.html), fixing [CVE-2021-41182](https://security-tracker.debian.org/tracker/CVE-2021-41182), [CVE-2021-41183](https://security-tracker.debian.org/tracker/CVE-2021-41183), [CVE-2021-41184](https://security-tracker.debian.org/tracker/CVE-2021-41184), and [CVE-2022-31160](https://security-tracker.debian.org/tracker/CVE-2022-31160), for [jqueryui](https://tracker.debian.org/pkg/jqueryui).  
+  For Debian 10 buster, these problems have been fixed in version 1.12.1+dfsg-5+deb10u1.
+- Issued [DLA 3231-1](https://lists.debian.org/debian-lts-announce/2022/12/msg00016.html), fixing [CVE-2020-29394](https://security-tracker.debian.org/tracker/CVE-2020-29394), [CVE-2020-36244](https://security-tracker.debian.org/tracker/CVE-2020-36244), and [CVE-2022-31291](https://security-tracker.debian.org/tracker/CVE-2022-31291), for [dlt-daemon](https://tracker.debian.org/pkg/dlt-daemon).  
+  For Debian 10 buster, these problems have been fixed in version 2.18.0-1+deb10u1.
+- Inspected joblib's security update upon Helmut's investigation and see what went wrong there.
+- Started to look at other set of packages: node-moment, tiff, ruby*, et al.
 
 #### ELTS CVE Fixes and Announcements:
 

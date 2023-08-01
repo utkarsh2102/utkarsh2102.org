@@ -58,11 +58,11 @@ In May, I got selected as a [Google Summer of Code](https://summerofcode.withgoo
 I am working on the [Upstream-Downstream Cooperation in Ruby](https://wiki.debian.org/SummerOfCode2020/Projects/#SummerOfCode2020.2FApprovedProjects.2FUpstreamDownstreamCooperationInRuby.Upstream.2FDownstream_cooperation_in_Ruby) project.
 
 The other 5 blogs can be found here:
-- [GSoC Phase 1 (part 1)](https://utkarsh2102.com/posts/gsoc-phase-1/).
-- [GSoC Phase 1 (part 2)](https://utkarsh2102.com/posts/foss-in-june-20/).
-- [GSoC Phase 2 (part 1)](https://utkarsh2102.com/posts/gsoc-phase-2/).
-- [GSoC Phase 2 (part 2)](https://utkarsh2102.com/posts/foss-in-july-20/).
-- [GSoC Phase 3 (part 1)](https://utkarsh2102.com/posts/gsoc-phase-3/).
+- [GSoC Phase 1 (part 1)](https://utkarsh2102.org/posts/gsoc-phase-1/).
+- [GSoC Phase 1 (part 2)](https://utkarsh2102.org/posts/foss-in-june-20/).
+- [GSoC Phase 2 (part 1)](https://utkarsh2102.org/posts/gsoc-phase-2/).
+- [GSoC Phase 2 (part 2)](https://utkarsh2102.org/posts/foss-in-july-20/).
+- [GSoC Phase 3 (part 1)](https://utkarsh2102.org/posts/gsoc-phase-3/).
 - And this is GSoC Phase 3 (part 2).
 
 Also, I log daily updates at [gsocwithutkarsh2102.tk](https://gsocwithutkarsh2102.tk/).

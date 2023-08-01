@@ -47,7 +47,7 @@ Anyway, I did the following stuff in Debian:
 {{< figure src="/images/ubuntu-logo-small.png" >}}
 
 This was my 7th month of actively contributing to [Ubuntu](https://ubuntu.com/about).
-Now that I've joined [Canonical to work on Ubuntu full-time](https://utkarsh2102.com/posts/hello-canonical/), there's a bunch of things I do! \o/
+Now that I've joined [Canonical to work on Ubuntu full-time](https://utkarsh2102.org/posts/hello-canonical/), there's a bunch of things I do! \o/
 
 I mostly worked on different things, I guess. But mostly on packaging [keylime](https://github.com/utkarsh2102/python-keylime) and some Google Agents upload(s) and SRU(s). Also did a lot of reviewing, et al.
 

@@ -155,7 +155,7 @@ This month I could get the following things done:
 
 - Most importantly, I finally migrated to a new website. Huge UI imporvement! \o/  
   From Jekyll to Hugo, it was not easy. But it was worth it! Many thanks to [Luiz](https://luizdepra.dev/) for writing [hugo-coder](https://github.com/luizdepra/hugo-coder/), [Clement](https://clementpannetier.dev/), and [Samyak](https://samyak-jn.tk/)! 🔥  
-  If you find any flaws, issues and pull requests are welcomed at [utkarsh2102/utkarsh2102.com](https://github.com/utkarsh2102/utkarsh2102.com)  
+  If you find any flaws, issues and pull requests are welcomed at [utkarsh2102/utkarsh2102.org](https://github.com/utkarsh2102/utkarsh2102.org)  
 - Wrote [battery-alert](https://github.com/utkarsh2102/utsh/blob/master/battery-alert.sh), a mini-project of my own to show battery alerts at <10% and >90%.  
   Written in shell, it brings me all the satisfaction as it has saved my life on many occasions.  
   And guess what? It has more users than just myself! 😉  

@@ -71,7 +71,7 @@ Here are the following things I did this month:
 Last month, I got selected as a [Google Summer of Code](https://summerofcode.withgoogle.com/) student for [Debian](https://www.debian.org/) again! \o/  
 I am working on the [Upstream-Downstream Cooperation in Ruby](https://wiki.debian.org/SummerOfCode2020/Projects/#SummerOfCode2020.2FApprovedProjects.2FUpstreamDownstreamCooperationInRuby.Upstream.2FDownstream_cooperation_in_Ruby) project.
 
-The first half of the first month is blogged here, titled, [GSoC Phase 1](https://utkarsh2102.com/posts/gsoc-phase-1/).  
+The first half of the first month is blogged here, titled, [GSoC Phase 1](https://utkarsh2102.org/posts/gsoc-phase-1/).  
 Also, I log daily updates at [gsocwithutkarsh2102.tk](https://gsocwithutkarsh2102.tk/).
 
 Whilst the daily updates are available at the above site^, I’ll breakdown the important parts of the later half of the first month here:

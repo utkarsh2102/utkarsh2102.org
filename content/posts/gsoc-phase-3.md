@@ -33,10 +33,10 @@ and [David Rodríguez](https://github.com/deivid-rodriguez/) 💖
 So, the program began on 1st June and I've been working since then. I log my daily updates at
 [gsocwithutkarsh2102.tk](https://gsocwithutkarsh2102.tk/).  
 The previously written blogs can be found here:  
-- [GSoC Phase 1 (part 1)](https://utkarsh2102.com/posts/gsoc-phase-1/).
-- [GSoC Phase 1 (part 2)](https://utkarsh2102.com/posts/foss-in-june-20/).
-- [GSoC Phase 2 (part 1)](https://utkarsh2102.com/posts/gsoc-phase-2/).
-- [GSoC Phase 2 (part 2)](https://utkarsh2102.com/posts/foss-in-july-20/).
+- [GSoC Phase 1 (part 1)](https://utkarsh2102.org/posts/gsoc-phase-1/).
+- [GSoC Phase 1 (part 2)](https://utkarsh2102.org/posts/foss-in-june-20/).
+- [GSoC Phase 2 (part 1)](https://utkarsh2102.org/posts/gsoc-phase-2/).
+- [GSoC Phase 2 (part 2)](https://utkarsh2102.org/posts/foss-in-july-20/).
 - And this is GSoC Phase 3 (part 1).
 
 Whilst the daily updates are available at the above site^, I'll breakdown the important

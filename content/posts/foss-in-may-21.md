@@ -54,7 +54,7 @@ So whilst I couldn't upload a lot of packages because of the freeze, here's what
 {{< figure src="/images/ubuntu-logo-small.png" >}}
 
 This was my 4th month of actively contributing to [Ubuntu](https://ubuntu.com/about).
-Now that I've joined [Canonical to work on Ubuntu full-time](https://utkarsh2102.com/posts/hello-canonical/), there's a bunch of things I do! \o/
+Now that I've joined [Canonical to work on Ubuntu full-time](https://utkarsh2102.org/posts/hello-canonical/), there's a bunch of things I do! \o/
 
 This month, by all means, was dedicated mostly to PHP 8.0, transitioning from PHP 7.4 to 8.0.
 Naturally, it had so many moving parts and moments of utmost frustration, shared w/ Bryce. :D

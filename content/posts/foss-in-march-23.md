@@ -99,6 +99,7 @@ I worked for 11.00 hours for LTS and 5.5 hours for ELTS.
 - Marked CVE-2023-28531/openssh as not-affected for stretch and jessie.
 - Marked CVE-2021-33391/tidy-html5 as no-dsa for buster and stretch.
 - Marked CVE-2023-1161/wireshark as no-dsa for buster and stretch.
+- Auto EOL'd chromium, node-sqlite3, linux, firefox-esr, thunderbird, libde265, flatpak, stellarium, gpac, and liblouis.
 - Helped and assisted new contributors joining Freexian (LTS/ELTS/internally).
 - Answered questions (& discussions) on IRC (#debian-lts and #debian-elts) and Matrix.
 - Participated and helped fellow members with their queries via private mail and chat.

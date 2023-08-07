@@ -70,9 +70,9 @@ I worked for 3.5 hours for LTS and 0 hours for ELTS.
 
 #### Other (E)LTS Work:
 
-- Triaged [ruby-loofah](https://tracker.debian.org/pkg/ruby-loofah), and
-[ruby-rails-html-sanitizer](https://tracker.debian.org/pkg/ruby-rails-html-sanitizer),
-- Helped and assisted new contributors joining Freexian (LTS/ELTS/internally).
+- Triaged [ruby-loofah](https://tracker.debian.org/pkg/ruby-loofah) and
+[ruby-rails-html-sanitizer](https://tracker.debian.org/pkg/ruby-rails-html-sanitizer).
+- Helped and assisted fellow Freexian contributors (LTS/ELTS/internally).
 - Answered questions (& discussions) on IRC (#debian-lts and #debian-elts) and Matrix.
 - Participated and helped fellow members with their queries via private mail and chat.
 - General and other discussions on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2023/04/threads.html).

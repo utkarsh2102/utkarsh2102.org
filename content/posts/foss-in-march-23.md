@@ -29,16 +29,13 @@ I became a [DM](https://wiki.debian.org/DebianMaintainer) in late March 2019 and
 
 There's a bunch of things I do, both, technical and non-technical. Here are the things I did this month:
 
-### Uploads
-
-
-### Others
-
-- Looked up some Release team documentation.
+- Looked for some Release team bits.
 - Mentoring for newcomers.
-- Ruby sprints.
+- Ruby sprints remaining stuff.
 - Bug work (on BTS and #debian-ruby) for rails and redmine.
 - Moderation of -project mailing list.
+- Reviewing Stefano's branch for DebConf prep.
+- And finally, starting to do DebConf Bursary team setup.
 
 A huge thanks to Freexian for sponsoring my Debian work and Entrouvert for sponsoring the Redmine backports. :D
 
@@ -66,48 +63,46 @@ will start to list stuff from the fall, as I was doing before. :D
 And [Debian Extended LTS (ELTS)](https://deb.freexian.com/extended-lts) is its sister project, extending support to the stretch and jessie release (+2 years after LTS support).
 
 This was my forty-second month as a Debian LTS and thirty-third month as a Debian ELTS paid contributor.  
-I worked for XX hours for LTS and XX hours for ELTS.
+I worked for 11.00 hours for LTS and 5.5 hours for ELTS.
 
 #### LTS CVE Fixes and Announcements:
 
-- Fixed CVE-2022-47016 for tmux and uploaded to buster via 2.8-3+deb10u1.  
-  But decided to not roll the DLA for the package as the CVE got rejected upstream.
-- Issued [DLA 3359-1](https://lists.debian.org/debian-lts-announce/2023/03/msg00010.html), fixing [CVE-2019-13038](https://security-tracker.debian.org/tracker/CVE-2019-13038) and [CVE-2021-3639](https://security-tracker.debian.org/tracker/CVE-2021-3639), for [libapache2-mod-auth-mellon](https://tracker.debian.org/pkg/libapache2-mod-auth-mellon).  
-  For Debian 10 buster, these problems have been fixed in version 0.14.2-1+deb10u1.
-- Issued [DLA 3360-1](https://lists.debian.org/debian-lts-announce/2023/03/msg00011.html), fixing [CVE-2021-30151](https://security-tracker.debian.org/tracker/CVE-2021-30151) and [CVE-2022-23837](https://security-tracker.debian.org/tracker/CVE-2022-23837), for [ruby-sidekiq](https://tracker.debian.org/pkg/ruby-sidekiq).  
-  For Debian 10 buster, these problems have been fixed in version 5.2.3+dfsg-1+deb10u1.
+- Helped Scarlett with their uploads.
+- Assisted Daniel with their RFA and pointed to a particular situation with ruby-roofah <-> ruby-rails-html-sanitize.
 - Worked on ruby-rails-html-sanitize and added notes to the security-tracker.  
   TL;DR: we need newer methods in ruby-loofah to make the patches for ruby-rails-html-sanitize backportable.
-- Started to look at other set of packages meanwhile.
+- LTS traige.
 
 #### ELTS CVE Fixes and Announcements:
 
-- Issued [ELA 813-1](), fixing [CVE-2017-12618](https://security-tracker.debian.org/tracker/CVE-2017-12618) and [CVE-2022-25147](https://security-tracker.debian.org/tracker/CVE-2022-25147), for [apr-util](https://tracker.debian.org/pkg/apr-util).  
-  For Debian 8 jessie, these problems have been fixed in version 1.5.4-1+deb8u1.  
-  For Debian 9 stretch, these problems have been fixed in version 1.5.4-3+deb9u1.
-- Issued [ELA 814-1](), fixing [CVE-2022-39286](https://security-tracker.debian.org/tracker/CVE-2022-39286), for [jupyter-core](https://tracker.debian.org/pkg/jupyter-core).  
-  For Debian 9 stretch, these problems have been fixed in version 4.2.1-1+deb9u1.
-- Issued [ELA 815-1](), fixing [CVE-2022-44792](https://security-tracker.debian.org/tracker/CVE-2022-44792) and [CVE-2022-44793](https://security-tracker.debian.org/tracker/CVE-2022-44793), for [net-snmp](https://tracker.debian.org/pkg/net-snmp).  
-  For Debian 8 jessie, these problems have been fixed in version 5.7.2.1+dfsg-1+deb8u6.  
-  For Debian 9 stretch, these problems have been fixed in version 5.7.3+dfsg-1.7+deb9u5.
-- Helped facilitate RabbitMQ's update queries by one of our customers.
-- Started to look at other set of packages meanwhile.
+- Helped and review ELTS documentation.
+- ELTS triage.
+- Lesser work on packages this month.
 
 #### Other (E)LTS Work:
 
 - Triaged [ruby-loofah](https://tracker.debian.org/pkg/ruby-loofah),
 [ruby-sinatra](https://tracker.debian.org/pkg/ruby-sinatra),
-[tmux](https://tracker.debian.org/pkg/tmux),
-[ruby-sidekiq](https://tracker.debian.org/pkg/ruby-sidekiq),
-[libapache2-mod-auth-mellon](https://tracker.debian.org/pkg/libapache2-mod-auth-mellon),
-[jupyter-core](https://tracker.debian.org/pkg/jupyter-core),
-[net-snmp](https://tracker.debian.org/pkg/net-snmp), and
-[apr-util](https://tracker.debian.org/pkg/apr-util),
-[rabbitmq-server](https://tracker.debian.org/pkg/rabbitmq-server).
+[phpmyadmin](https://tracker.debian.org/pkg/phpmyadmin),
+[ruby-rails-html-sanitizer](https://tracker.debian.org/pkg/ruby-rails-html-sanitizer),
+[hdf5](https://tracker.debian.org/pkg/hdf5),
+[cairosvg](https://tracker.debian.org/pkg/cairosvg),
+[debian-goodies](https://tracker.debian.org/pkg/debian-goodies),
+[sudo](https://tracker.debian.org/pkg/sudo),
+[vim](https://tracker.debian.org/pkg/vim),
+[openssh](https://tracker.debian.org/pkg/openssh),
+[tidy-html5](https://tracker.debian.org/pkg/tidy-html5), and
+[wireshark](https://tracker.debian.org/pkg/wireshark).
+- Marked CVE-2023-27635/debian-goodies as no-dsa for stretch and jessie.
+- Marked CVE-2023-2848{6,7}/sudo as no-dsa for buster and stretch and jessie.
+- Marked CVE-2023-1175/vim as no-dsa for buster and stretch and jessie.
+- Marked CVE-2023-28531/openssh as not-affected for stretch and jessie.
+- Marked CVE-2021-33391/tidy-html5 as no-dsa for buster and stretch.
+- Marked CVE-2023-1161/wireshark as no-dsa for buster and stretch.
 - Helped and assisted new contributors joining Freexian (LTS/ELTS/internally).
 - Answered questions (& discussions) on IRC (#debian-lts and #debian-elts) and Matrix.
 - Participated and helped fellow members with their queries via private mail and chat.
-- General and other discussions on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2023/02/threads.html).
+- General and other discussions on LTS private and [public mailing list](https://lists.debian.org/debian-lts/2023/03/threads.html).
 - Attended the monthly LTS meeting.
 
 ---

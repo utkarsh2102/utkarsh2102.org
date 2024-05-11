@@ -67,7 +67,7 @@ I did the following things:
 - Triaged [atril](https://tracker.debian.org/pkg/atril),
 [zabbix](https://tracker.debian.org/pkg/zabbix), and
 [ruby3.1](https://tracker.debian.org/pkg/ruby3.1).
-- Asked Santiago for help in testing the atril update. There are 2 CVEs open for the package. One is a Command Injection Vulnerability and the other one is about Remote Command Execution. I've gotten some feedback, will incorporate it and release the update in May.
+- Asked Santiago for help in testing the atril update for buster. There are 2 CVEs open for the package. One is a Command Injection Vulnerability and the other one is about Remote Command Execution. I've gotten some feedback, will incorporate it and release the update in May.
 - Reviewed ruby3.1 DSA for the security team. Will prep E/LTS updates for ruby* next month.
 - Answered questions (& discussions) on IRC (#debian-lts and #debian-elts) and Matrix.
 - Participated and helped fellow members with their queries.

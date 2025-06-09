@@ -1,7 +1,7 @@
 +++
 date = "2025-05-30 11:11:11 +0530"
 title = "FOSS Activites in May 2025"
-slug = "foss-in-april-25"
+slug = "foss-in-may-25"
 images = [
     "/images/debian-logo-small.png",
     "/images/ubuntu-logo-small.png",
@@ -55,7 +55,7 @@ Whilst I can't give a full, detailed list of things I did (there's so much and s
 
 [Debian Long Term Support (LTS)](https://www.freexian.com/en/services/debian-lts.html) is a project to extend the lifetime of all Debian stable releases to (at least) 5 years. Debian LTS is not handled by the Debian security team, but by a separate group of volunteers and companies interested in making it a success.  
 
-And [Debian Extended LTS (ELTS)](https://deb.freexian.com/extended-lts) is its sister project, extending support to the stretch and jessie release (+2 years after LTS support).
+And [Debian Extended LTS (ELTS)](https://deb.freexian.com/extended-lts) is its sister project, extending support to the buster, stretch, and jessie release (+2 years after LTS support).
 
 This was my 68th month as a Debian LTS and 55th month as a Debian ELTS paid contributor.  
 Due to a combination of the Canonical engineering sprints in Frankfurt, a bit of vacation in Italy, and then being sick, I was barely able to do (E)LTS work. So this month, I worked for only 1.00 hours for LTS and 0 hours for ELTS.

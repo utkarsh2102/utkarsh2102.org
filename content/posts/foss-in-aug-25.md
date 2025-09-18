@@ -53,11 +53,8 @@ Whilst I can't give a full, detailed list of things I did, here's a quick TL;DR 
 ## Debian (E)LTS
 {{< figure src="/images/debian-lts-small.png" >}}
 
-[Debian Long Term Support (LTS)](https://www.freexian.com/en/services/debian-lts.html) is a project to extend the lifetime of all Debian stable releases to (at least) 5 years. Debian LTS is not handled by the Debian security team, but by a separate group of volunteers and companies interested in making it a success.  
-
-And [Debian Extended LTS (ELTS)](https://deb.freexian.com/extended-lts) is its sister project, extending support to the stretch and jessie release (+2 years after LTS support).
-
-I only worked for 16.00 hours for LTS and 4.50 hours for ELTS and did the following things:
+This month I have worked 16.00 hours on [Debian Long Term Support (LTS)](https://www.freexian.com/lts/debian/) and
+4.50 hours on its sister [Extended LTS](https://www.freexian.com/lts/extended/) project and did the following things:
 
 - [LTS] Prepared the LTS update for wordpress, bumping the package from 5.7.11 to 5.7.13.
   - Prepared an update for stable, too, and pinged Craig. Haven't heard yet.

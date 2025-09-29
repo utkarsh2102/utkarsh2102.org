@@ -56,35 +56,30 @@ This month I have worked XX.00 hours on [Debian Long Term Support (LTS)](https:/
 XX.00 hours on its sister [Extended LTS](https://www.freexian.com/lts/extended/) project and did the following things:
 
 - [E/LTS] Frontdesk duty from 22nd September to 28th September.
-  - Triaged lemonldap-ng, ghostscript, dovecot, node-ip, webkit2gtk, wpewebkit, libscram-java, keras.
+  - Triaged lemonldap-ng, ghostscript, dovecot, node-ip, webkit2gtk, wpewebkit, libscram-java, keras, openbabel, gegl, tiff, zookeeper, squid, ogre-1.12, mapserver, ruby-rack.
   - Auto-EOL'd a few packages.
   - Also circled back on previously opened ticket for supported packages for ELTS.
   - Partially reviewed and added comment on [Emilio's MP](https://gitlab.com/freexian/services/deblts-team/debian-lts/-/merge_requests/64).
-  - Re-visited an old thread (in order to fully close it) about issues being fixed in buster & bookworm but not in bullseye.
+  - Re-visited an old thread (in order to fully close it) about issues being fixed in buster & bookworm but not in bullseye. And brought it up in the LTS meeting, too.
 
 - [LTS] Partook in some internal discussions about introducing support for handling severity of CVEs, et al.
   - Santiago had asked for an input from people doing FD so spent some time reflecting on his proposal and getting back with thoughts and suggestions.
 
 - [LTS] Helped Lee with testing gitk and git-gui aspects of his git update.
 
+- [LTS] Attended the monthly LTS meeting on IRC. [Summary here](https://meetbot.debian.net/debian-lts/2025/debian-lts.2025-09-25-14.00.html).
+  - It was also followed by a 40-minute discussion of technical questions/reviews/discussions - which in my opinion was pretty helpful. :)
+
 - [ELTS] Finally setup debusine for ELTS uploads.
   - Since I use Ubuntu, this required installing debusine* from bookworm-backport but that required Python 3.11.
   - So I had to upgrade from Jammy (22.04) to Noble (24.04) - which was anyway pending.. :)
   - And then followed the docs to configure it. \o/
-
-- [LTS] Attended the monthly LTS meeting on IRC. [Summary here](https://meetbot.debian.net/debian-lts/2025/debian-lts.2025-09-25-14.00.html).
-  - It was also followed by a 40-minute discussion of technical questions/reviews/discussions - which in my opinion was pretty helpful. :)
 
 <!--
 - [LTS] Prepared the LTS update for wordpress, bumping the package from 5.7.11 to 5.7.13.
   - Prepared an update for stable, too, and pinged Craig. Haven't heard yet.
   - Got incredibly sick so will carry on the coordination work and release the updates to all the releases. Everything's mostly ready and tested.
   - Gave Salvatore a quick heads up via IRC.
-
-- [E/LTS] Helped Daniel Leidert in showing him around as he did his first frontdesk rota. Yay! 🎉
-  - We paired on an hour long meets call and discussed various toolings and workflows.
-  - Pair-reviewed a few CVEs together.
-  - Also discussed how to triage newly supported packages for ELTS, too!
 
 - [Stable] Been working on fixing 2 packages: 
   - ruby-graphql: The Debian Security team asked to fix that via p-u so prepared a patch update.

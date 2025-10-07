@@ -45,15 +45,16 @@ Whilst I can't give a full, detailed list of things I did, here's a quick TL;DR 
 - Continued to hold weekly release syncs, et al.
 - Granted FFe and triaged a bunch of other bugs from both, Release team and Archive Admin POV. :)
 - 360s were fab - I was a peak performer again. Yay!
-- Got a recognition award for ???
+- Preparing for the 25.10 Release sprints in London and then the Summit.
+- Roadmap planning for the Release team.
 
 ---
 
 ## Debian (E)LTS
 {{< figure src="/images/debian-lts-small.png" >}}
 
-This month I have worked XX.00 hours on [Debian Long Term Support (LTS)](https://www.freexian.com/lts/debian/) and
-XX.00 hours on its sister [Extended LTS](https://www.freexian.com/lts/extended/) project and did the following things:
+This month I have worked 16.50 hours on [Debian Long Term Support (LTS)](https://www.freexian.com/lts/debian/) and
+05.50 hours on its sister [Extended LTS](https://www.freexian.com/lts/extended/) project and did the following things:
 
 - [E/LTS] Frontdesk duty from 22nd September to 28th September.
   - Triaged lemonldap-ng, ghostscript, dovecot, node-ip, webkit2gtk, wpewebkit, libscram-java, keras, openbabel, gegl, tiff, zookeeper, squid, ogre-1.12, mapserver, ruby-rack.
@@ -70,22 +71,16 @@ XX.00 hours on its sister [Extended LTS](https://www.freexian.com/lts/extended/)
 - [LTS] Attended the monthly LTS meeting on IRC. [Summary here](https://meetbot.debian.net/debian-lts/2025/debian-lts.2025-09-25-14.00.html).
   - It was also followed by a 40-minute discussion of technical questions/reviews/discussions - which in my opinion was pretty helpful. :)
 
+- [LTS] Prepared the LTS update for wordpress, bumping the package from 5.7.11 to 5.7.13.
+  - Prepared an update for stable, Craig approved. Was waiting on the Security team's +1 to upload.
+  - Now we've waited enough that we have new CVEs. Oh well.
+
 - [ELTS] Finally setup debusine for ELTS uploads.
   - Since I use Ubuntu, this required installing debusine* from bookworm-backport but that required Python 3.11.
   - So I had to upgrade from Jammy (22.04) to Noble (24.04) - which was anyway pending.. :)
   - And then followed the docs to configure it. \o/
 
-<!--
-- [LTS] Prepared the LTS update for wordpress, bumping the package from 5.7.11 to 5.7.13.
-  - Prepared an update for stable, too, and pinged Craig. Haven't heard yet.
-  - Got incredibly sick so will carry on the coordination work and release the updates to all the releases. Everything's mostly ready and tested.
-  - Gave Salvatore a quick heads up via IRC.
-
-- [Stable] Been working on fixing 2 packages: 
-  - ruby-graphql: The Debian Security team asked to fix that via p-u so prepared a patch update.
-  - ruby-saml: The update is finally ready but not tested yet - should be a quick one though.
-  - Got incredibly sick and couldn't move things forward but will take care of the work in the following month.
--->
+- [E/LTS] Started working on new ruby-rack CVE.
 
 ---
 

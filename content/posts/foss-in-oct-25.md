@@ -66,7 +66,7 @@ did the following things:
   - **[ELTS]**: Backported fixes for CVE-2025-46727 & CVE-2025-32441 to buster and stretch but the other backports are being a bit tricky due to really old versions. But I'll spend some more time there before coming to a conclusion.
 
 - **wordpress**: There were multiple vulnerabilities reported leading to Sent Data & Cross-site Scripting.
-  - **[bookworm]**: Uploaded a fix for all 4 CVEs in **bookwrom** via **6.1.9+dfsg1-0+deb12u1**.
+  - **[bookworm]**: Prepared a fix for all 4 CVEs in **bookwrom** via **6.1.9+dfsg1-0+deb12u1**. Awaiting review from the Security team.
   - **[LTS]**: Uploaded a fix for all 4 CVEs in **bullseye** via **5.7.14+dfsg1-0+deb11u1**. And released [DLA 4358-1](https://lists.debian.org/debian-lts-announce/2025/11/msg00001.html).
 
 - **[LTS]** Attended the monthly LTS meeting on Jitsi. [Summary here](https://lists.debian.org/debian-lts/2025/10/msg00026.html).

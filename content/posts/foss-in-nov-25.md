@@ -64,6 +64,7 @@ project and did the following things:
 
 - **wordpress**: There were multiple vulnerabilities reported in Wordpress, leading to Sent Data & Cross-site Scripting.
   - **[bookworm]**: Roberto rightly pointed out that the upload to bookworm hadn't gone through last month, so I re-uploaded **wordpress/6.1.9+dfsg1-0+deb12u1** to **bookworm-security**.
+  - This is now released as [DSA 6075-1](https://lists.debian.org/debian-security-announce/2025/msg00241.html).
 
 - **ruby-rack**: There were multiple vulnerabilities reported in Rack, leading to DoS (memory exhaustion) and proxy bypass.
   - **[ELTS]**: Last month I had backported fixes for CVE-2025-46727 & CVE-2025-32441 to buster and stretch but the other backports were being a bit tricky due to really old versions.

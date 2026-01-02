@@ -57,35 +57,88 @@ Whilst I can't give a full, detailed list of things I did, here's a quick TL;DR 
 ## Debian (E)LTS
 {{< figure src="/images/debian-lts-small.png" >}}
 
-This month I have worked FIXME:65 hours
+This month I have worked 72 hours
 on [Debian Long Term Support (LTS)](https://www.freexian.com/lts/debian/)
 and on its sister [Extended LTS](https://www.freexian.com/lts/extended/)
 project and did the following things:
 
+### Released Security Updates
 
-- **wordpress**: There were multiple vulnerabilities reported in Wordpress, leading to Sent Data & Cross-site Scripting.
-  - **[bookworm]**: Roberto rightly pointed out that the upload to bookworm hadn't gone through last month, so I re-uploaded **wordpress/6.1.9+dfsg1-0+deb12u1** to **bookworm-security**.
-  - This is now released as [DSA 6075-1](https://lists.debian.org/debian-security-announce/2025/msg00241.html).
+- **ruby-git**: Multiple vulnerabilities leading to command line injection and improper path escaping.
+  - **[LTS]**: Fixed [CVE-2022-25648](https://security-tracker.debian.org/tracker/CVE-2022-25648), [CVE-2022-46648](https://security-tracker.debian.org/tracker/CVE-2022-46648), and [CVE-2022-47318](https://security-tracker.debian.org/tracker/CVE-2022-47318) via [**1.7.0-1+deb11u1**](https://tracker.debian.org/news/1698358/accepted-ruby-git-170-1deb11u1-source-into-oldoldstable-security/) for bullseye. This has been released as [**DLA 4406-1**](https://www.debian.org/lts/security/2025/DLA-4406-1).
 
-- **ruby-rack**: There were multiple vulnerabilities reported in Rack, leading to DoS (memory exhaustion) and proxy bypass.
-  - **[ELTS]**: Last month I had backported fixes for CVE-2025-46727 & CVE-2025-32441 to buster and stretch but the other backports were being a bit tricky due to really old versions.
-  - I spent a bit more time but there's a lot to demystify. Gonna take a bit of break from this one and come back to this after doing other updates. Might even consider sending a RFH to the list.
+- **ruby-sidekiq**: Multiple vulnerabilities leading to Cross-site Scripting (XSS) and Denial of Service in Web UI.
+  - **[LTS]**: Fixed [CVE-2021-30151](https://security-tracker.debian.org/tracker/CVE-2021-30151) and [CVE-2022-23837](https://security-tracker.debian.org/tracker/CVE-2022-23837) via [**6.0.4+dfsg-2+deb11u1**](https://tracker.debian.org/news/1698365/accepted-ruby-sidekiq-604dfsg-2deb11u1-source-into-oldoldstable-security/) for bullseye. This has been released as [**DLA 4407-1**](https://www.debian.org/lts/security/2025/DLA-4407-1).
 
-- **libwebsockets**: Multiple issues were reported in LWS causing denial of service and stack-based buffer overflow.
-  - **[LTS]**: For **bullseye**, these were [fixed via **4.0.20-2+deb11u1**](https://tracker.debian.org/news/1689800/accepted-libwebsockets-4020-2deb11u1-source-into-oldoldstable-security/). And released as [DLA 4373-1](https://lists.debian.org/debian-lts-announce/2025/11/msg00016.html).
+- **python-apt**: Vulnerability leading to crash via invalid nullptr dereference in TagSection.keys().
+  - **[LTS]**: Fixed [CVE-2025-6966](https://security-tracker.debian.org/tracker/CVE-2025-6966) via [**2.2.1.1**](https://tracker.debian.org/news/1698383/accepted-python-apt-2211-source-into-oldoldstable-security/) for bullseye. This has been released as [**DLA 4408-1**](https://www.debian.org/lts/security/2025/DLA-4408-1).
+  - **[ELTS]**: Fixed [CVE-2025-6966](https://security-tracker.debian.org/tracker/CVE-2025-6966) via **1.8.4.4** for buster and **1.4.4** for stretch. This has been released as [**ELA 1596-1**](https://www.freexian.com/lts/extended/updates/ela-1596-1-python-apt/).
+  - All of this was coordinated b/w the Security team and Julian Andres Klode. Julian will take care of the stable uploads.
 
-- **mako**: It was found that Mako, a Python template library, was vulnerable to a denial of service attack via crafted regular expressions.
-  - **[LTS]**: For **bullseye**, these were [fixed via **1.1.3+ds1-2+deb11u1**](https://tracker.debian.org/news/1694871/accepted-mako-113ds1-2deb11u1-source-into-oldoldstable-security/). And released as [DLA 4393-1](https://lists.debian.org/debian-lts-announce/2025/12/msg00004.html).
-  - Backporting tests was an interesting exercise as I had to make them compatible with the bullseye version. :)
+- **node-url-parse**: Vulnerability allowing authorization bypass through specially crafted URL with empty userinfo and no host.
+  - **[LTS]**: Fixed [CVE-2022-0639](https://security-tracker.debian.org/tracker/CVE-2022-0639) via [**1.5.3-1+deb11u3**](https://tracker.debian.org/news/1698861/accepted-node-url-parse-153-1deb11u3-source-into-oldoldstable-security/) for bullseye. This has been released as [**DLA 4413-1**](https://www.debian.org/lts/security/2025/DLA-4413-1).
+
+- **wordpress**:  Multiple vulnerabilities in WordPress core, leading to Sent Data & Cross-site Scripting.
+  - **[stable]**: Fixed [CVE-2025-58674](https://security-tracker.debian.org/tracker/CVE-2025-58674) and [CVE-2025-58246](https://security-tracker.debian.org/tracker/CVE-2025-58246) via [**6.8.3+dfsg1-0+deb13u1**](https://tracker.debian.org/news/1700127/accepted-wordpress-683dfsg1-0deb13u1-source-into-proposed-updates/) for trixie.  This has been released as [**DSA 6091-1**](https://www.debian.org/security/2025/dsa-6091).
+
+- **usbmuxd**: Privilege escalation vulnerability via path traversal in SavePairRecord command.
+  - **[LTS]**: Fixed [CVE-2025-66004](https://security-tracker.debian.org/tracker/CVE-2025-66004) via [**1.1.1-2+deb11u1**](https://tracker.debian.org/news/1699488/accepted-usbmuxd-111-2deb11u1-source-into-oldoldstable-security/) for bullseye. This has been released as [**DLA 4417-1**](https://www.debian.org/lts/security/2025/DLA-4417-1).
+  - **[ELTS]**: Fixed [CVE-2025-66004](https://security-tracker.debian.org/tracker/CVE-2025-66004) via **1.1.1~git20181007.f838cf6-1+deb10u1** for buster and **1.1.0-2+deb9u1** for stretch. This has been released as [**ELA 1599-1**](https://www.freexian.com/lts/extended/updates/ela-1599-1-usbmuxd/).
+  - All of this was coordinated b/w the Security team and Yves-Alexis Perez. Yves will take care of the stable uploads.
+
+- **gst-plugins-good1.0**: Multiple vulnerabilities in isomp4 plugin leading to potential out-of-bounds reads and information disclosure.
+  - **[LTS]**:  Fixed [CVE-2025-47219](https://security-tracker.debian.org/tracker/CVE-2025-47219) and [CVE-2025-47183](https://security-tracker.debian.org/tracker/CVE-2025-47183) via [**1.18.4-2+deb11u4**](https://tracker.debian.org/news/1701009/accepted-gst-plugins-good10-1184-2deb11u4-source-into-oldoldstable-security/) for bullseye. This has been released as [**DLA 4419-1**](https://www.debian.org/lts/security/2025/DLA-4419-1).
+
+- **postgresql-13**: Multiple vulnerabilities including unauthorized schema statistics creation and integer overflow in libpq allocation calculations.
+  - **[LTS]**:  Fixed [CVE-2025-12817](https://security-tracker.debian.org/tracker/CVE-2025-12817) and [CVE-2025-12818](https://security-tracker.debian.org/tracker/CVE-2025-12818) via [**13.23-0+deb11u1**](https://tracker.debian.org/news/1701263/accepted-postgresql-13-1323-0deb11u1-source-into-oldoldstable-security/) for bullseye. This update has been prepared by the maintainer, Christoph Berg, and released as [**DLA 4420-1**](https://www.debian.org/lts/security/2025/DLA-4420-1).
+
+- **gst-plugins-base1.0**:  Multiple vulnerabilities in SubRip subtitle parsing leading to potential crashes and buffer issues.
+  - **[ELTS]**: Fixed [CVE-2025-47806](https://security-tracker.debian.org/tracker/CVE-2025-47806), [CVE-2025-47807](https://security-tracker.debian.org/tracker/CVE-2025-47807), and [CVE-2025-47808](https://security-tracker.debian.org/tracker/CVE-2025-47808) via **1.14.4-2+deb10u5** for buster and **1.10.4-1+deb9u6** for stretch.  This has been released as [**ELA 1600-1**](https://www.freexian.com/lts/extended/updates/ela-1600-1-gst-plugins-base1.0/).
+
+
+### Work in Progress
 
 - **ceph**: Affected by CVE-2024-47866, using the argument `x-amz-copy-source` to put an object and specifying an empty string as its content leads to the RGW daemon crashing, resulting in a DoS attack.
   - **[LTS]**: Whilst the patch is straightforward, backports are a bit tricky. I've prepared the update but would like to reach out to zigo, the maintainer, to make sure nothing regresses.
   - **[ELTS]**: Same as LTS, I'd like to get a quick review and upload to LTS first before I start staging uploads for ELTS.
 
-- **[LTS]** Attended the monthly LTS meeting on IRC. [Summary here](https://lists.debian.org/debian-lts/2025/11/msg00023.html).
-  - It was also followed by a 50-minute post-meeting technical discussion/question session.
+- **knot-resolver**: ...
 
-- **[E/LTS]** Monitored discussions on mailing lists, IRC, and all the documentation updates. Thanks, Sylvain, for a great documentation summary.
+- **adminer**: ...
+
+- **u-boot**: ...
+
+- **ruby-rack**: There were multiple vulnerabilities reported in Rack, leading to DoS (memory exhaustion) and proxy bypass.
+  - **[ELTS]**: Bastien picked up ruby-rack for ELTS and reached out about an upstream regression and we've been doing some exchanges.
+
+### Other Activities
+
+- Frontdesk from 01-12-2025 to 07-12-2025.
+  - auto EOL'd.
+  - other triages to be added..
+
+- I claimed php-horde-css-parser to work on CVE-2020-13756 for buster and did almost all the work only to realize that the patch already existed in buster and the changelog confirmed that it was intentionally fixed.
+  - After speaking with Andreas Henriksson, we figured that the CVE ID was missed when the ELA was generated and so I fixed that via 87afaaf19ce56123bc9508d9c6cd5360b18114ef and 5621431e84818b4e650ffdce4c456daec0ee4d51 in the ELTS security tracker to reflect the situation.
+
+- Participated in a thread which I started last month around using Salsa CI for E/LTS packages and if we plan to sunset it in favor of using Debusine. The plan for now is to keep it around as it's still beneficial and Debusine is still in its early phase.
+
+- Did a lot of back and forth with Helmut about debusine uploads on #debian-elts.
+  - While debugging a failure in dcut uploads, I ran into an SSH compatibility issue on deb-master.freexian.com that could be fixed on the server-side. I shared all my findings to Freexian's sysadmin team.
+  - A minimal fix on the server side would be one of:
+    ```
+    PubkeyAcceptedAlgorithms -ssh-dss
+    ```
+    or explicitly restricting to modern algorithms, e.g.:
+    ```
+    PubkeyAcceptedAlgorithms
+    ssh-ed25519,ecdsa-sha2-nistp256,rsa-sha2-512,rsa-sha2-256
+    ```
+
+- Jelly on #debian-lts reported that all my DLA mails had broken GMail's DKIM signature. So I set up sending replies from @debian.org and that seems to have fixed that! \o/
+
+- **[LTS]** Attended a rather short monthly LTS meeting on Jitsi. [Summary here](https://lists.debian.org/debian-lts/2025/12/msg00032.html).
+
+- **[E/LTS]** Monitored discussions on mailing lists, IRC, and all the documentation updates.
 
 ---
 

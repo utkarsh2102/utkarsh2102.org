@@ -51,6 +51,7 @@ Whilst I can't give a full, detailed list of things I did, here's a quick TL;DR 
   - LTS requalification of Ubuntu flavours.
   - bootstrapping dotnet-10 packages for Stable Release Updates.
 - With that, we've entered the EOY break. :)
+  - I was anyway on vacation for majority of this month. ;)
 
 ---
 
@@ -99,23 +100,51 @@ project and did the following things:
 ### Work in Progress
 
 - **ceph**: Affected by CVE-2024-47866, using the argument `x-amz-copy-source` to put an object and specifying an empty string as its content leads to the RGW daemon crashing, resulting in a DoS attack.
-  - **[LTS]**: Whilst the patch is straightforward, backports are a bit tricky. I've prepared the update but would like to reach out to zigo, the maintainer, to make sure nothing regresses.
-  - **[ELTS]**: Same as LTS, I'd like to get a quick review and upload to LTS first before I start staging uploads for ELTS.
+  - **[LTS]**: Whilst the patch is straightforward, backports are a bit tricky. Also trying to backport the fix for CVE-2022-0670. The update has been prepared as of December 16th and awaiting Thomas Goirand's review.
+    - Git repository for bullseye: https://salsa.debian.org/lts-team/packages/ceph/-/tree/debian/bullseye.
+  - **[ELTS]**: Same as LTS - I've tested the update but waiting for Thomas to ack the LTS upload and so I can proceed with ELTS uploads.
+    - Git repository for buster: http://salsa.debian.org/lts-team/packages/ceph/-/commits/debian/buster
+    - Git repository for stretch: http://salsa.debian.org/lts-team/packages/ceph/-/commits/debian/stretch
 
-- **knot-resolver**: ...
+- **knot-resolver**: Affected by CVE-2023-26249, CVE-2023-46317, and CVE-2022-40188, leading to Denial of Service.
+  - **[LTS]**: The patches aren't very trivial, with
+CVE-2023-46317 reverting much of the patch for CVE-2023-26249. And then it had to be re-adjusted a bit for v5.3.1. The backports are ready as of December 23rd and awaiting Jakub or Santiago's review.
+    - Git repository for bullseye: https://salsa.debian.org/lts-team/packages/knot-resolver/-/tree/debian/bullseye
 
-- **adminer**: ...
+- **adminer**: Affected by CVE-2023-45195 and CVE-2023-45196, leading to SSRF and DoS, respectively.
+  - **[ELTS]**: I picked it up again and the patches were already ready in Git. I've reached out to Alexandre for a quick review and smoke test before we can release it for buster.
+    - Git repository for buster: https://salsa.debian.org/lts-team/packages/adminer/-/tree/debian/buster
 
-- **u-boot**: ...
+- **u-boot**: Affected by CVE-2025-24857, where boot code access control flaw in U-Boot allowing arbitrary code execution via physical access.
+  - **[ELTS]**: As it's only affected the version in stretch, I've started the work to find the fixing commits and prepare a backport. Not much progress there, I'll roll it over to January.
 
 - **ruby-rack**: There were multiple vulnerabilities reported in Rack, leading to DoS (memory exhaustion) and proxy bypass.
-  - **[ELTS]**: Bastien picked up ruby-rack for ELTS and reached out about an upstream regression and we've been doing some exchanges.
+  - **[ELTS]**: After completing the work for LTS myself, Bastien picked it up for ELTS and reached out about an upstream regression and we've been doing some exchanges. Bastien has done most of the work backporting the patches but needs a review and help backporting CVE-2025-61771.
 
 ### Other Activities
 
 - Frontdesk from 01-12-2025 to 07-12-2025.
-  - auto EOL'd.
-  - other triages to be added..
+  - Auto EOL'd a bunch of packages.
+  - Marked CVE-2025-12084/python2.7 as end-of-life for bullseye, buster, and stretch.
+  - Marked CVE-2025-12084/jython as end-of-life for bullseye.
+  - Marked CVE-2025-13992/chromium as end-of-life for bullseye.
+  - Marked apache2 CVEs as postponed for bullseye, buster, and stretch.
+  - Marked CVE-2025-13654/duc as postponed for bullseye and buster.
+  - Marked CVE-2025-32900/kdeconnect as ignored for bullseye.
+  - Marked CVE-2025-12084/pypy3 as postponed for bullseye.
+  - Marked CVE-2025-14104/util-linux as postponed for bullseye, buster, and stretch.
+  - Marked several CVEs for fastdds as postponed for bullseye.
+  - Marked several CVEs for pytorch as postponed for bullseye.
+  - Marked CVE-2025-2486/edk2 as postponed for bullseye.
+  - Marked CVE-2025-6172{7,9}/golang-1.15 as postponed for bullseye.
+  - Marked CVE-2025-65637/golang-logrus as postponed for bullseye.
+  - Marked CVE-2025-12385/qtdeclarative-opensource-src{,gles} as postponed for bullseye, buster, and stretch.
+  - Marked TEMP-0000000-D08402/rust-maxminddb as postponed for bullseye.
+  - Added the following packages to {d,e}la-needed.txt:
+    - liblivemedia, sogo.
+  - During my triage, I had to make the bin/elts-eol script robust to determine the `lts_admin` repository - did a back and forth with Emilio about this on the list.
+  - I sent a gentle reminder to the LTS team about the issues fixed in bullseye but not in bookworm via mailing list: https://lists.debian.org/debian-lts/2025/12/msg00013.html.
+
 
 - I claimed php-horde-css-parser to work on CVE-2020-13756 for buster and did almost all the work only to realize that the patch already existed in buster and the changelog confirmed that it was intentionally fixed.
   - After speaking with Andreas Henriksson, we figured that the CVE ID was missed when the ELA was generated and so I fixed that via 87afaaf19ce56123bc9508d9c6cd5360b18114ef and 5621431e84818b4e650ffdce4c456daec0ee4d51 in the ELTS security tracker to reflect the situation.

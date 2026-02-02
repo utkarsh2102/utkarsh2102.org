@@ -1,5 +1,5 @@
 +++
-date = "2025-01-30 11:11:11 +0530"
+date = "2026-01-30 11:11:11 +0530"
 title = "FOSS Activites in January 2026"
 slug = "foss-in-jan-26"
 images = [

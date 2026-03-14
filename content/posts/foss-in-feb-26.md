@@ -101,18 +101,18 @@ project and did the following things:
 
 ### Other Activities
 
-- **[LTS] Front Desk duties**: Performed a large batch of CVE triage, marking numerous packages for bullseye, buster, and stretch as either `postponed`, `end-of-life`, `not-affected`, or added them to the Xla-needed.txt files.
-  - Also replied to certain mails and IRC texts around FD related tasks.
+- **[LTS]** Coordinated the libvirt sitaution with Ben Hutchings. The upload has already been prepped, will upload in March.
 
 - **[ELTS]** Continued to help Bastien and Markus with the tomcat9 regression for buster.
 
 - **[ELTS]** Partially reviewed ruby-rack CVEs to help Bastien. This took more time than expected with some more develpments hapening at the end of the month - new CVEs that aren't as easy to backport as I expected them to be. Will continue with these in March.
 
-- **[LTS]** Coordinated the libvirt sitaution with Ben Hutchings. The upload has already been prepped, will upload in March.
-
-- **[LTS]** Attended the monthly LTS meeting on Jitsi. [Summary here](https://lists.debian.org/debian-lts/2026/02/msg00026.html).
+- **[E/LTS] Front Desk duties**: Performed a large batch of CVE triage, marking numerous packages for bullseye, buster, and stretch as either `postponed`, `end-of-life`, `not-affected`, or added them to the Xla-needed.txt files.
+  - Also replied to certain mails and IRC texts around FD related tasks.
 
 - **[E/LTS]** Monitored discussions on mailing lists, IRC, and all the documentation updates.
+
+- **[E/LTS]** Attended the monthly LTS meeting on Jitsi. [Summary here](https://lists.debian.org/debian-lts/2026/02/msg00026.html).
 
 ---
 

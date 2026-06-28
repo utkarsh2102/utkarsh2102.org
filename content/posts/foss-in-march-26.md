@@ -1,6 +1,6 @@
 +++
 date = "2026-03-30 11:11:11 +0530"
-title = "FOSS Activites in March 2026"
+title = "FOSS Activities in March 2026"
 slug = "foss-in-march-26"
 images = [
     "/images/debian-logo-small.png",
@@ -29,7 +29,7 @@ Whilst I didn't get a chance to do much, here are still a few things that I work
 - A quick exchange with Xavier about node-lodash fixes for stable releases.
 - Uploaded ruby-rack to CVE-2026-25500 & CVE-2026-22860 to sid, trixie, and bookworm.
 - Started to work on the DebConf Bursary team along with PEB.
-- Assited a few folks in getting their patches submitted via Salsa.
+- Assisted a few folks in getting their patches submitted via Salsa.
 - Mentoring for newcomers.
 - Moderation of -project mailing list.
 
@@ -53,7 +53,7 @@ Whilst I can't give a full, detailed list of things I did, here's a quick TL;DR 
   - Coordinating weekly syncs.
   - Promoting/demoting binaries to/from main.
   - Taking care of package removals and so on.
-- Was pretty occupied with the new release processs architecture and design.
+- Was pretty occupied with the new release process architecture and design.
 - Preparing for the 26.04 LTS final release.
 
 ---

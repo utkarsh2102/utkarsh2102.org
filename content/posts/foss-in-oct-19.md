@@ -1,6 +1,6 @@
 +++
 date = "2019-10-30 11:11:11 +0530"
-title = "FOSS Activites in October 2019"
+title = "FOSS Activities in October 2019"
 slug = "foss-in-oct-19"
 tags = [
     "debian",

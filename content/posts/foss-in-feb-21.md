@@ -1,6 +1,6 @@
 +++
 date = "2021-02-28 11:11:11 +0530"
-title = "FOSS Activites in February 2021"
+title = "FOSS Activities in February 2021"
 slug = "foss-in-feb-21"
 images = [
     "/images/debian-logo-small.png",
@@ -39,16 +39,16 @@ Anyway, whilst I was super-insanely busy this month, I still did some Debian stu
 - [ruby-launchy](https://tracker.debian.org/pkg/ruby-launchy) (2.5.0-3) - Add Breaks+Replaces for launchy; fixing [bug #974046](https://bugs.debian.org/974046).
 - [ruby-upr](https://tracker.debian.org/pkg/ruby-upr) (0.3.0-3) - Fixing FTBFS + autopkgtest; cf: [bug #883370](https://bugs.debian.org/883370).
 - [gdisk](https://tracker.debian.org/pkg/gdisk) (1.0.6-1.1) - Add Restrictions: allow-stderr for autopkgtest; fixing [bug #981231](https://bugs.debian.org/981231).
-- [test-check-clojure](https://tracker.debian.org/pkg/test-check-clojure) (0.9.0-4) - Fixing FTBFS + autpkgtest; cf: [bug #982721](https://bugs.debian.org/982721).
+- [test-check-clojure](https://tracker.debian.org/pkg/test-check-clojure) (0.9.0-4) - Fixing FTBFS + autopkgtest; cf: [bug #982721](https://bugs.debian.org/982721).
 - [rails](https://tracker.debian.org/pkg/rails) (2:6.0.3.5+dfsg-1) - Fixing [CVE-2021-22880](https://security-tracker.debian.org/tracker/CVE-2021-22880) and [CVE-2021-22881](https://security-tracker.debian.org/tracker/CVE-2021-22881).
 - [ruby-mechanize](https://tracker.debian.org/pkg/ruby-mechanize) (2.7.6-1+deb10u1) - pu-upload, fixing [CVE-2021-21289](https://security-tracker.debian.org/tracker/CVE-2021-21289).
-- [ruby-handlebars-assets](https://tracker.debian.org/pkg/ruby-handlebars-assets) (2:0.23.8+dfsg-3) - Fixing autpkgtest by embedding a dummy rails app.
-- [ruby-rails-assets-emojione](https://tracker.debian.org/pkg/ruby-rails-assets-emojione) (2.2.6-5) - Fixing autpkgtest by embedding a dummy rails app.
-- [ruby-rails-assets-jquery-colorbox](https://tracker.debian.org/pkg/ruby-rails-assets-jquery-colorbox) (1.6.3~dfsg-7) - Fixing autpkgtest by embedding a dummy rails app.
-- [ruby-rails-assets-jquery.slimscroll](https://tracker.debian.org/pkg/ruby-rails-assets-jquery.slimscroll) (1.3.6+dfsg-3) - Fixing autpkgtest by embedding a dummy rails app.
-- [ruby-rails-assets-markdown-it](https://tracker.debian.org/pkg/ruby-rails-assets-markdown-it) (8.4.2-5) - Fixing autpkgtest by embedding a dummy rails app.
-- [ruby-mousetrap-rails](https://tracker.debian.org/pkg/ruby-mousetrap-rails) (1.4.6-7) - Fixing autpkgtest by embedding a dummy rails app.
-- [ruby-rails-assets-jquery-fullscreen-plugin](https://tracker.debian.org/pkg/ruby-rails-assets-jquery-fullscreen-plugin) (0.5.0+dfsg-4) - Fixing autpkgtest by embedding a dummy rails app.
+- [ruby-handlebars-assets](https://tracker.debian.org/pkg/ruby-handlebars-assets) (2:0.23.8+dfsg-3) - Fixing autopkgtest by embedding a dummy rails app.
+- [ruby-rails-assets-emojione](https://tracker.debian.org/pkg/ruby-rails-assets-emojione) (2.2.6-5) - Fixing autopkgtest by embedding a dummy rails app.
+- [ruby-rails-assets-jquery-colorbox](https://tracker.debian.org/pkg/ruby-rails-assets-jquery-colorbox) (1.6.3~dfsg-7) - Fixing autopkgtest by embedding a dummy rails app.
+- [ruby-rails-assets-jquery.slimscroll](https://tracker.debian.org/pkg/ruby-rails-assets-jquery.slimscroll) (1.3.6+dfsg-3) - Fixing autopkgtest by embedding a dummy rails app.
+- [ruby-rails-assets-markdown-it](https://tracker.debian.org/pkg/ruby-rails-assets-markdown-it) (8.4.2-5) - Fixing autopkgtest by embedding a dummy rails app.
+- [ruby-mousetrap-rails](https://tracker.debian.org/pkg/ruby-mousetrap-rails) (1.4.6-7) - Fixing autopkgtest by embedding a dummy rails app.
+- [ruby-rails-assets-jquery-fullscreen-plugin](https://tracker.debian.org/pkg/ruby-rails-assets-jquery-fullscreen-plugin) (0.5.0+dfsg-4) - Fixing autopkgtest by embedding a dummy rails app.
 
 #### Other $things:
 
@@ -186,7 +186,7 @@ I was assigned 60.00 hours for LTS and 60.00 hours for ELTS and worked on the fo
 - Got [CVE-2021-27135](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-27135) for [xterm](https://invisible-island.net/xterm/). Woah, this is the 3rd one, am I on a roll or what? \o/
 - Co-ordinated with package maintainer (and upstream) of ca-certificates for backporting patch to stretch.
 - Co-ordinated with package maintainer of ca-certificates for backporting patch to stretch.
-- Co-ordinated with package maintainer of screen for fixing vulnerabilites in stretch.
+- Co-ordinated with package maintainer of screen for fixing vulnerabilities in stretch.
 - Attended monthly meeting for Debian LTS.
 - Answered questions (& discussions) on IRC (#debian-lts and #debian-elts).
 - Cross-checked LTS survey results, emailed Ola about the problems found.

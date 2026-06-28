@@ -1,6 +1,6 @@
 +++
 date = "2026-02-28 11:11:11 +0530"
-title = "FOSS Activites in February 2026"
+title = "FOSS Activities in February 2026"
 slug = "foss-in-feb-26"
 images = [
     "/images/debian-logo-small.png",
@@ -27,7 +27,7 @@ Here's my monthly but brief update about the activities I've done in the FOSS wo
 Whilst I didn't get a chance to do much, here are still a few things that I worked on:
 
 - Uploaded node-lodash/4.17.21+dfsg+~cs8.31.198.20210220-10 to fix CVE-2025-13465 in unstable. Pinged Xavier and Praveen to see how they feel about the backport for the stable releases.
-- Assited a few folks in getting their patches submitted via Salsa.
+- Assisted a few folks in getting their patches submitted via Salsa.
   - Reviewing pyenv MR for Ujjwal.
   - Reviewing and assisting Anshul with his Golang stuff.
 - Mentoring for newcomers.
@@ -53,7 +53,7 @@ Whilst I can't give a full, detailed list of things I did, here's a quick TL;DR 
   - Coordinating weekly syncs.
   - Promoting binaries to main.
   - Taking care of package removals and so on.
-- Was pretty occupied with the new release processs architecture.
+- Was pretty occupied with the new release process architecture.
 
 ---
 

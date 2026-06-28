@@ -1,6 +1,6 @@
 +++
 date = "2021-01-30 11:11:11 +0530"
-title = "FOSS Activites in January 2021"
+title = "FOSS Activities in January 2021"
 slug = "foss-in-jan-21"
 images = [
     "/images/debian-logo-small.png",
@@ -185,7 +185,7 @@ very little work outside it, really. The issues and patches that I sent are:
 - [PR #3](https://github.com/jruby/rake-ant/pull/3) for rake-ant, bumping the dependencies to a newer version, fixing the above issue, heh.
 - [Issue #4](https://github.com/jruby/rake-ant/issues/4) for rake-ant, requesting to drop `git` from their gemspec.
 - [PR #5](https://github.com/jruby/rake-ant/pull/5) for rake-ant, dropping `git` from gemspec, fixing the above issue, heh.
-- [Issue #95](https://github.com/dbry/WavPack/issues/95) for WavPack, asking for a review of past security vulnerabilites wrt v4.70.0.
+- [Issue #95](https://github.com/dbry/WavPack/issues/95) for WavPack, asking for a review of past security vulnerabilities wrt v4.70.0.
 - Reviewed [PR #128](https://github.com/openid/ruby-openid/pull/128) for ruby-openid, addressing the past regression with CVE fix merge.
 - Reviewed [PR #63](https://github.com/CocoaPods/cocoapods-acknowledgements/pull/63) for cocoapods-acknowledgements, updating redcarpet to v3.5.1, as a safety measure due to recently discovered vulnerability.
 - [Issue #1331](https://github.com/bottlepy/bottle/issues/1331) for bottle, asking for relevant commits for CVE-2020-28473 and clarifying other things.

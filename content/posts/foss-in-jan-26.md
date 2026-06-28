@@ -1,6 +1,6 @@
 +++
 date = "2026-01-30 11:11:11 +0530"
-title = "FOSS Activites in January 2026"
+title = "FOSS Activities in January 2026"
 slug = "foss-in-jan-26"
 images = [
     "/images/debian-logo-small.png",
@@ -27,7 +27,7 @@ Here's my monthly but brief update about the activities I've done in the FOSS wo
 Whilst I didn't get a chance to do much, here are still a few things that I worked on:
 
 - A few discussions with the new DFSG team, et al.
-- Assited a few folks in getting their patches submitted via Salsa.
+- Assisted a few folks in getting their patches submitted via Salsa.
 - Reviewing pyenv MR for Ujjwal.
 - Mentoring for newcomers.
 - Moderation of -project mailing list.

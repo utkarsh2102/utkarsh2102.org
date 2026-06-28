@@ -1,6 +1,6 @@
 +++
 date = "2023-10-30 11:11:11 +0530"
-title = "FOSS Activites in October 2023"
+title = "FOSS Activities in October 2023"
 slug = "foss-in-oct-23"
 images = [
     "/images/debian-logo-small.png",

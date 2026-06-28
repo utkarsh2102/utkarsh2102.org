@@ -1,6 +1,6 @@
 +++
 date = "2025-08-30 11:11:11 +0530"
-title = "FOSS Activites in August 2025"
+title = "FOSS Activities in August 2025"
 slug = "foss-in-aug-25"
 images = [
     "/images/debian-logo-small.png",
@@ -29,7 +29,7 @@ Debian 13 was released! Woot!
 Whilst I didn't get a chance to do much, here's still a few things that I worked on:
 
 - Helped Anshul with Golang 1.25 packaging and upload.
-- Assited Anshul in fixing Golang bugs in the stable release via a -pu.
+- Assisted Anshul in fixing Golang bugs in the stable release via a -pu.
 - Mentoring for newcomers.
 - Moderation of -project mailing list.
 

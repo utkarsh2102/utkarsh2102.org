@@ -1,6 +1,6 @@
 +++
 date = "2025-11-30 11:11:11 +0530"
-title = "FOSS Activites in November 2025"
+title = "FOSS Activities in November 2025"
 slug = "foss-in-nov-25"
 images = [
     "/images/debian-logo-small.png",
@@ -27,7 +27,7 @@ Here's my monthly but brief update about the activities I've done in the FOSS wo
 Whilst I didn't get a chance to do much, here are still a few things that I worked on:
 
 - Did a few sessions with the new DFSG team to help kickstart things, et al.
-- Assited a few folks in getting their patches submitted via Salsa.
+- Assisted a few folks in getting their patches submitted via Salsa.
 - Mentoring for newcomers.
 - Moderation of -project mailing list.
 

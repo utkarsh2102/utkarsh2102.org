@@ -28,11 +28,6 @@
   status = 200
 
 [[redirects]]
-  from = "/projects/auto-ffe-reviewer"
-  to = "/projects/auto-ffe-reviewer/"
-  status = 301
-
-[[redirects]]
   from = "/projects/auto-ffe-reviewer/*"
   to = "https://utkarsh2102.github.io/auto-ffe-reviewer/:splat"
   status = 200

@@ -28,6 +28,11 @@
   status = 200
 
 [[redirects]]
+  from = "/projects/auto-ffe-reviewer/*"
+  to = "https://utkarsh2102.github.io/auto-ffe-reviewer/:splat"
+  status = 200
+
+[[redirects]]
   from = "https://utkarsh2102.netlify.com/*"
   to = "https://utkarsh2102.netlify.com/:splat"
   status = 301

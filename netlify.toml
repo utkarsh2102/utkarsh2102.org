@@ -12,10 +12,15 @@
   force = true
 
 [[redirects]]
-  from = "https://www.utkarsh2102.netlify.com.com/*"
+  from = "https://utkarsh2102.netlify.com/*"
   to = "https://utkarsh2102.netlify.com/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/projects/auto-mp-reviewer/*"
+  to = "https://utkarsh2102.github.io/auto-mp-reviewer/:splat"
+  status = 200
 
 [[redirects]]
   from = "https://utkarsh2102.netlify.com/*"

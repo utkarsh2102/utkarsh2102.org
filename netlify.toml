@@ -18,6 +18,11 @@
   force = true
 
 [[redirects]]
+  from = "/projects/auto-mp-reviewer"
+  to = "/projects/auto-mp-reviewer/"
+  status = 301
+
+[[redirects]]
   from = "/projects/auto-mp-reviewer/*"
   to = "https://utkarsh2102.github.io/auto-mp-reviewer/:splat"
   status = 200

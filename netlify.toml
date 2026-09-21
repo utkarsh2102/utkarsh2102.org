@@ -23,6 +23,11 @@
   status = 200
 
 [[redirects]]
+  from = "/projects/ubuntu-image-inspector/*"
+  to = "https://utkarsh2102.github.io/ubuntu-image-inspector/:splat"
+  status = 200
+
+[[redirects]]
   from = "https://utkarsh2102.netlify.com/*"
   to = "https://utkarsh2102.netlify.com/:splat"
   status = 301

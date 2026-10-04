@@ -81,9 +81,9 @@ project and did the following things:
 ### Other Activities
 
 - **[E/LTS]** Did my front-desk week from 28-09 to 04-10.
-  - Over the week I made **369 commits** to the LTS and ELTS security trackers - 368 hand-authored plus 1 automated ELTS end-of-life sweep.
-    - The hand-authored ones cover **524 unique CVEs** across **192 source packages** and all four suites.
-    - Additional data is now part of the front-desk job too, so 75 of those commits record it for 179 CVEs across 71 packages.
+  - Over the week I did roughly:
+    - Triage of **524 unique CVEs** across **192 source packages** and all four suites. And 1 automated ELTS end-of-life sweep.
+    - Additional data is now part of the front-desk job too, so 75 commits record it for 179 CVEs across 71 packages.
   - Newly queued **22 source packages** - 13 in `dla-needed` (apache2, chromium, firefox-esr, libnet-idn-encode-perl, libpng1.6, node-shell-quote, nvidia-graphics-drivers, openssl, pcre2, php-mongodb, php8.2, social-auth-core, and wpa) and 16 in `ela-needed` (apache2, firefox-esr, gegl, lemonldap-ng, libnet-idn-encode-perl, libpng1.6, libwebsockets, nsd, nvidia-graphics-drivers, pcre2, php7.0, php7.3, php7.4, rar, unrar-nonfree, and wpa), 7 of them in both. Also widened 3 ELTS entries to bullseye - antiword, ocaml, and openvswitch.
   - Most of the interesting work was again in the `<not-affected>` verdicts: **217 of 263** (83%, across 57 packages) rest on showing that the vulnerable code or feature isn't in the source we ship. Another 17 cover incomplete upstream fixes that we either never shipped or shipped with the follow-up already in (expat, libxml2, node-tar, and pyjwt). 15 come from bundled components we don't ship - node-ajv again, which uses uri-js and not fast-uri, and nvidia-open, which doesn't ship the NGX updater. And 13 are vendor- or platform-specific - openssh's CVE-2026-55654 lives only in a Red Hat GSSAPI patch, and the netdata and PHP ones only affect Windows.
   - Did 4 rounds of newly supported bullseye packages (33 packages overall), plus libmail-mboxparser-perl for buster - 34 in all. The existing CVE data mostly held up; the real finds were discovery gaps. One interesting gotcha: sid renamed stunnel4 to stunnel, and two new CVEs were associated only with the new name, so they never showed up for trixie, bookworm, or any ELTS suite. I also sorted the 180 "Triage needed" entries (57 packages) from elts-eol by where each was already handled, and triaged for ELTS the 100 that trixie or bookworm had already decided; the rest come next. And I imported 79 package-level lines for the older source names ELTS still ships (tomcat8, php7.0/7.3/7.4, netty-3.9, openssl1.0, python2.7/3.5/3.7, and pypy).
@@ -101,7 +101,7 @@ project and did the following things:
     - three libxml2 issues that don't affect trixie either.
     - the stunnel4 rename above.
     - trixie `<no-dsa>` lines on jsch, node-qs, and ruby-loofah, where trixie's version doesn't have the vulnerable feature at all.
-  - Independently found a security issue in rclone and reported it privately upstream through a GitHub security advisory. Upstream already had a report for the same issue, so they folded mine into the existing advisory and credited me as a co-reporter. More once it's public.
+  - Independently found a security issue in rclone and reported it privately upstream through a GitHub security advisory. Upstream already had a report for the same issue, so they folded mine into the existing advisory and credited me as a co-reporter.
     - https://github.com/rclone/rclone/security/advisories/GHSA-66qv-66mg-9h74
   - Also found some bugs in the additional-data tooling, e.g. `cve-ad --package P --severity tbd` wipes the CVE-level severity, and the schema doesn't validate package-level entries at all.
 
